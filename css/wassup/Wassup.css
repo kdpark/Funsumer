@@ -1,0 +1,89 @@
+body, html { background-color: none !important; background-image: url(../../images/note/directory_bg.png) !important; padding: 18px 0 0 0 }
+
+#body_gradient { position: absolute; top: 0; left: 0; width: 100%; height: 50px; background-image: url(../../images/wassup/body_gradient2.png); z-index: 0 }
+
+#wrapbox { 
+	width: 920px; min-height: 100%;
+	position:absolute; left: 50%; margin-left: -460px; background-color: none !important; z-index: 1;
+}
+
+#header { width: 920px; height: 0px; position: absolute; top: 0; z-index:30 !important; left: 50%; margin-left: -459px }
+#header > .Tap { margin:0 0 0 921px !important }
+
+#container .board > .Lfield > .preview > .list > .cards > .frame { background-image: url(../../images/board/preparty_frame_gray.png) !important }
+#container .board { margin-top: 0px !important; }
+#header div.nav	  { box-shadow: 0 1px 2px #a1a1a1 }
+
+.SDD-wassup	 	{ background-image: url(../../images/party/Header/header_menu_party.png) }
+.SDD-note			{ background-image: url(../../images/party/Header/header_menu_note.png) }
+.SDD-party 		{ background-image: url(../../images/party/Header/header_selected.png) }
+
+/* 중복 CLASS */
+.nanumbold { font-family: 'Nanum Gothic', sans-serif; font-weight: bold !important }
+
+/* wassup 게시판 레이아웃 조정 */
+#container .board > .Lfield > .preview > .list > .cards > .frame { background-image: none !important }
+#container .board > .Lfield > .bg { display: none }
+#container .board { padding: 23px 0 0 0 !important; }
+
+/* Tap 변경 */
+#header > .Tap { border-radius: 5px !important }
+#header > .Tap > .topline { width: 25px; height: 68px; background-image: url(../../images/party/Tap/bgtopline.png); position: absolute; top: -68px; left: 0 }
+
+/* 0420 탭 두번째탭, 마이노트가기, 마이파티가기 부분 */
+#header > .Tap2 { z-index: 10; width: 29px; height: 29px; position: fixed; top: 200px; margin: 0 0 0 924px !important; padding: 0 0 0 3px }
+#header > .Tap2 > .mynote { position: relative; margin-bottom: 7px; cursor: pointer }
+#header > .Tap2 > .mynote:hover { opacity: .7 }
+#header > .Tap2 > .myparty { position: relative; cursor: pointer }
+#header > .Tap2 > .myparty:hover { opacity: .7 }
+
+
+#container { width: 828px; height: auto; float: left; position: relative; padding: 0 46px }
+
+#container div { position: relative; float: left }
+
+#container > .headline { width: 828px; height: 50px; z-index: 2; background-image: url(../../images/party/partylist/titlebg.png); padding:21px 46px; margin-top: 20px; border-radius: 5px; margin-left: -46px }
+#container > .headline > .pic { width: 50px; height: 50px; border-radius: 6px; border: 1px solid #d2d2d2; border-bottom: 1px solid #c2c2c2; }
+#container > .headline > .pic img { width: 50px; height: 50px; border-radius: 5px }
+#container > .headline > .namediv { width: auto; height: 34px; font-size: 11pt; margin-left: 10px; padding: 16px 10px 0 10px; color: #777; border-radius: 5px; cursor: default; z-index: 1 }
+.container_headline_namedivOV { border: 1px solid #d2d2d2; background-image: url(../../images/wassup/buttonbg.png); border-bottom: 1px solid #c2c2c2; padding: 15px 9px 0 9px !important; color: #555 !important }
+.container_headline_namedivCK { background-image: none !important; background-color: #e1e1e1; border-bottom: none !important; border-bottom: 1px solid #fff !important; }
+#container > .headline > .namediv > .img { margin: 9px 0 0 15px }
+#container > .headline > .pop { position: absolute !important; top: 20px; left: 107px; width: 600px; height: auto; z-index: 2; display: none; opacity: 0 }
+#container > .headline > .pop > .content { width: auto; height: auto; background-color: #f8f8f8; border-radius: 5px; box-shadow: 0 1px 4px #d1d1d1; border: 1px solid #c8c8c8; border-bottom: 1px solid #b1b1b1; padding: 0 10px }
+#container > .headline > .pop > .content > .name { width: auto; height: auto; padding: 16px 0 10px 0; float: none !important; font-size: 11pt; border-bottom: 1px solid #e5e5e5; color: #222 }
+#container > .headline > .pop > .content > .info { width: auto; height: auto; padding: 10px 0 16px 0; float: none !important; font-size: 9pt; color: #777 }
+
+#container > .headline > .button { width: auto; height: auto; float: right !important; border-radius: 5px; padding: 13px 0 0 0; font-weight: bold; }
+#container > .headline > .button > .position { margin-right: 15px }
+
+
+#container > .wholist { display:none; width: 828px; height: 90px; margin: 0 0 20px 0 }
+#container > .wholist > .innerDiv { display:none; opacity: 0; width: 828px; height: 157px }
+/* 130227 */#container > .wholist > .innerDiv > .left { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; text-shadow: 0 1px 1px #fff; position: absolute !important; top:18px }
+/* 130227 */#container > .wholist > .innerDiv > .left > .questionmark { width: auto; height: 14px; float: left; padding: 0 3px; margin-left: 7px;
+													border-radius: 2px; font-family:"굴림"; font-weight: bold; color: #aaa; text-shadow: none; font-size: 8pt;
+													background-image: url(../../images/base/questionmarkbg.png); border: 1px solid #e1e1e1; border-bottom: 1px solid #c8c8c8; line-height: 15px; cursor: pointer }
+/* 130227 */#container > .wholist > .innerDiv > .left > .pop { display:none; opacity: 0; width: auto; height: auto; position: absolute !important; top: -31px; left: 90px; z-index: 11 }
+/* 130227 */#container > .wholist > .innerDiv > .left > .pop > .content { width: auto; height: auto; z-index: 2; background-image: url(../../images/base/questionmarkbg2.png); border-radius: 4px }
+/* 130227 */#container > .wholist > .innerDiv > .left > .pop > .content > .list { width: auto; height: auto; background-color: #f7f7f7; border: 1px solid #ddd; border-radius: 4px; border-bottom: 1px solid #c8c8c8 }
+/* 130227 */#container > .wholist > .innerDiv > .left > .pop > .content > .list > .white { width:179px; height: auto; z-index: 2; border-radius: 4px; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff;padding: 7px 10px }
+/* 130227 */#container > .wholist > .innerDiv > .left > .pop > .content > .list > .white > .text { font-size: 8pt; font-family: "돋움"; font-weight: normal; letter-spacing: -1px; color: #999; float: left; width: 160px; line-height: 15px; text-shadow: 0 1px 1px #fff }
+/* 130227 */#container > .wholist > .innerDiv > .left > .pop > .content > .list > .white > .close { width: 15px; height: 15px; float: right; background-image: url(../../images/base/winclose.png); cursor: pointer }
+
+/* 130225 */#container > .wholist > .innerDiv > .right { width: 826px; height: 60px; margin-top: 46px; border: 1px solid #ddd; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #c4c4c4; border-radius: 4px; background-color: #f7f7f7 }
+/* 130225 */#container > .wholist > .innerDiv > .right > .nonecard { width: 100%; height: auto; text-align: center; font-family: "굴림"; font-size: 9pt; color: #aaa; padding: 27px 0 0 0 }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card { width: 124px; height: auto; cursor: pointer; border-right: 1px solid #e1e1e1; padding: 10px 0 10px 12px }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card:hover { box-shadow: 0 4px 10px #e5e5e5 inset; background-color: #f5f5f5 }
+/* 130225 */#container > .wholist > .innerDiv > .right > .lastcard { border-right: none !important; width: 129px }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card > .pic { width: 40px; height: 40px; border-radius: 5px; }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card > .pic img { width: 40px; height: 40px; border-radius: 5px }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card > .name { width: 84px; height: auto; font-size: 9pt; margin-top: 12px; text-align: center }
+
+
+#copyright { width: 920px; height: auto; padding: 10px 0 20px 0; }
+#copyright > .contents { width: 828px; height: auto; position: relative; float: left; padding: 0px 46px 20px 46px }
+#copyright > .contents > .left { width: auto; height: auto; position: relative; float: right !important; font-family: "돋움","Dotum"; font-size: 9pt; color: #888; margin-right: 20px }
+#copyright > .contents > .right { width: auto; height: auto; position: relative; float: right !important; font-family: "돋움","Dotum"; font-size: 8pt; letter-spacing: -1px; color: #888; }
+#copyright > .contents > .right > ul { position: relative; float: left; cursor: pointer }
+#copyright > .contents > .right > ul:hover { color: #dc5457 }

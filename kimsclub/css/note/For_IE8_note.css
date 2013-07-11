@@ -1,0 +1,9 @@
+#win_add_party > .container > .partyname > .mid input { margin-top: 5px !important }
+
+#friendlist > .header > .profile > .button > .outline { box-shadow: none !important; visibility: hidden }
+
+#friendlist > .contents > .title > .search  > .text-search > .friendlist_input { top: 3px !important }
+
+#wrapbox { box-shadow: none !important; border-right: 1px solid #b9b9b9; border-left: 1px solid #b9b9b9 }
+
+#container .board > .Rfield { padding: 0 0 20px 0 }

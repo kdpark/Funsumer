@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+															┌------------------┐
+															ㅣ모든페이지 공용CSSㅣ : 그외에 common 한줄짜리 CSS.
+															└------------------┘
+*/
+
+body, html { 
+	padding:0;
+	margin:0;
+	font-size:9pt;
+	color:#666;
+	font-family:"Gulim";
+	background:#fff;
+}
+
+* { margin:0;padding:0; }
+
+img { vertical-align:top;border:none; }
+
+.pie { behavior:url(js/pie.htc) }
+.bold { font-weight:bold }
+.nine { font-size:9pt }
+
+a:link { text-decoration:none;}
+a:visited { text-decoration:none; }
+a:active { text-decoration:none; }
+a:hover { text-decoration:none; }
+
+ul { list-style:none;padding:0; }
+
+
+@import url(http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb);
+@font-face { font-family:'NanumGothicWeb'; font-style:normal; font-weight:400; src: url('http://webfonts-cdn.mobilis.co.kr/webfonts/Nanum/NanumGothicCompact.eot');}
+@font-face { font-family:'NanumGothicWeb'; font-style:normal; font-weight:400; src: url('http://webfonts-cdn.mobilis.co.kr/webfonts/Nanum/NanumGothicCompact.woff') format('woff');}
+@font-face { font-family:'NanumGothicWeb'; font-style:normal; font-weight:400; src: url('http://api.mobilis.co.kr/webfonts/Nanum/NanumGothicCompact.ttf') format('truetype');}
+
+/*
+																						┌----------┐
+/////////////////////////////////////////////////////////////////////////////////		ㅣCSS-HEADERㅣ : START
+																						└----------┘
+*/
+
+.header {
+	width:820px;
+	height:50px;
+	position:relative;
+	margin:auto;
+	
+}
+	
+	.header-logo {
+		width:auto;
+		height:auto;
+		float:left;
+		padding:10px;
+		position:relative;
+	}
+	
+	.header-contents {
+		width:280px;
+		height:50px;
+		float:left;
+		margin-left:206px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:10pt;
+		color:#E8E6E6;
+		position:relative;
+		letter-spacing:0px;
+	}
+	
+		.header-contents-contents {
+			width:auto;
+			height:auto;
+			position:relative;
+			float:left;
+			padding:10px 0 0 0;
+			margin:5px 0 0 0px;
+			cursor:pointer;
+		}
+		
+		.header-contents-contents div {
+			text-align:center;
+		}
+		
+		.header-contents-contents div.content {
+			margin-top:5px;
+		}
+		
+		.header-contents #selected {
+			color:#ea565a;
+		}
+		
+	.header-search {
+		width:170px;
+		height:23px;
+		margin-top:15px;
+		float:right;
+		position:relative;
+		border-radius:15px;
+		border:2px solid #fa575c;
+	}
+	
+		.header-search input {
+			width:110px;
+			height:23px;
+			padding-left:10px;
+			border:none;
+			background-color:transparent;
+			outline:none;
+			float:left;
+			font-size:9pt;
+			font-family:"굴림";
+			color:#888;
+		}
+		
+		.header-search img {
+			float:right;
+			margin-right:5px;
+			margin-top:2px;
+		}
+		
+/*
+
+//////////////////////////////////////////////////////////////////////////////// 			HEADER
+
+*/
+
+
+.menubar {
+	width:30px;
+	height:101px;
+	position:fixed;
+	top:154px;
+	right:50%;
+	margin-right:-452px;
+	z-index:1;
+	background-color:#fa575c;
+}
+
+	.menubar-icon {
+		width:22px;
+		height:22px;
+		position:relative;
+		margin:8px 0 0 4px;
+	}
+	
+/*/////////////////////////////////////////////////////////////////////////// Menubar */
+
+.container {
+	width:842px;
+	height:auto;
+	position:relative;
+	margin:auto;
+	z-index:2;
+}
+
+	.container-party {
+		width:842px;
+		height:auto;
+		position:relative;
+		float:left;
+		background-color:#f6f4f5;
+		border-left:1px solid #d8c6c9;
+		border-right:1px solid #d8c6c9;
+		z-index:15;
+		padding:20px 0 0 0;
+	}
+	
+		.container-party-topdiv {
+			width:844px;
+			height:30px;
+			position:absolute;
+			top:0;
+			left:-4px;
+			z-index:5;
+		}
+		
+		.container-party .TopBG {
+			position:relative;
+			margin:-4px 0 0 0;
+			float:left;
+			z-index:1;
+		}
+		
+	.container-board {
+		position:relative;
+		float:left;
+		margin:-20px 0 0 0;
+		z-index:10;
+	}
+		
+/* //////////////////////////////////////////////////////////////////////// */
+.message-numbers {
+					width:auto;
+					height:15px;
+					position:absolute;
+					left:15px;
+					top:-8px;
+					font-size:8pt;
+					font-family:Tahoma, Geneva, sans-serif;
+					background-color:#fa575c;
+					text-align:center;					
+					border:2px solid #fa575c;
+					z-index:2;
+					color:#fff;
+					border-radius:5px;
+				}

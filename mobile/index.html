@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=200" />
+<title>Funsumer</title>
+<script language="javascript">
+//POST****************************************************************************************************************************************//
+function post_to_url(path, params, method) {
+    method = method || "post"; // Set method to post by default, if not specified.
+    // The rest of this code assumes you are not using a library.
+    // It can be made less wordy if you use one.
+    var form = document.createElement("form");
+    form.setAttribute("method", method);
+    form.setAttribute("action", path);
+    for(var key in params) {
+        var hiddenField = document.createElement("input");
+        hiddenField.setAttribute("type", "hidden");
+        hiddenField.setAttribute("name", key);
+        hiddenField.setAttribute("value", params[key]);
+        form.appendChild(hiddenField);
+    }
+    document.body.appendChild(form);
+    form.submit();
+} // POST to URL
+
+</script>
+<style>
+
+html,body { height: 100%; margin: 0; padding: 0; overflow: hidden }
+
+	.top { 
+			width: 100%;
+			min-height: 50%;
+			background-color: #fff;
+			position: relative;
+	}
+	
+	.bottom { 
+			width: 100%;
+			min-height: 50%;
+			background-color: #fff;
+			position: relative;
+			border-top: 1px solid #d2d2d2
+	}
+	
+	.text {
+			width: auto;
+			height: auto;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -110px;
+			margin-top: -15px;
+			font-weight: bold;
+	}
+	
+	div:hover { 
+			background-color: #eee
+	}
+
+</style>
+</head>
+
+<body>
+<div class="top" onclick="location.href='market://details?id=www.funsumer.net'">
+	<div class="text">펀슈머 어플리케이션 다운받기</div>
+</div>
+<div class="bottom" onclick="post_to_url('../index.php',{'mobile':'1'});">
+	<div class="text">PC버전 이용하기</div>
+</div>
+</body>
+</html>

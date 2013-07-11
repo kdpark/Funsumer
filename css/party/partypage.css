@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html { 
+	padding:0;
+	margin:0;	
+	font-size:9pt;
+	color:#666;
+	font-family:"굴림"; 
+	background-color:#FFFFFA;
+	position:relative;
+}
+
+* { margin:0;padding:0; }
+
+img { vertical-align:top;border:none; }
+
+.pie { behavior:url(js/pie.htc) }
+
+a:link { text-decoration:none;}
+a:visited { text-decoration:none; }
+a:active { text-decoration:none; }
+a:hover { text-decoration:none; }
+
+.none { display:none; }
+
+/*/////////////////////////////////////////////////////////////////////////// Common */
+
+.header {
+	width:820px;
+	height:50px;
+	position:relative;
+	margin:auto;
+}
+	
+	.header-logo {
+		width:auto;
+		height:auto;
+		float:left;
+		padding:10px;
+		position:relative;
+	}
+	
+	.header-contents {
+		width:280px;
+		height:50px;
+		float:left;
+		margin-left:190px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:10pt;
+		color:#d8c6c9;
+		position:relative;
+	}
+	
+		.header-contents-contents {
+			width:auto;
+			height:20px;
+			position:relative;
+			float:left;
+			padding:10px 0 0 0;
+			margin:10px 0 0 5px;
+			cursor:pointer;
+		}
+		
+	.header-search {
+		width:150px;
+		height:23px;
+		margin-top:15px;
+		float:right;
+		position:relative;
+		border-radius:15px;
+		border:2px solid #fa575c;
+	}
+	
+		.header-search input {
+			width:110px;
+			height:23px;
+			padding-left:10px;
+			border:none;
+			background-color:transparent;
+			outline:none;
+			float:left;
+			font-size:9pt;
+			font-family:"굴림";
+			color:#888;
+		}
+		
+		.header-search img {
+			float:right;
+			margin-right:5px;
+			margin-top:2px;
+		}
+		
+/*/////////////////////////////////////////////////////////////////////////// Header */
+
+.menubar {
+	width:30px;
+	height:101px;
+	position:fixed;
+	top:80px;
+	right:50%;
+	margin-right:-452px;
+	z-index:0;
+	background-color:#fa575c;
+}
+
+	.menubar-icon {
+		width:22px;
+		height:22px;
+		position:relative;
+		margin:8px 0 0 4px;
+	}
+	
+/*/////////////////////////////////////////////////////////////////////////// Menubar */
+
+.container {
+	width:842px;
+	height:auto;
+	position:relative;
+	margin:auto;
+	z-index:2;
+}
+	#Parties{
+		width:842px;
+		height:auto;
+		position:relative;
+		float:left;
+		background-color:#f6f4f5;
+		border-left:1px solid #d8c6c9;
+		border-right:1px solid #d8c6c9;
+		z-index:15;
+	}
+	
+	.message-numbers {
+					width:auto;
+					height:15px;
+					position:absolute;
+					left:15px;
+					top:-8px;
+					font-size:8pt;
+					font-family:Tahoma, Geneva, sans-serif;
+					background-color:#fa575c;
+					text-align:center;					
+					border:2px solid #fa575c;
+					z-index:2;
+					color:#fff;
+					border-radius:5px;
+				}

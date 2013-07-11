@@ -1,0 +1,936 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+ 									┌------------------┐
+ 									ㅣ모든페이지 공용CSSㅣ : 그외에 common 한줄짜리 CSS.
+ 									└------------------┘
+*/
+
+body, html { 
+	padding:0;
+	margin:0;	
+	font-size:9pt;
+	color:#666;
+	font-family:"Gulim";
+	background-color:#fffffa;
+}
+
+* { margin:0;padding:0; }
+
+img { vertical-align:top;border:none; }
+
+.pie { behavior:url(js/pie.htc) }
+.bold { font-weight:bold }
+.nine { font-size:9pt }
+
+a:link { text-decoration:none;}
+a:visited { text-decoration:none; }
+a:active { text-decoration:none; }
+a:hover { text-decoration:none; }
+
+/*
+
+//////////////////////////////////////////////////////////////////////////////// 			common
+
+*/
+
+
+/*
+																						┌----------┐
+/////////////////////////////////////////////////////////////////////////////////		ㅣCSS-HEADERㅣ : START
+																						└----------┘
+*/
+
+.header {
+	width:820px;
+	height:50px;
+	position:relative;
+	margin:auto;
+	background-image:url(../images/t-1.png);
+	
+}
+	
+	.header-logo {
+		width:auto;
+		height:auto;
+		float:left;
+		padding:10px;
+		position:relative;
+	}
+	
+	.header-contents {
+		width:280px;
+		height:50px;
+		float:left;
+		margin-left:190px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:10pt;
+		color:#d8c6c9;
+		position:relative;
+	}
+	
+		.header-contents-contents {
+			width:auto;
+			height:20px;
+			position:relative;
+			float:left;
+			padding:10px 0 0 0;
+			margin:10px 0 0 5px;
+			cursor:pointer;
+		}
+		
+	.header-search {
+		width:150px;
+		height:23px;
+		margin-top:15px;
+		float:right;
+		position:relative;
+		border-radius:15px;
+		border:2px solid #fa575c;
+	}
+	
+		.header-search input {
+			width:110px;
+			height:23px;
+			padding-left:10px;
+			border:none;
+			background-color:transparent;
+			outline:none;
+			float:left;
+			font-size:9pt;
+			font-family:"굴림";
+			color:#888;
+		}
+		
+		.header-search img {
+			float:right;
+			margin-right:5px;
+			margin-top:2px;
+		}
+		
+/*
+
+//////////////////////////////////////////////////////////////////////////////// 			HEADER
+
+*/
+
+
+/*
+																						┌--------------┐
+/////////////////////////////////////////////////////////////////////////////////		ㅣCSS-MENU_PARTYㅣ : START
+																						└--------------┘
+*/		
+
+.menu-party {
+	width:826px;
+	height:158px;
+	position:relative;
+	margin:auto;
+	padding:10px 8px 0 8px;
+	margin-bottom:20px;
+	
+}
+	
+	.menu-party-prof {
+		width:130px;
+		height:130px;
+		position:relative;
+		float:left;
+		padding:3px;
+		border-radius:10px;
+		background-color:#ff7174;
+		margin:0 0 0 0;
+	}
+	
+		.menu-party-prof img {
+			border-radius:6px;
+		}
+	
+.menu-party-partys-list {
+	width:654px;
+	height:auto;
+	position:relative;
+	float:right;
+	padding:10px 0 0 0px;
+}
+	
+	.menu-party-partys-list-leftarrow {
+		width:20px;
+		height:auto;
+		position:relative;
+		float:left;
+		padding:45px 0 0 0;
+	}
+	
+	.menu-party-partys-list-partys {
+		width:600px;
+		height:auto;
+		position:relative;
+		float:left;
+		padding:10px 7px 14px 7px;
+	}
+
+		.menu-party-partys-list-party-pics {
+			width:86px;
+			height:86px;
+			position:relative;
+			float:left;
+			margin:0 7px;
+		}
+		
+			.menu-party-partys-list-party-pics-pic {
+				width:86px;
+				height:86px;
+				overflow:hidden;
+			}
+				
+				.menu-party-partys-list-party-pics-pic img {
+					height:86px;
+					margin-left:-50%;
+				}
+				
+				.menu-party-partys-list-party-pics-pic-shadow {
+					position:absolute;
+					top:0;
+					left:0;
+				}
+			
+			.menu-party-partys-list-party-pics-name {
+				width:86px;
+				height:15px;
+				position:absolute;
+				top:90px;
+				left:0;
+				text-align:center;
+				font-size:8pt;
+				font-family:"굴림","Gulim";
+				color:#8C7070;
+				letter-spacing:-1px;
+			}
+			
+				#name-selected {
+					color:#ea565a;
+				}
+			
+			.new {
+				width:auto;
+				height:auto;
+				position:absolute;
+				top:-9px;
+				right:-9px;
+				display:none;
+			}
+			
+				#new-block {
+					display:block;
+				}
+		
+	.menu-party-partys-list-rightarrow {
+		width:20px;
+		height:auto;
+		position:relative;
+		float:left;
+		padding:45px 0 0 0;
+	}
+		
+	.menu-party-partys-list-listbutton {
+		width:50px;
+		height:auto;
+		float:right;
+		text-align:right;
+		padding:20px 0px 8px 0;
+		font-size:8pt;
+		font-family:"돋움","Dotum";
+		color:#ab7e7e;
+		margin:0 34px 0 0;
+	}
+	
+	.party-pics-explain {
+		width:505px;
+		height:auto;
+		float:left;
+		bottom:-30px;
+		left:0px;
+		font-size:8pt;
+		font-family:"굴림","Gulim";
+		color:#8C7070;
+		text-align:center;
+		padding:0;
+		z-index:10;
+		padding:5px 3px 4px 6px;
+		float:left;
+		margin:14px 0 0 42px;
+	}
+	
+		.party-pics-explain img {
+			float:left;
+			margin:1px 0 0 0;
+		}
+	
+		.party-pics-explain-title {
+			width:49px;
+			height:12px;
+			float:left;
+			color:#ab7e7e;
+			font-family:"돋움","Gulim";
+			margin:1px 6px 0 0;
+			padding:0 2px 0px 2px;
+			font-size:8pt;
+			letter-spacing:-1px;
+		}
+	
+		.party-pics-explain p {
+			float:left;
+		}
+		
+		.consearch-contents {
+			margin:1px 10px 0 0;
+			color:#C19A9A;
+		}
+	
+/*
+
+//////////////////////////////////////////////////////////////////////////////// 			MENU_PARTY
+
+*/
+
+
+/*
+																						┌-----------┐
+/////////////////////////////////////////////////////////////////////////////////		ㅣCSS-MENUBARㅣ : START
+																						└-----------┘
+*/		
+
+
+.menubar {
+	width:30px;
+	height:101px;
+	position:fixed;
+	top:268px;
+	right:50%;
+	margin-right:-452px;
+	z-index:5;
+	background-color:#fa575c;
+}
+
+	.menubar-icon {
+		width:22px;
+		height:22px;
+		position:relative;
+		margin:8px 0 0 4px;
+	}
+	
+/*
+
+//////////////////////////////////////////////////////////////////////////////// 			MENUBAR
+
+*/
+
+
+/*
+																						┌-------------┐
+/////////////////////////////////////////////////////////////////////////////////		ㅣCSS-CONTAINERㅣ : START
+																						└-------------┘
+*/		
+
+.container {
+	width:842px;
+	height:auto;
+	position:relative;
+	margin:auto;
+	z-index:2;
+}
+
+	.container-party {
+		width:842px;
+		height:auto;
+		position:relative;
+		float:left;
+		background-color:#f6f4f5;
+		border-left:1px solid #d8c6c9;
+		border-right:1px solid #d8c6c9;
+		z-index:15;
+	}
+	
+		.container-party-topdiv {
+			width:846px;
+			height:17px;
+			position:absolute;
+			top:0;
+			left:-2px;
+			z-index:5;
+		}
+		
+		.container-party-profile-bg {
+			width:842px;
+			height:520px;
+			background-color:#f6f4f5;
+			position:relative;
+			;			
+		}
+		
+			.container-party-profile-bg-info {
+				width:auto;
+				height:auto;
+				position:absolute;
+				bottom:20px;
+				right:0px;
+				background-image:url(../images/main-party-info.png);
+				padding:10px;
+			}
+			
+				.info-partissier {
+					width:160px;
+					height:38px;
+					float:left;
+				}
+					
+					.info-partissier-img {
+						width:auto;
+						height:auto;
+						float:left;
+						position:relative;
+					}
+					
+						img.partissier {
+							width:38px;
+							height:38px;
+							border-radius:5px;
+						}
+					
+					.info-partissier-title {
+						color:#FC3;
+						font-family:Arial, Helvetica, sans-serif;
+						font-size:15pt;
+						font-weight:bold;
+						float:left;
+						width:auto;
+						height:auto;
+						padding:0 0 0 10px;
+						position:relative;
+						margin:-3px 0 0 0;
+					}
+					
+					.info-partissier-name {
+						color:#fff;
+						font-family:"굴림","Gulim";
+						font-size:9pt;
+						float:left;
+						width:90px;
+						padding:0 0 0 10px;
+						margin:0 0 0 0;
+						position:relative;
+					}
+					
+				.info-partyinfo-number {
+					width:auto;
+					height:auto;
+					float:left;
+					color:#fff;
+					font-family:Arial, Helvetica, sans-serif;
+					font-size:9pt;
+					text-align:right;
+					position:relative;
+					margin:20px 10px 0 0;
+				}
+				
+					.info-partyinfo-number img {
+						margin:1px 0 0 0;
+					}
+					
+				.info-partissier-tap {
+					width:13px;
+					height:58px;
+					position:absolute;
+					top:0;
+					left:-13px;
+					background:url(../images/main-party-infotap.png);
+				}
+		
+		.container-party-profile-named-line {
+			width:auto;
+			height:auto;
+			position:absolute;
+			top:520px;
+			left:-1px;
+		}
+		
+		.container-party-profile-named {
+			width:842px;
+			height:9px;
+			padding:8px 0;
+			position:relative;
+			float:left;
+		}
+		
+			.container-party-profile-named-left {
+				color:#f8e4d9;
+				font-size:9pt;
+				font-family:"굴림","Gulim";
+				width:auto;
+				float:left;
+				margin:0 0 0 20px;
+				letter-spacing:0px;
+			}
+		
+			.container-party-profile-named-right {
+				color:#f8e4d9;
+				font-size:8pt;
+				font-family:Tahoma, Geneva, sans-serif;
+				width:auto;
+				float:right;
+				margin:0 20px 0 0;
+				letter-spacing:1px;
+			}
+			
+				.container-party-profile-named-right img {
+					margin-top:1px;
+				}
+		
+		.container-party-pp {
+			position:relative;
+			float:left;
+			width:auto;
+			height:auto;
+			padding:40px 20px 30px 20px;
+		}
+		
+			.container-party-pp-title {
+				position:relative;
+				width:324px;
+				height:auto;
+				padding:0 0 6px 0;
+				border-bottom:1px solid #E6D9DB;
+				text-align:left;
+			}
+			
+				.pp-title-date {
+					width:70px;
+					height:auto;
+					position:absolute;
+					top:3px;
+					right:0;
+					color:#ab7e7e;
+					font-family:Tahoma, Geneva, sans-serif;
+					font-size:10pt;
+					text-align:right;
+				}
+			
+			.container-party-pp-contents {
+				position:relative;
+				float:left;
+				width:332px;
+				height:auto;
+				margin:10px 0 0 0;
+				padding:10px 0px;
+			}
+			
+				.pp-size {
+					width:130px;
+					height:130px;
+				}
+			
+				.pp-kingpic {
+					width:130px;
+					height:auto;
+					border:1px solid #d8c6c9;
+					position:relative;
+					float:left;
+					padding:8px 10px;
+					background-color:#fff;
+				}
+				
+					.pp-kingpic-tap {
+						width:auto;
+						height:auto;
+						position:absolute;
+						top:-1px;
+						left:-1px;
+					}
+				
+				.pp-queenpic {
+					width:130px;
+					height:160px;
+					border:1px solid #d8c6c9;
+					position:relative;
+					float:left;	
+					margin:0 0 0 20px;	
+					padding:8px 10px 1px 10px;	
+					background-color:#fff;		
+				}
+				
+					.pp-queenpic-tap {
+						width:auto;
+						height:auto;
+						position:absolute;
+						top:-1px;
+						left:-1px;
+					}
+													/*	┌--------------┐	*/
+					.pp-kingpic-title {				/*	ㅣ 공통적용 css ㅣ	*/
+						width:130px;				/*	└--------------┘	*/	
+						float:left;
+						padding:8px 0 0 0;
+					}
+					
+						.pp-kingpic-name {
+							font-size:8pt;
+							width:auto;
+							float:left;
+							font-family:"돋움","Dotum";
+							margin:2px 0 0 0;
+							color:#999;
+						}
+						
+						.pp-kingpic-like {
+							font-size:9pt;
+							font-family:Tahoma, Geneva, sans-serif;
+							color:#d8c6c9;
+							font-weight:normal;
+							width:auto;
+							float:right;
+						}
+						
+							.pp-kingpic-like img{
+								margin-top:3px;
+							}
+							
+							
+		.container-party-pp-ex {
+			width:332px;
+			height:29px;
+			float:left;
+			position:relative;
+			padding:0 20px 20px 20px;
+		}
+		
+			.pp-ex-period {
+				width:258px;
+				height:auto;
+				float:left;
+				position:relative;
+				padding:0 0 0 66px;
+			}
+
+			.pp-ex-period-title {
+				width:auto;
+				height:auto;
+				float:left;
+				position:relative;
+				border-right:1px solid #d8c6c9;
+			}
+			
+			.pp-ex-period-date {
+				width:131px;
+				height:auto;
+				float:left;
+				position:relative;
+				font-size:15pt;
+				font-family:Tahoma, Geneva, sans-serif;
+				color:#bbb;
+				font-weight:normal;
+				padding:3px 0 3px 12px;
+			}
+							
+		.container-party-member {
+			width:440px;
+			height:auto;
+			float:right;
+			position:relative;
+			padding:40px 18px 26px 0px;
+		}
+		
+			.container-party-member-title {
+				position:relative;
+				width:438px;
+				height:auto;
+				padding:0 0 6px 0;
+				border-bottom:1px solid #E6D9DB;
+				text-align:left;
+			}
+			
+				.member-title-more {
+					width:40px;
+					height:auto;
+					position:absolute;
+					bottom:8px;
+					right:0;
+					color:#ab7e7e;
+					font-family:"돋움","Dotum";
+					font-size:8pt;
+					text-align:right;
+				}
+			
+			.container-party-member-contents {
+				position:relative;
+				float:left;
+				width:440px;
+				height:auto;
+				margin:20px 0 0 0;
+				background-image:url(../images/main-party-member-noimg.png);
+			}
+			
+				.container-party-member-contents img {
+					margin:0 2px 0 0;
+					width:38px;
+					height:38px;
+					border-radius:5px;
+					behavior:url(js/pie.htc)
+				}
+				
+				.member-contents-name {
+					width:auto;
+					height:auto;
+					position:absolute;
+					top:-27px;
+					left:-4px;
+					background-image:url(../images/main-party-member-name.png);
+					color:#fff;
+					font-size:8pt;
+					font-family:"돋움","Dotum";
+					padding:4px 8px;
+					border-radius:5px;
+				}
+				
+					.member-contents-name-arrow {
+						width:auto;
+						height:auto;
+						position:absolute;
+						bottom:-12px;
+						left:18px;					
+					}
+					
+						.member-contents-name-arrow img{
+							width:10px !important;
+							height:5px !important;
+						}
+						
+					#move1 {left:36px !important}			/*  +40씩하면됨  */
+					#move2 {left:76px !important}
+					#move3 {left:116px !important}
+				
+			.container-party-member-more {
+				width:438px;
+				height:auto;
+				float:left;
+				position:relative;
+				color:#ab7e7e;
+				font-size:8pt;
+				font-family:"돋움","Dotum";
+				text-align:right;
+				padding:10px 0 0 0;
+			}
+			
+		.container-party-since {
+			width:auto;
+			height:auto;
+			position:absolute;
+			top:550px;
+			left:-105px;
+		}
+			
+			.since-date {
+				position:absolute;
+				width:auto;
+				height:auto;
+				top:35px;
+				left:30px;
+				color:#ab7e7e;
+				font-size:9pt;
+				font-family:Tahoma, Geneva, sans-serif;
+			}
+			
+		.container-party-notices {
+			width:438px;
+			height:auto;
+			padding:0px 20px 20px 0px;
+			float:right;
+			position:relative;
+		}
+		
+			.notices-title {
+				width:438px;
+				height:auto;
+				float:left;
+				position:relative;
+				padding:0 0 6px 0;
+				border-bottom:1px solid #E6D9DB;
+				text-align:left;
+			}
+			
+				.notices-title-more {
+					width:40px;
+					height:auto;
+					position:absolute;
+					bottom:8px;
+					right:0;
+					color:#ab7e7e;
+					font-family:"돋움","Dotum";
+					font-size:8pt;
+					text-align:right;
+				}
+			
+			.notices-contents-1 {
+				width:438px;
+				height:auto;
+				float:left;
+				position:relative;
+				margin:20px 0 0 0;
+			}
+			
+				.notices-contents-pic {
+					width:38px;
+					height:38px;
+					float:left;
+					position:relative;
+					padding:2px 0 0 0;
+				}
+				
+					img.notice-pro {
+						width:38px;
+						height:38px;
+						border-radius:5px;
+						float:left;
+						position:relative;
+					}
+					
+				.notices-contents-pic-name {
+					width:34px;
+					height:auto;
+					color:#ab7e7e;
+					font-family:"돋움","Dotum";
+					font-size:8pt;
+					padding:6px 2px;
+					float:left;
+					position:relative;
+					text-align:center;
+				}
+				
+				.notices-contents-contents {
+					width:368px;
+					height:auto;
+					float:left;
+					position:relative;
+					padding:0 0 0 10px;
+				}
+					
+					.notices-contents-contents-1 {
+						width:368px;
+						height:16px;
+						float:left;
+						position:relative;
+						padding:10px;
+						background-color:#fff;
+						border:1px solid #d8c6c9;
+						border-bottom:0px;
+						line-height:15px;
+						overflow:hidden;
+						word-break:break-all;
+						letter-spacing:0px;
+						font-family:Arial, Helvetica, sans-serif;
+						color:#888;
+					}
+					
+						.notices-contents-contents-1-contents {
+							width:368px;
+							height:16px;
+							overflow:hidden;
+						}
+					
+					.notices-contents-contents-2 {
+						width:368px;
+						height:9px;
+						float:left;
+						position:relative;
+						padding:5px 10px 8px 10px;
+						background-color:#F8F0E9;
+						border-bottom:1px solid #d8c6c9;
+						border-left:1px solid #d8c6c9;
+						border-right:1px solid #d8c6c9;
+					}
+					
+						.notices-contents-contents-2-left {
+							float:left;
+							position:relative;
+							width:100px;
+							height:auto;
+							color:#ab7e7e;
+							font-size:8pt;
+							font-family:Tahoma, Geneva, sans-serif;
+							margin:-1px 0 0 0;
+						}
+					
+						.notices-contents-contents-2-right {
+							float:right;
+							position:relative;
+							width:200px;
+							height:auto;
+							color:#ab7e7e;
+							font-size:8pt;
+							font-family:Tahoma, Geneva, sans-serif;
+							margin:-1px 0 0 0;
+						}
+						
+							.notices-contents-contents-2-right img{
+								margin:2px 2px 0 0;
+							}
+							
+							.notices-comment {
+								float:right;
+								width:auto;
+								height:auto;
+								margin:0 0 0 10px;
+							}
+							
+							.notices-like {
+								float:right;
+								width:auto;
+								height:auto;
+							}
+							
+			.notice-more {
+				width:438px;
+				height:auto;
+				float:left;
+				position:relative;
+				color:#ab7e7e;
+				font-size:8pt;
+				font-family:"돋움","Dotum";
+				text-align:right;
+				padding:10px 0 0 0;
+			}
+			
+	.container-board {
+		width:842px;
+		height:auto;
+		position:relative;
+		margin:auto;
+		z-index:2;
+	}
+			
+/*
+
+//////////////////////////////////////////////////////////////////////////////// 			CONTAINER
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

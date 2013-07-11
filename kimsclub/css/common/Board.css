@@ -1,0 +1,225 @@
+input::-webkit-input-placeholder{color:#aaa;} /* 웹킷 전용 속성 */
+textarea::-webkit-input-placeholder { color: #aaa;}
+textarea:-moz-placeholder, input:-moz-placeholder{color:#fff;} /* 파이어폭스 전용 속성 */
+
+#container .board { width: 828px; height: auto; float: left; position: relative; padding: 0 46px; margin-top: -15px }
+
+#container .board div { position: relative; float: left; }
+
+#container .board > .Lfield { width: 153px; height: auto; margin-top: -10px; }
+
+/* 미리보기 */
+
+#container > .board > .Lfield > .preview { position: absolute; top: 5px; width: 220px; height: auto }
+
+#container > .board > .Lfield > .preview > .title { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; margin-bottom: 14px; text-shadow: 0 1px 1px #fff }
+
+#container > .board > .Lfield > .preview > .content { width: auto; height: auto; font-family: '돋움', sans-serif; }
+#container > .board > .Lfield > .preview > .content > .list { width: auto; height: auto; color: #777 }
+#container > .board > .Lfield > .preview > .content > .list > .cards { width: auto; height: 63px; background-color: #f7f7f7; border: 1px solid #ddd; border-radius: 5px; border-bottom: 1px solid #c8c8c8; margin-bottom: 3px }
+#container > .board > .Lfield > .preview > .content > .list > .cards:hover { border: 1px solid #dc5457; text-decoration: underline; color: #444 }
+#container > .board > .Lfield > .preview > .content > .list > .nonecards { opacity: .4 }
+#container > .board > .Lfield > .preview > .content > .list > .cards > .white { width: 178px; height: auto; padding: 8px 16px; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; border-radius: 5px }
+#container > .board > .Lfield > .preview > .content > .list > .cards > .white > .pic { z-index: 2; width: 40px; height: 40px; overflow: hidden; border: 1px solid #d7d7d7; padding: 2px; background-color: #fff; border-radius: 2px; top: 0; float: left }
+#container > .board > .Lfield > .preview > .content > .list > .cards > .white > .pic > .img { width: 40px; height: 40px; overflow: hidden; opacity: .8 }
+#container > .board > .Lfield > .preview > .content > .list > .cards > .white > .pic > .img > img { height: 100% }
+#container > .board > .Lfield > .preview > .content > .list > .cards > .white > .text { width: 127px; height: 30px; padding: 8px 0px 8px 0; font-size: 9pt; font-weight: 500; float: left; margin-right: 5px; }
+#container > .board > .Lfield > .preview > .content > .list > .cards > .white > .nptext { width: 178px !important }
+
+#container > .board > .Lfield > .preview > .controll { width: auto; height: auto; margin: 4px 0 0 0 }
+#container > .board > .Lfield > .preview > .controll > .white { width: 196px; height: auto; font-size: 7pt !important; font-weight: bold; padding: 7px 0 0 0 }
+#container > .board > .Lfield > .preview > .controll > .white > .midposition { width: auto; height: auto; margin-left: 58px }
+#container > .board > .Lfield > .preview > .controll > .white > .midposition > .left {  width: 30px; height: 20px; text-align: center }
+#container > .board > .Lfield > .preview > .controll > .white > .midposition > .num { width: 20px; height: 20px; text-align: center; color: #dc5457; font-size: 8pt; margin-top: -1px }
+#container > .board > .Lfield > .preview > .controll > .white > .midposition > .right { width: 30px; height: 20px; text-align: center }
+
+/* 게시판 RFIELD 부분 */
+
+#container .board > .Rfield { width: 595px; height: auto; float: right !important; margin-top: -5px }
+
+#container > .board > .Rfield > .title { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; margin-bottom: 14px; text-shadow: 0 1px 1px #fff }
+#container > .board > .Rfield > .contents > .title { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; margin-bottom: 14px; text-shadow: 0 1px 1px #fff }
+
+/*NEW*/#container .board > .Rfield > .contents > .find_friend > .header { height: 293px/*full:293px;short:0px*/ !important; background-image: url(../../images/basic/wassup/find_friend.png); padding: 0 !important }
+/*NEW*/#container .board > .Rfield > .contents > .find_friend > .container { width: 593px !important;  margin: 0 !important; padding: 15px 0 10px 0 !important; background-image: url(../../images/basic/wassup/find_friend_gra.png) }
+/*NEW*/#container .board > .Rfield > .contents > .find_friend > .container > .button { font-family: 'Nanum Gothic', sans-serif; font-weight: bold; width: 180px; height: 14px; font-size: 14px; padding: 9px 0 12px 0; text-shadow: 0 0 10px #fff; text-align: center; margin-left: 207px; color: #6791d3; cursor: pointer }
+/*NEW*/#container .board > .Rfield > .contents > .find_friend > .container > .button:hover { text-decoration: underline }
+/*NEW*/#container .board > .Rfield > .contents > .find_friend > .container > .button img { margin-top: -4px; margin-right: 10px }
+/*NEW*/#container .board > .Rfield > .contents > .find_friend > .container > .text { line-height: 18px !important; margin-bottom: 20px !important; margin-left: 0px !important; padding: 0 20px !important; width: 553px !important; text-align: center; margin-top: 10px; text-shadow: 0 1px 1px #fff }
+/*NEW*/#container .board > .Rfield > .contents > .find_friend > .container > .author { line-height: 18px !important; margin-bottom: 15px ;padding: 0 20px !important; width: 553px !important; text-align: center; text-shadow: 0 1px 1px #fff; font-family: Tahoma, Geneva, sans-serif; font-size: 8pt; color: #dc5457; letter-spacing: 0px }
+
+
+#container .board > .Rfield > .write { width: 599px; height: auto; margin-bottom: 20px; }
+
+#container .board > .Rfield > .write > .title { width: 582px; height: auto; margin-bottom: 20px; display: none }
+/*#container .board > .Rfield > .write > .title > .top { width: 582px; height: 10px; background-image: url(../../images/board/write_text_top.png) }*/
+#container .board > .Rfield > .write > .title > .mid { width: auto; height: auto }
+#container .board > .Rfield > .write > .title > .mid input { width: 563px; height: 20px; padding: 7px 15px; border-radius: 4px; border-radius: 4px; border: 1px solid #d2d2d2; background-color: #f7f7f7; outline:none; font-size: 9pt; font-family: Arial, Helvetica, sans-serif; color: #999; resize: none; }
+#container .board > .Rfield > .write > .title > .mid input:focus { background-color: #fff; border: 1px solid #aaa }
+/*#container .board > .Rfield > .write > .title > .bot { width: 582px; height: 10px; background-image: url(../../images/board/write_text_bottom.png) }*/
+
+#container .board > .Rfield > .write > .contents { width: 582px; height: auto }
+/*#container .board > .Rfield > .write > .contents > .top { width: 582px; height: 10px; background-image: url(../../images/board/write_text_top.png) }*/
+#container .board > .Rfield > .write > .contents > .mid { width: auto; height: auto }
+#container .board > .Rfield > .write > .contents > .mid textarea { width: 563px; height: 30px; padding: 10px 15px; border-radius: 4px; border-radius: 4px; border: 1px solid #d2d2d2; background-color: #f7f7f7; outline:none; font-size: 9pt; font-family: Arial, Helvetica, sans-serif; color: #999; resize: none; }
+#container .board > .Rfield > .write > .contents > .mid textarea:focus { background-color: #fff; border: 1px solid #aaa }
+/*#container .board > .Rfield > .write > .contents > .bot { width: 582px; height: 10px; background-image: url(../../images/board/write_text_bottom.png) }*/
+
+#container .board > .Rfield > .write > .buttons { width: 582px; height: auto; margin-top: 10px; }
+#container .board > .Rfield > .write > .buttons > .camera { width: auto; height: auto; margin-right: 20px; }
+#container .board > .Rfield > .write > .buttons > .anounce { width: auto; height: auto; }
+#container .board > .Rfield > .write > .buttons > .postit { width: auto; height: auto; float: right !important; }
+
+#container .board > .Rfield > .write > .cameraspace { display: none; width: 593px; height: auto; border-top: 1px solid #dc5467; border-left: 1px solid #d2d2d2; border-right: 1px solid #d2d2d2; border-bottom: 1px solid #aaa; margin-top: 10px; background-color: #f2f2f2; box-shadow: 0 1px 2px #b1b1b1 }
+
+#container .board > .Rfield > .write > .cameraspace > .photopart { width: 553px; height: auto; border-top: 1px solid #fff; padding: 20px; border-bottom: 1px solid #ddd }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo { width: auto; height: auto; }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .photos { width: 50px; height: 50px; margin-right: 10px; }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .photos > .img { width: 50px; height: 50px; position: absolute !important; top: 0; left: 0; z-index: 1; overflow: hidden; }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .photos > .frame { width: 52px; height: 52px; background-image: url(../../images/board/photo_frame.png); position: absolute !important; top: -1px; left: -1px; z-index: 2 }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .photos > .close { width: 20px; height: 20px; position: absolute !important; top: -5px; right: -5px; z-index: 3; background-image: url(../../images/board/photo_close.png); cursor: pointer }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .photo1 { background-image: url(../../images/board/photo_1bg.png) }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .photo2 { background-image: url(../../images/board/photo_2bg.png) }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .photo3 { background-image: url(../../images/board/photo_3bg.png) }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .photo4 { background-image: url(../../images/board/photo_4bg.png) }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .photo5 { background-image: url(../../images/board/photo_5bg.png) }
+#container .board > .Rfield > .write > .cameraspace > .photopart > .photo > .addphoto { width: 50px; height: 50px; background-image: url(../../images/board/photo_add.png); cursor: pointer }
+
+#container .board > .Rfield > .write > .cameraspace > .photopart > .explain { width: 77px; height: 24px; float: right !important; background-image: url(../../images/board/photo_explain.png); margin-top: 26px; }
+
+#container .board > .Rfield > .write > .cameraspace > .framepart { width: 553px; height: auto; border-top: 1px solid #fff; padding: 20px }
+#container .board > .Rfield > .write > .cameraspace > .framepart > .explain { width: 553px; height: auto; font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: #888; }
+#container .board > .Rfield > .write > .cameraspace > .framepart > .frame { width: 553px; height: auto; }
+
+#container .board > .Rfield > .write > .cameraspace > .framepart > .frame > .each_frame { width: 553px; height: auto; margin-top: 20px; }
+#container .board > .Rfield > .write > .cameraspace > .framepart > .frame .outline { width: 102px; height: auto; background-color: #e6e6e6; padding: 3px; margin-right: 20px; position: relative; float: left; cursor: pointer; border-radius: 5px; behavior: url(../../js/pie.htc) }
+#container .board > .Rfield > .write > .cameraspace > .framepart > .frame .XL, .L, .S { background-color: #d2d2d2; margin: 3px; text-align: center; font-size: 15px; font-family: Arial, Helvetica, sans-serif; color: #fff; font-weight: bold; position: relative; float: left; }
+#container .board > .Rfield > .write > .cameraspace > .framepart > .frame .XL { width: 96px; height: 15px; padding: 22px 0 25px 0 }
+#container .board > .Rfield > .write > .cameraspace > .framepart > .frame .L 	{ width: 45px; height: 15px; padding: 5px 0 8px 0 }
+#container .board > .Rfield > .write > .cameraspace > .framepart > .frame .S	{ width: 28px; height: 15px; padding: 5px 0 8px 0 }
+
+#container .board > .Rfield > .contents { width: 595px; height: auto }
+
+#container .board > .Rfield > .contents > .posts { width: 593px; height: auto; border-top: 1px solid #e1e1e1;border: 1px solid #d2d2d2; border-bottom: 1px solid #aaa; background-color: #fff; margin-bottom: 20px; border-radius: 5px; float: right }
+
+#container .board > .Rfield > .contents > .posts > .noticepop { width: 100px; height: 100px; position: absolute !important; top: 0; left: 0; }
+
+#container .board > .Rfield > .contents > .posts > .header { width: 553px; height: 0px; padding: 20px 20px 0 20px; z-index: 10; border-radius: 5px }
+
+#container .board > .Rfield > .contents > .posts > .header > .pic { width: 50px; height: 50px }
+#container .board > .Rfield > .contents > .posts > .header > .pic img { border-radius: 4px; behavior: url(../../js/pie.htc); width: 50px; height: 50px; }
+
+#container .board > .Rfield > .contents > .posts > .header > .info { width: 300px; height: 0px; padding: 0 0 0 10px; text-shadow: 0 1px 1px #fff }
+#container .board > .Rfield > .contents > .posts > .header > .info > .top { width: 400px; height: 16px; font-size: 10pt; ont-weight: bold; color: #666; font-family: 'Nanum Gothic', sans-serif; font-weight: bold }
+#container .board > .Rfield > .contents > .posts > .header > .info > .top > .writer { width: auto; height: 16px; margin-right: 7px }
+#container .board > .Rfield > .contents > .posts > .header > .info > .top > .path { width: 16px; height: 16px; margin-right: 7px }
+#container .board > .Rfield > .contents > .posts > .header > .info > .top > .place { width: auto; height: 16px }
+#container .board > .Rfield > .contents > .posts > .header > .info > .top > .time { font-size: 11px; color: #a5a5a5; font-family: "돋움","Dotum"; margin:2px 0 0 7px; font-weight: normal }
+
+#container .board > .Rfield > .contents > .posts > .header > .button { width: auto; height: 14px; padding: 0; float: right !important;  font-size: 11px; color: #999; font-family: '돋움', sans-serif }
+#container .board > .Rfield > .contents > .posts > .header > .button > .delete { display:none; width: auto; height: 12px; float: right !important;  border-left: 1px solid #e5e5e5; cursor: pointer; z-index: 1; margin-left: 7px !important; padding: 0 0 0 7px }
+#container .board > .Rfield > .contents > .posts > .header > .button > .delete:hover { color: #dc5457; text-decoration: underline }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap { width: auto; height: 12px; float: right !important; margin-left: 0 !important; cursor: pointer; z-index: 200; border-left: 1px solid #e5e5e5; padding: 0 0 0 7px; }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap:hover { color: #dc5457; text-decoration: underline }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox { visibility:hidden; position: absolute !important; top: -52px; right: 40px; width: 300px; height: auto; padding: 0 0 15px 0; background-color: #f3f3f3; border: 1px solid #ccc; box-shadow: 0 0 20px #ccc; z-index: 10; border-bottom: 1px solid #a1a1a1; cursor: default }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .arrow { width: 7px; height: 13px; position: absolute !important; top: 51px; right: -6px; background-image: url(../../images/board/scrapboxarrow.png); z-index: 10 }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .whiteline1 { width: 300px; height: 1px; background-color: #fff }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .selectbox { cursor: pointer; width: 238px; height: auto; padding: 7px 10px; margin: 15px 20px 0 20px; background-image: url(../../images/board/selectboxbg.png); border: 1px solid #c9c9c9; border-radius: 5px;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: #555; z-index: 30 }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window { display: none; width: 258px; height: 165px; position: absolute !important; top: -1px; left: -1px; border: 1px solid #d2d2d2; border-radius: 5px; box-shadow: 0 0 10px #ccc; background-image:url(../../images/board/selectboxbg2.png); cursor: default }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window { position:relative; width:258px; height:175px; margin: 5px 0 0 0; overflow: auto; overflow-x: hidden }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window  > .list { width: 238px; height: auto; position: relative; padding: 10px; cursor: default; background-color: #fff; cursor: pointer }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .whiteline2 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .contentbox { width: 238px; height: 60px; padding: 10px; margin: 0 20px;  background-color: #fff; border-radius: 5px; border: 1px solid #d2d2d2 }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .contentbox textarea { position: absolute; top: 10px; left: 10px; width:238px; height: 60px; border:none; resize: none; background:none; outline: none; font-family: Arial, Helvetica, sans-serif; overflow: auto }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .whiteline3 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#container .board > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .button { width: auto; height: auto; float: none !important; margin-left: 100px }
+#container .board > .Rfield > .contents > .posts > .header > .button > .candy { width: auto; height: 12px; float: right !important; cursor: pointer;  padding: 0 7px }
+#container .board > .Rfield > .contents > .posts > .header > .button > .candy:hover { color: #dc5457; text-decoration: underline }
+
+#container .board > .Rfield > .contents > .posts > .container { width: 500px; height: auto; padding: 0 20px 10px 20px; margin-left: 60px; margin-top: 20px }
+
+#container .board > .Rfield > .contents > .posts > .container > .caption { width: 477px; height: auto; margin-top: 3px; border-left: 4px solid #d9d9d9; padding: 5px 0 5px 12px; font-size: 9pt; font-family: "굴림","Gulim"; letter-spacing: -1px; line-height: 17px; color: #777; background-color: #f9f9f9; margin-bottom: 10px !important; margin-top: 5px }
+
+#container .board > .Rfield > .contents > .posts > .container > .text { width: 493px; height: auto; font-size: 9pt; padding-bottom: 3px }
+#container .board > .Rfield > .contents > .posts > .container > .text > .title { display: none; width: auto; max-width: 493px; height: auto; margin-bottom: 5px; font-size: 9pt; font-family: '굴림', sans-serif; font-weight: normal; color: #dc5457; margin-top: 2px; border-bottom: 1px dotted #dc5457; font-weight: bold; letter-spacing: -1px }
+#container .board > .Rfield > .contents > .posts > .container > .text > .contents { width: 493px; height: auto; font-family: "굴림","Gulim";  color: #444; line-height: 16px; margin-top: 2px }
+
+#container .board > .Rfield > .contents > .posts > .container > .pic { width: 493px; height: auto }
+
+#container .board > .Rfield > .contents > .posts > .container > .pic > .noneframe { width: 493px; height: auto; padding-bottom: 10px; padding-top: 6px }
+#container .board > .Rfield > .contents > .posts > .container > .pic > .noneframe > .pic { width: 493px; height: auto; background-color: #f3f3f3; text-align: center }
+#container .board > .Rfield > .contents > .posts > .container > .pic > .noneframe > .pic img{ max-width: 493px }
+
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames { width: 500px; height: auto; display: none }	/* for width & height */
+
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases { width: 500px; height: auto; margin-bottom: 20px }	/* for width & height */
+
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > ul.steps { width: 500px; height: auto; float: left !important }	/* for width & height */
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .step2 { margin-top: 2px }
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .step3 { margin-top: 2px }
+
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > li { float: left }
+
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .XLarge { width: 500px; height: 380px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .Large { width: 304px; height: 200px; overflow: hidden; text-align: center; background-color: #ddd }
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .Small { width: 202px; height: 130px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .box1 { margin-left: 0}				/* for margin */
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .box2 { margin-left: 2px}			/* for margin */
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .box3 { margin-left: 2px }			/* for margin */
+
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .XLarge img { width: 500px }
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .Large img { width: 304px }
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .Small img { width: 202px }
+
+#container .board > .Rfield > .contents > .posts > .container > .info { width: 500px; height: 11px; margin-bottom: 7px; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; color: #aaaaaa }
+#container .board > .Rfield > .contents > .posts > .container > .info > .comment { width: auto; height: auto }
+#container .board > .Rfield > .contents > .posts > .container > .info > .candy { width: auto; height: auto; margin-left: 10px }
+#container .board > .Rfield > .contents > .posts > .container > .info > .scrap { width: auto; height: auto; margin-left: 10px }
+
+#container .board > .Rfield > .contents > .posts > .comment { width: 593px; height: auto; float: left; position: relative; background-color: #f1f1f1; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px }
+
+#container .board > .Rfield > .contents > .posts > .comment > .origin { border-top: 1px solid #fff; width: 493px; height: auto; color: #777; font-size: 9pt;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5; cursor: default !important }
+#container .board > .Rfield > .contents > .posts > .comment > .origin img { margin-right: 10px }
+
+#container .board > .Rfield > .contents > .posts > .comment > .moreview { text-align: left; border-top: 1px solid #fff;width: 493px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+#container .board > .Rfield > .contents > .posts > .comment > .allview { text-align: left; border-top: 1px solid #fff;width: 493px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+
+#container .board > .Rfield > .contents > .posts > .comment > .list { width: 593px; height: auto; float: left; position: relative }
+#container .board > .Rfield > .contents > .posts > .comment > .list > .comments { width: 593px; height: auto; float: left; position: relative; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5; padding: 15px 0; }
+#container .board > .Rfield > .contents > .posts > .comment > .list > .comments > .pic { width: 38px; height: 38px; position: relative; float: left; margin: 0 10px 0 32px }
+#container .board > .Rfield > .contents > .posts > .comment > .list > .comments > .pic img { border-radius: 5px }
+#container .board > .Rfield > .contents > .posts > .comment > .list > .comments > .contents { width: 470px; height: auto; position: relative; float: left; margin:4px 0 0 0 }
+#container .board > .Rfield > .contents > .posts > .comment > .list > .comments > .contents > .name { width: auto; height: 18px; position: relative; float: left;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  font-size: 12px; color: #555; margin-right: 5px; }
+#container .board > .Rfield > .contents > .posts > .comment > .list > .comments > .contents > .time { width: auto; height: 18px; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #999; }
+#container .board > .Rfield > .contents > .posts > .comment > .list > .comments > .contents > .text { width: 470px; height: auto; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #666; letter-spacing: -1px; line-height: 13px }
+#container .board > .Rfield > .contents > .posts > .comment > .list > .comments > .delete { visibility: visible; width: 8px; height: 8px; margin: 15px 20px 15px 15px; position: relative; float: right; background-image: url(../../images/party/Container/cmx.png); cursor: pointer }
+
+#container .board > .Rfield > .contents > .posts > .comment > .write { width: 541px; height: auto; float: left; padding: 15px 20px 15px 32px }
+#container .board > .Rfield > .contents > .posts > .comment > .write > .pic { width: 38px; height: 38px; float: left; margin-right: 10px;}
+#container .board > .Rfield > .contents > .posts > .comment > .write > .pic img { border-radius: 3px; }
+#container .board > .Rfield > .contents > .posts > .comment > .write > .text { width: 483px; height: 15px; float: left; background-color: #fff; padding: 10px 0 10px 10px; border-radius: 5px; border-top: 1px solid #d5d5d5; position:relative; margin: 1px 0 0 0; }
+#container .board > .Rfield > .contents > .posts > .comment > .write > .text textarea { resize: none; width: 100%; height: 15px; float: left; background-color: #fff; border: none; outline: none; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #777; overflow:hidden; position:relative; margin:0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.party-pics-explain-title {
+	margin:2px 6px 0 0 !important;
+}
+
+.consearch-contents {
+	margin:2px 10px 0 0 !important;
+}
+
+.header-search input {
+	margin:6px 0 0 0;
+}
+
+.member-contents-name-arrow {
+	bottom:-10px;				
+}

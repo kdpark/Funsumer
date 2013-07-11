@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body, html { padding:0;margin:0 }
+
+#bg { position:fixed;top:0;left:0; }
+.bgheight { height:100%; }
+.bgwidth { width:100%; }
+
+.placeholder { color:#444; } 						/* for ie */
+input::-webkit-input-placeholder { color:#999; }	
+
+A:unknown {text-decoration:none} 
+A:link {color:#888;text-decoration: none} 
+A:visited {color:#888;text-decoration: none} 
+A:active {text-decoration: none} 
+A:hover {color:#dc5457;text-decoration: underline}
+
+.Button_red { padding: 2px 15px 0 15px; width:auto;height:20px; position:relative;background-image:url(../../images/party/Container/buttonbg.png); border: 1px solid #A82020; border-radius:5px; color: #771919;  font-size: 10pt; font-family: "NanumGothicBoldWeb"; behavior:url(../../js/pie.htc); cursor: pointer; float: left }
+.Button_red > .Button_red_word { padding: 3px 10px 0 15px; position: absolute !important; top: 0; left: 0; width: auto; height:20px; color: #fff;  font-size: 10pt; font-family: "NanumGothicBoldWeb"; }
+
+.logo { width: 250px; height: 55px; position: relative; margin: auto; padding: 25px 0 }
+
+.header { width: 100%; height: 350px; position: relative; float: left; overflow: hidden }
+.header > img { width: 100%; min-width: 1200px; margin-top: -100px }
+.header > .explain { width: 442px; height: 108px; position: absolute; top: 40px; background-image: url(../../images/index/explain.png); left: 50%; margin-left: -221px }
+
+.header > .login { width: 200px; height: 110px; position: absolute; top: 175px; background-color: #fff; left: 50%; margin-left: -230px; text-align: center; padding: 10px 0; border: 1px solid #777; border-radius: 5px; background-image: url(../../images/index/buttonbg.png); box-shadow: 0 1px 3px #555 }
+.header > .login div { position: relative }
+.header > .login input.text { width: 156px; padding: 7px 5px 3px 5px; border: none; border-bottom: 1px solid #d2d2d2; background: inherit; outline: none;  }
+.header > .login input.text:focus { border-bottom: 1px solid #dc5457 }
+
+.header > .login > form > .button { margin-top: 10px }
+.header > .login input.button { width: 170px; padding: 7px 20px; font-family: 'Nanum Gothic', sans-serif; color: #333; font-weight: bold; font-size: 10pt; background-image: url(../../images/base/buttongray3bg.png); border: 1px solid #c1c1c1; border-bottom: 1px solid #b1b1b1; border-radius: 5px; cursor: pointer }
+.header > .login > .whiteline { width: 164px; background-color: #fff; height: 1px; margin: auto; margin-top: -2px }
+
+.header > .error { width: auto; height: auto; position: absolute; top: 110px; left: 50%; margin-left: -233px; background-color: #fff; text-align: center; padding: 10px 15px; border: 1px solid #dc5457; border-radius: 5px; background-color: #dc5457; box-shadow: 0 1px 3px #841a20; font-family: 'Nanum Gothic', sans-serif; color: #fff; font-weight: bold; font-size: 10pt; text-shadow: 0 1px 1px #841a20; }
+.header > .error  > .arrow { width: 40px; height: 24px; position: absolute; bottom: -24px; left: 82px; background-image: url(../../images/index/arrow.png) }
+
+.header > .join { width: auto; height: auto; position: absolute; top: 278px; left: 50%; margin-left: 0px; color: #000; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; font-size: 9pt; padding: 7px 15px; background-color: #fff; opacity: .7; border-radius: 5px; cursor: pointer }
+.header > .join:hover { opacity: .9 }
+
+.header > .find { width: auto; height: auto; position: absolute; top: 238px; left: 50%; margin-left: 0px; color: #000; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; font-size: 9pt; padding: 7px 15px; background-color: #fff; opacity: .7; border-radius: 5px; cursor: pointer }
+.header > .find:hover { opacity: .9 }
+
+.header > .find1 { width: auto; height: auto; position: absolute; top: 198px; left: 50%; margin-left: 0px; color: #000; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; font-size: 9pt; padding: 7px 15px; background-color: #fff; opacity: .7; border-radius: 5px; cursor: pointer }
+.header > .find1:hover { opacity: .9 }
+
+.container { width: 100%; height: auto; margin: auto }
+
+.container div { float: left }
+
+.container > .contents { width: 100%; height: auto;  background-color: #fff }
+
+.container > .contents > .app { width: 100%; height: 160px; float: none; padding: 40px 0 0 0; background-color: #eee; }
+.container > .contents > .app > .contents { width: 828px; height: auto; float: none; margin: auto }
+.container > .contents > .app > .contents > .left { width: 214px; height: auto; float: left }
+.container > .contents > .app > .contents > .left > .icon { width: 118px; height: 155px; background-image: url(../../images/index/app.png); float: none; margin-left: 96px }
+.container > .contents > .app > .contents > .right { width: 614px; height: auto; }
+.container > .contents > .app > .contents > .right > .ex { width: 478px; height: 43px; background-image: url(../../images/index/appex.png); float: none; margin: 0 68px }
+.container > .contents > .app > .contents > .right > .googleplay { width: 628px; height: auto; text-align: center; padding: 12px 0 0 0 }
+.container > .contents > .app > .contents > .right > .googleplay img { cursor: pointer; }
+.container > .contents > .app > .contents > .right > .googleplay img:hover { opacity: .7 }
+
+.container > .contents > .event { width: 828px; height: auto; margin: auto; float: none; padding: 40px 0 } /*0524*/
+
+.container > .contents > .explain { width: 100%; height: auto; background-color: #fff }/*0524*/
+
+.container > .contents > .explain > .pic { width: 100%; height: auto; margin:0 0 30px 0 }
+.container > .contents > .explain > .pic > .overflow { width: 770px; height: 215px; margin: auto; float: none; padding: 50px 0 0 0 }/*0524*/
+.container > .contents > .explain > .pic > .overflow > .ex1 { width: 770px; height: 215px; background-image: url(../../images/index/ex1.png); margin-bottom: 20px }
+.container > .contents > .explain > .pic > .overflow > .ex2 { width: 770px; height: 215px; background-image: url(../../images/index/ex2.png); margin-bottom: 20px }
+.container > .contents > .explain > .pic > .overflow > .ex3 { width: 770px; height: 215px; background-image: url(../../images/index/ex3.png) }
+
+
+.copyright {
+	
+	float: none !important;
+	width:100%;
+	height:auto;
+	padding: 0 0 30px 0;
+	text-align:center;
+	background-color: #fff;
+	
+	/* text* */
+	font-family: 'Nanum Gothic', sans-serif; 
+	color: #b1b1b1;
+	font-size: 9pt;
+	font-weight: bold;
+	text-shadow: 0 1px 1px #fff;
+	
+} /*0524*/
+
+.copyright p {
+	width: auto;
+	margin-top: 0;
+	line-height:20px;
+	font-size:8pt;
+	padding: 20px 0 0 0;
+}

@@ -1,0 +1,26 @@
+/* -- Partyadmin_member_search -- */
+
+#partyadmin_member_container  > .ScrollBox > .container > .content > .search  > .text-search { padding: 1px 0 0 0 !important; }
+#partyadmin_member_container  > .ScrollBox > .container > .content > .search  > .text-search input { padding: 1px 0 0 5px !important }
+
+/*-- in pp, css --*/
+
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist .pic > .namebg { display: none !important; }
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist .pic > .nametext { visibility: hidden; border-radius: 5px !important; padding-top: 5px !important; padding-bottom: 5px !important; bottom: 15px !important; background-color: transparent !important; background-image: url(../../images/party/Container/ppnamebg_ie8.png);}
+
+#container .party .info > .contents > .popularpeople > .contents > .female > .exist .pic > .namebg { display: none; }
+#container .party .info > .contents > .popularpeople > .contents > .female > .exist .pic > .nametext { visibility: hidden; border-radius: 5px !important; padding-top: 5px !important; padding-bottom: 5px !important; bottom: 15px !important; background-color: transparent !important; background-image: url(../../images/party/Container/ppnamebg_ie8.png);}
+
+#info_memberpage > .header > .img { margin: 20px 0 0 0 !important; }
+
+#info_memberpage > .contents > .title > .search  > .text-search input { padding: 1px 0 0 5px !important;}
+
+#loaderDiv { visibility: hidden }
+
+#pre_party > .contents > .section > ul > .name 				{ margin: 2px 0 0 0 !important }
+
+#container .board > .Rfield > .write > .cameraspace > .framepart > .frame .outline { padding: 3px 3px 6px 3px !important}
+
+#wrapbox { box-shadow: none !important; border-left: 1px solid #b1b1b1 !important; border-right: 1px solid #b1b1b1 !important }
+
+#container .board { padding: 0 46px 20px 46px !important }

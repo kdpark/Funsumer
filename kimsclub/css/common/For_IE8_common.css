@@ -1,0 +1,13 @@
+#container .board > .Rfield > .contents > .posts > .container > .pic > .frames { padding: 0 0 20px 0 }
+#container .board > .Rfield > .contents > .posts > .container > .info { padding: 0 0 20px 0 !important }
+
+#header > .nav > .nav-search { width: 162px !important; height: 21px !important; background-image: url(../../images/party/Header/IE_header_searchbg.png); margin-top: 6px !important; }
+#header > .nav > .nav-search { border-radius: 0px !important; border: none !important; }
+
+#header > .nav > .nav-search > .wht-nav-search 					{ display: none !important; }
+#header > .nav > .nav-search > .ico-search 							{ float: left !important; margin: 5px 0 0 10px !important; }
+#header > .nav > .nav-search > .ch-ico-search						{ filter:alpha(opacity=0); }
+#header > .nav > .nav-search > .text-search 							{ width: 130px !important; float: left !important; margin: 4px 0 0 3px !important; }
+#header > .nav > .nav-search > .text-search input 					{ width: 130px !important; color: #802D2E !important; }
+
+#header > .nav > .win-search	 { top: 37px !important; }

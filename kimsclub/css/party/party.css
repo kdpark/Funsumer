@@ -1,0 +1,65 @@
+body, html { background-color: none !important; background-image: url(../../images/note/directory_bg.png) !important; padding: 18px 0 0 0 }
+
+#body_gradient { position: absolute; top: 0; left: 0; width: 100%; height: 50px; background-image: url(../../images/wassup/body_gradient2.png); z-index: 0 }
+
+#wrapbox { 
+	width: 920px; min-height: 100%;
+	position:absolute; left: 50%; margin-left: -460px; background-color: none !important; z-index: 1;
+}
+
+#header { width: 920px; height: 0px; position: absolute; top: 0; z-index:30 !important; left: 50%; margin-left: -459px }
+#header > .Tap { margin:0 0 0 921px !important }
+
+#container .board > .Lfield > .preview > .list > .cards > .frame { background-image: url(../../images/board/preparty_frame_gray.png) !important }
+#container .board { margin-top: 0px !important; }
+#header div.nav	  { box-shadow: 0 1px 2px #a1a1a1 }
+
+.SDD-wassup	 	{ background-image: url(../../images/party/Header/header_menu_wassup.png) }
+.SDD-note			{ background-image: url(../../images/party/Header/header_menu_note.png) }
+.SDD-party 		{ background-image: url(../../images/party/Header/header_selected.png) }
+
+/* 중복 CLASS */
+.nanumbold { font-family: 'Nanum Gothic', sans-serif; font-weight: bold }
+
+/* wassup 게시판 레이아웃 조정 */
+#container .board > .Lfield > .preview > .list > .cards > .frame { background-image: none !important }
+#container .board > .Lfield > .bg { display: none }
+#container .board { padding: 23px 0 100px 0 !important; border-top: 1px solid #fff }
+
+/* Tap 변경 */
+#header > .Tap { top: 0px !important; padding: 90px 0 0 0 !important; background-image: url(../../images/wassup/tapbg.png) !important; width: 31px !important; margin: 0 0 0 919px !important }
+#header > .Tap > .invite-party { margin-left: 2px !important; margin-top: -5px !important }
+#header > .Tap > .invite-member { margin-left: 2px !important; margin-top: 0px !important }
+#header > .Tap > .setting { margin-left: 2px !important; margin-top: 0px !important }
+
+#container { width: 920px; height: auto; float: left; position: relative; padding: 0 }
+
+#container div { position: relative; float: left }
+
+#container > .partylist { width: 920px; height: auto; padding: 0 }
+#container > .partylist > .title { width: 828px; height: 50px; padding: 21px 46px; background-image: url(../../images/party/partylist/titlebg.png); z-index: 2; margin-top: 20px }
+#container > .partylist > .title > .pic { width: 50px; height: 50px; border-radius: 6px; border: 1px solid #d2d2d2; border-bottom: 1px solid #c2c2c2; background-image: url(../../images/wassup/buttonbg.png); }
+#container > .partylist > .title > .pic img { width: 50px; height: 50px; border-radius: 5px }
+#container > .partylist > .title > .namediv { width: auto; height: 34px; font-size: 11pt; margin-left: 10px; padding: 16px 10px 0 10px; color: #777; border-radius: 5px; cursor: default; z-index: 1 }
+.container_partylist_namedivOV { border: 1px solid #d2d2d2; background-image: url(../../images/wassup/buttonbg.png); border-bottom: 1px solid #c2c2c2; padding: 15px 9px 0 9px !important; color: #555 !important }
+.container_partylist_namedivCK { background-image: none !important; background-color: #e1e1e1; border-bottom: none !important; border-bottom: 1px solid #fff !important; }
+#container > .partylist > .title > .namediv > .img { margin: 9px 0 0 15px }
+#container > .partylist > .title > .pop { position: absolute !important; top: 20px; left: 107px; width: 600px; height: auto; z-index: 2; display: none; opacity: 0 }
+#container > .partylist > .title > .pop > .content { width: auto; height: auto; background-color: #f8f8f8; border-radius: 5px; box-shadow: 0 1px 4px #d1d1d1; border: 1px solid #c8c8c8; border-bottom: 1px solid #b1b1b1; padding: 0 10px }
+#container > .partylist > .title > .pop > .content > .name { width: auto; height: auto; padding: 16px 0 10px 0; float: none !important; font-size: 11pt; border-bottom: 1px solid #e5e5e5; color: #222 }
+#container > .partylist > .title > .pop > .content > .info { width: auto; height: auto; padding: 10px 0 16px 0; float: none !important; font-size: 9pt; color: #777 }
+#container > .partylist > .title > .position { margin-top: 12px; float: right !important; font-weight: bold }
+#container > .partylist > .gradient { width: 920px; height: 20px; background-image: url(../../images/party/partylist/gradinet.png); z-index: 1 }
+
+#container > .partylist > .list { width: 848px; height: auto; padding: 0 26px 20px 46px }
+#container > .partylist > .list > .cards { cursor: pointer; width: 190px; height: auto; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; box-shadow: 0 1px 2px #c1c1c1; border-bottom: 1px solid #a1a1a1; border-top: 1px solid #a1a1a1; border-left: 1px solid #b5b5b5; border-right: 1px solid #b5b5b5; margin-right: 20px; margin-bottom: 20px }
+#container > .partylist > .list > .cards > .img { width: 190px; height: 190px; overflow: hidden }
+#container > .partylist > .list > .cards > .img img { height: 190px; }
+#container > .partylist > .list > .cards > .name { width: 190px; height: 14px; background-image: url(../../images/party/partylist/partynamebg.png); border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border-top: 1px solid #a1a1a1; text-align: center; font-size: 14px; padding: 6px 0 10px 0; text-shadow: 0 1px 1px #fff }
+
+#copyright { width: 920px; height: auto; padding: 0 0 20px 0 }
+#copyright > .contents { width: 828px; height: auto; position: relative; float: left; padding: 0 46px }
+#copyright > .contents > .left { width: auto; height: auto; position: relative; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #888; margin-top: -2px }
+#copyright > .contents > .right { width: auto; height: auto; position: relative; float: right !important; font-family: "돋움","Dotum"; font-size: 8pt; letter-spacing: -1px; color: #888; }
+#copyright > .contents > .right > ul { position: relative; float: left; margin-left: 10px; cursor: pointer }
+#copyright > .contents > .right > ul:hover { color: #dc5457 }

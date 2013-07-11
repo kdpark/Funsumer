@@ -1,0 +1,233 @@
+body, html { background-color: none !important; background-image: url(../../images/note/directory_bg.png) !important }
+
+#body_gradient { position: absolute; top: 0; left: 0; width: 100%; height: 560px; background-image: url(../../images/note/body_gradient.png); z-index: 0 }
+
+/**/#wrapbox { 
+	width: 880px; min-height:auto; padding: 0 0 0 0; 
+	background-color: #fff;
+	border: 1px solid #b4b4b4;
+	position:absolute; left: 50%; margin-left: -440px;
+	top: 200px;
+}
+
+/**/.board { padding: 0 26px !important; }
+
+#header_position {
+	width: 920px; min-height:100px; padding: 0 0 20px 0; 
+	position:absolute; left: 50%; margin-left: -460px;
+}
+
+/**/#header { width: 828px; height: 61px; position: relative; z-index:30; margin-left: 46px }
+/**/#header div.nav { left: -26px !important; width: 880px !important }
+/**/#header > .Tap { margin: 0 0 0 875px important }
+
+/* Tap 변경 */
+#header > .Tap { top: 0px !important; padding: 90px 0 0 0 !important; background-image: url(../../images/wassup/tapbg.png) !important; width: 31px !important; margin: 0 0 0 875px !important }
+#header > .Tap > .invite-party { margin-left: 2px !important; margin-top: -5px !important }
+#header > .Tap > .invite-member { margin-left: 2px !important; margin-top: 0px !important }
+#header > .Tap > .setting { margin-left: 2px !important; margin-top: 0px !important }
+
+.SDD-wassup	 	{ background-image: url(../../images/party/Header/header_menu_wassup.png) }
+.SDD-note			{ background-image: url(../../images/party/Header/header_menu_note.png) }
+.SDD-party 		{ background-image: url(../../images/party/Header/header_selected.png) }
+
+#loaderDiv { width: auto; height: auto; position: absolute; top: 50%; left: 50%; margin-left: -20px; z-index: 50; opacity: 0; }
+
+/**/#pre_party { width: 920px; height: 158px; position:relative; z-index:10; background-image: url(../../images/partyplay/pre_partybg.png) }
+/**/#pre_party > .move_arrow { width: 23px; height: 30px; background-image: url(../../images/party/Container/pre_party_arrow.png); position: absolute; bottom: 0; left: 181px }
+#pre_party > .arrow { opacity: 0; filter:alpha(opacity=0) }
+#pre_party > .arrow_L 	{ width: 26px; height: 86px; position: relative; float: left; margin: 20px 10px 33px 10px; background-image: url(../../images/party/Pre_party/L-arrow.png); cursor: pointer; }
+/**/#pre_party > .contents 	{ width: 828px; height: 109px; position: relative; float: left; margin: 15px 0; overflow: hidden; text-shadow: 0 1px 1px #fff }
+#pre_party > .contents > .section { width: 3000px; height: 109px; position: absolute; top: 0; left: 0;}
+#pre_party > .contents > .section > ul { width:86px; height:109px; position:relative; float: left; margin:0 20px 0 0; cursor: pointer; }
+/**/#pre_party > .contents > .section > ul > .party_thumb 	{ width: 86px; height: 86px; position: relative; overflow:hidden }
+#pre_party > .contents > .section > ul > .party_thumb img	{ height: 86px; position: relative; margin:0 0 0 -10px }
+#pre_party > .contents > .section > ul > ._86base_1		{ width: 86px; height: 86px; position: relative; background-image:url(../../images/partyplay/pthumbbg.png) }
+#pre_party > .contents > .section > ul > ._86base_2		{ width: 86px; height: 86px; position: relative; background-image:url(../../images/partyplay/pthumbbg.png) }
+#pre_party > .contents > .section > ul > ._86base_3		{ width: 86px; height: 86px; position: relative; background-image:url(../../images/partyplay/pthumbbg.png) }
+#pre_party > .contents > .section > ul > ._86base_4		{ width: 86px; height: 86px; position: relative; background-image:url(../../images/partyplay/pthumbbg.png) }
+#pre_party > .contents > .section > ul > ._86base_5		{ width: 86px; height: 86px; position: relative; background-image:url(../../images/partyplay/pthumbbg.png) }
+#pre_party > .contents > .section > ul > ._86base_6		{ width: 86px; height: 86px; position: relative; background-image:url(../../images/partyplay/pthumbbg.png) }
+#pre_party > .contents > .section > ul > ._86base_7		{ width: 86px; height: 86px; position: relative; background-image:url(../../images/partyplay/pthumbbg.png) }
+#pre_party > .contents > .section > ul > ._86base_8		{ width: 86px; height: 86px; position: relative; background-image:url(../../images/partyplay/pthumbbg.png) }
+#pre_party > .contents > .section > ul > .name 				{ width: 86px; height: 13px; position: relative; margin: 8px 0 0 0;  font-size: 8pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; letter-spacing: 0px; color: #555; text-align: center;}
+#pre_party > .contents > .section > ul > .frame_86thumb { width: 90px; height: 90px; position: absolute; top: 0; left: 0; }
+#pre_party > .arrow_R 	{ width: 26px; height: 86px; position: relative; float: left; margin: 20px 10px 33px 10px; background-image: url(../../images/party/Pre_party/R-arrow.png); cursor: pointer; }
+#pre_party > .owner 		{ display: none; width:210px; height: 71px; position: absolute; top: 127px; right: 26px; background-image:url(../../images/party/Pre_party/footer.png); }
+#pre_party > .owner > .img { margin:15px 0 0 60px; float: left; }
+#pre_party > .owner > .img > img { border-radius: 5px; }
+#pre_party > .owner > .allview { width: 80px; margin: 23px 0 0 10px; float: left; font-size:8pt; font-family:"돋움","Dotum"; text-align:center; color: #777; cursor: pointer; letter-spacing: -1px; }
+
+/**/.gapbackground { width: 880px; height: 61px; position: relative; background-color: #f1f1f1; border-bottom: 1px solid #d5d5d5 }
+
+/* -- Container -- */
+#container { width: 920px; height: auto; float: left; position: relative }
+
+/* -- Container > party -- */
+#container .party 	{ width: 920px; height: auto; float: left; postion: relative }
+
+/**/#container .party > .title 	{ width: 828px; height: 61px; position: absolute; top: -61px; left: 26px }
+#container .party > .title > .pname { width: auto; height: auto; position:relative; padding:19px 0 20px 0; color: #777; font-size: 17px;font-family: 'Nanum Gothic', sans-serif; font-weight: bold; letter-spacing: 0px; cursor: default;float:left; text-shadow: 0 2px 2px #fff }
+#container .party > .title > .pname > .position { margin-right: 15px; margin-top: -1px }
+/**/#container .party > .title > .pregi { display: none; margin: 18px 0 0 15px; cursor: pointer; }
+#container .party > .title > .pmember { width: auto; height: auto; position: relative; margin-top: 19px; padding-left:15px; font-size: 17px;font-family: 'Nanum Gothic', sans-serif; font-weight: bold; letter-spacing: 0px; cursor: default;float:left; text-shadow: 0 2px 2px #fff; float: right; border-left: 1px solid #fff }
+#container .party > .title > .pmember > .position { margin-right: 12px; margin-top: -1px }
+#container .party > .title > .padmin { width: auto; height: auto; position: relative; margin-top: 19px; font-size: 17px;font-family: 'Nanum Gothic', sans-serif; font-weight: bold; letter-spacing: 0px; cursor: default;float:left; text-shadow: 0 2px 2px #fff; float: right; padding-right: 15px; border-right: 1px solid #c4c4c4 }
+#container .party > .title > .padmin > .position { margin-right: 15px; margin-top: -1px }
+
+/**/#container .party .pic 	{ width: 880px; height: 552px; float: left; postion: relative; border-top: 1px solid #fff }
+/**/#container .party .pic > .basepic	{ border: 1px solid #c4c4c4; width: 828px; height: 512px; position: absolute; top: 20px; left: 26px; background-image: url(../../images/0ALPHA/S_COVER.jpg); background-size: cover; z-index:4; }
+
+/**/#container .party .pic > .basepic > .gradient { background-image: url(../../images/partyplay/gradient.png); width: 828px; height: 300px; position: absolute; bottom: 0px; left: 0; z-index: 1 }
+/**/#container .party .pic > .basepic > .since { width: auto; height: auto; position: absolute; bottom: 20px; left: 20px; z-index: 2; color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold;
+												text-shadow: 0 1px 1px #000 }
+
+/**/#container .party .pic > .basepic > .pregi_position 	{ width: 828px; height: 40px; position: absolute; top: 0; left: 0;}
+#container .party .pic > .basepic > .pregi_position > .bg 			{ width: 828px; height: 40px; position: absolute; top: 0; left: 0;  background-color: #222; opacity: .7; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50) }
+#container .party .pic > .basepic > .pregi_position > .contents { width: 473px; height: auto; position: absolute; top: 0; left: 0; margin-left: 177px; }
+#container .party .pic > .basepic > .pregi_position > .contents img { float: left; margin: 12px 0 0 0; }
+#container .party .pic > .basepic > .pregi_position > .contents > .B-position { margin: 8px 0 0 20px; }
+
+/**/#container .party .pic > .basepic > .pinvite_position 	{  display: none;width: 828px; height: 40px; position: absolute; top: 0; left: 0px; }
+/**/#container .party .pic > .basepic > .pinvite_position > .bg 			{ width: 828px; height: 40px; position: absolute; top: 0; left: 0;  background-color: #222; opacity: .7; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50) }
+#container .party .pic > .basepic > .pinvite_position > .contents { width: 600px; height: auto; position: absolute; top: 0; left: 0; margin-left: 132px;}
+#container .party .pic > .basepic > .pinvite_position > .contents img { float: left; margin: 11px 0 0 0; }
+#container .party .pic > .basepic > .pinvite_position > .contents > .B-position { margin: 8px 0 0 20px; }
+
+/**/#container .party .pic > .basepic > .partyadmin_position { width: auto; height: auto; position: absolute; bottom: 103px; right: 172px; cursor: pointer; z-index: 2 }
+/**/#container .party .pic > .basepic > .partyadmin_position > .bg { width: 172px; height: 41px; position: absolute; top: 0; left: 0; cursor: pointer;}
+#container .party .pic > .basepic > .partyadmin_position > .bg > .number { display: block; z-index: 3; width: 28px; height: 20px; position: absolute; top: -10px; right: 10px; padding:4px 0 0 0; background-image: url(../../images/party/Tap/number-bigger.png); font-size:8pt; font-family: Arial, Helvetica, sans-serif; letter-spacing: 0px; color: #fff; font-weight: bold; text-align:center; }
+#container .party .pic > .basepic > .partyadmin_position > .contents { width: auto; height: auto; position: absolute; top: 0; left: 0; }
+#container .party .pic > .basepic > .partyadmin_position > .contents  > .button { width: 172px; height: 41px; position: absolute; top: 0px; left: 0px; background-image: url(../../images/partyplay/adminbg.png); }
+
+/**/#container .party .pic > .basepic > .camera_position { width: auto; height: auto; position: absolute; bottom: 60px; right: 172px; cursor: pointer; z-index: 2 }
+/**/#container .party .pic > .basepic > .camera_position > .bg { width: 172px; height: 41px; position: absolute; top: 0; left: 0; cursor: pointer }
+#container .party .pic > .basepic > .camera_position > .contents { width: auto; height: auto; position: absolute; top: 0; left: 0; }
+#container .party .pic > .basepic > .camera_position > .contents > .button { width: 172px; height: 41px; position: absolute; top: 0px; left: 0px; background-image: url(../../images/partyplay/camerabg.png) }
+
+#container .party .pic > .basepic > .partissier_position { display: none; width: 150px; height: 60px; position: absolute; bottom: 20px; right: 20px; cursor: pointer }
+#container .party .pic > .basepic > .partissier_position > .bg { border-radius: 5px; width: 150px; height: 60px; position: absolute; top: 0; left: 0; background-image: url(../../images/party/Container/partybuttonbg.png); }
+#container .party .pic > .basepic > .partissier_position > .contents { width: auto; height: auto; position: absolute; top: 0; left: 0; }
+#container .party .pic > .basepic > .partissier_position > .contents .pic { width: 40px; height: 40px; position: relative; float: left; margin: 10px 0 0 10px }
+#container .party .pic > .basepic > .partissier_position > .contents .pic img { border-radius: 5px; }
+#container .party .pic > .basepic > .partissier_position > .contents > .job { width: 100px; height: 20px; position:relative; float: left; background-image: url(../../images/party/Container/partissier.png); margin: 12px 0 0 0; }
+#container .party .pic > .basepic > .partissier_position > .contents > .name { padding: 0 0 0 10px; width: 90px; height: 14px; position: relative; float: left; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: #333; font-size: 13px }
+
+/**/#container .party .pic > .partyadminpage { width: 830px; height: 474px; position: absolute; top: 20px; left: 26px; padding: 20px 0; z-index:5; background-color:#fff; visibility: hidden; opacity: 0;  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0) }
+
+#container .party .pic > .partyadminpage > .menu { width: 160px; height: 472px; position: relative; float: left; border-right: 1px solid #ddd; }
+/**/#container .party .pic > .partyadminpage > .menu > .ico-repair { width: 50px; height: 50px; position:relative; padding: 0 55px 20px 55px; }
+#container .party .pic > .partyadminpage > .menu > .menus { width: 160px; height: 140px; position:relative; cursor: pointer; }
+#container .party .pic > .partyadminpage > .menu > .menus > .position { text-align: center; padding: 10px 0; width: 160px; height: 20px; position: relative; }
+#container .party .pic > .partyadminpage > .menu > .menus > .menu1 { background-color: #eee; }
+#container .party .pic > .partyadminpage > .menu > .menus > .menu2 { margin:10px 0; }
+/**/#container .party .pic > .partyadminpage > .menu > .exit { width: 160px; height: 80px; position:relative; margin:162px 0 20px 0; text-align:center; }
+
+#container .party .pic > .partyadminpage > .power > .contents { width: 647px; height: 472px; position: relative; float: left; ; padding: 0 0 0 20px;  }
+#container .party .pic > .partyadminpage > .power > .contents > .header { width: 647px; height: 70px; position: relative; border-bottom: 1px solid #ddd; }
+#container .party .pic > .partyadminpage > .power > .contents > .header > .explain { width: auto; height: 15px; position:relative; float: right; font-size: 8pt; color: #999; font-family: "돋움", "Dotum"; letter-spacing: -1px; margin: 40px 20px 0 0; }
+#container .party .pic > .partyadminpage > .power > .contents > .header > .button { float: right; margin: 20px 0 0 0; }
+#container .party .pic > .partyadminpage > .power > .contents > .container { width: 647px; height: 401px; position: relative; }
+#container .party .pic > .partyadminpage > .power > .contents > .container > .read { width: 647px; height: 65px; position: relative; border-bottom: 1px solid #eee; }
+#container .party .pic > .partyadminpage > .power > .contents > .container > .regi { width: 647px; height: 65px; position: relative; border-bottom: 1px solid #eee; }
+#container .party .pic > .partyadminpage > .power > .contents > .container .img { padding: 20px 0 20px 10px; float: left; position: relative; }
+#container .party .pic > .partyadminpage > .power > .contents > .container .OX { padding: 20px 10px 0 0; float: right; position:relative; }
+#container .party .pic > .partyadminpage > .power > .contents > .container .OX > .O-read, .O-regi { width: 26px; height: 26px; background-image: url(../../images/party/Container/o.png); float: left; margin:0 20px 0 0; cursor: pointer;}
+#container .party .pic > .partyadminpage > .power > .contents > .container .OX > .X-read, .X-regi { width: 26px; height: 26px; background-image: url(../../images/party/Container/x.png) ; float: left; cursor: pointer;}
+#container .party .pic > .partyadminpage > .power > .contents > .container > .explain { width: 647px; height: 153px; position:relative; padding: 48px 0; margin: 20px 0 0 0; background-color: #f5f5f5; text-align: center; }
+
+#container .party .pic > .partyadminpage > .member > .contents { width: 647px; height: 472px; position: absolute; top: 20px; right: 20px; visibility:hidden; opacity: 0;  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0)}
+#container .party .pic > .partyadminpage > .member > .contents > .header { width: 647px; height: 70px; position: relative; border-bottom: 1px solid #ddd; }
+#container .party .pic > .partyadminpage > .member > .contents > .header > .explain { width: auto; height: 15px; position:relative; float: right; font-size: 8pt; color: #999; font-family: "돋움", "Dotum"; letter-spacing: -1px; margin: 40px 20px 0 0; }
+#container .party .pic > .partyadminpage > .member > .contents > .header > .button { float: right; margin: 20px 0 0 0; }
+#container .party .pic > .partyadminpage > .member > .contents > .container { width: 647px; height: 401px; position: relative; }
+
+#container .party .pic > .partyadminpage > .invite > .contents { width: 647px; height: 472px; position: absolute; top: 20px; right: 20px;  visibility:hidden; opacity: 0;  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0) }
+#container .party .pic > .partyadminpage > .invite > .contents > .header { width: 647px; height: 70px; position: relative; border-bottom: 1px solid #ddd; }
+#container .party .pic > .partyadminpage > .invite > .contents > .header > .explain { width: auto; height: 15px; position:relative; float: right; font-size: 8pt; color: #999; font-family: "돋움", "Dotum"; letter-spacing: -1px; margin: 40px 20px 0 0; }
+#container .party .pic > .partyadminpage > .invite > .contents > .header > .button { float: right; margin: 20px 0 0 0; }
+#container .party .pic > .partyadminpage > .invite > .contents > .container { width: 647px; height: 401px; position: relative; }
+
+#container .party .info 	{ width: 880px; height: auto; float: left; postion: relative }
+/**/#container .party .info > .title 			{ display: none; width: 828px; height: 22px; margin: 0 auto; position: relative; padding: 0 26px }
+#container .party .info > .title > .relation { display:none; width: auto; height: 17px; margin: 34px 0 0 0; position:relative; float: left; }
+#container .party .info > .title > .relation > .title { width: 80px; height: 17px; margin: -4px 15px 0 0; position: relative; float: left; background-image: url(../../images/party/Container/relation.png) }
+#container .party .info > .title > .relation > .contents { width: auto; height: 17px; position: relative; float: left; font-size: 8pt; font-family: "돋움","Dotum"; color: #999; letter-spacing: -1px; }
+
+#container .party .info > .title > .since { display: none; width: auto; height: 17px; margin: 34px 0 0 0; position: relative; float: right; }
+#container .party .info > .title > .since > .title { width: 53px; height: 17px; margin: -4px 10px 0 0; position: relative; float: left; background-image: url(../../images/party/Container/since.png) }
+#container .party .info > .title > .since > .contents { width: auto; height: 17px; margin: -3px 0 0 0; position: relative; float: left; color: #aaa; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; }
+
+#container .party .info > .title > .writing { display:none; width: auto; height: 17px; margin: 30px 10px 0 0; position: relative; float: right }
+#container .party .info > .title > .writing > .img { width: 20px; height: 17px; position: relative; float: left; margin: 0 10px 0 0; background-image: url(../../images/party/Container/writing.png) }
+#container .party .info > .title > .writing > .number { width: auto; height: 17px; position: relative; float: left; color: #aaa; font-size: 10pt; font-family: Tahoma, Geneva, sans-serif; }
+
+#container .party .info > .title > .member { display: none; width: auto; height: 17px; margin: 30px 20px 0 0; position: relative; float: right }
+#container .party .info > .title > .member > .img { width: 12px; height: 17px; position: relative; float: left; margin: 0 10px 0 0; background-image: url(../../images/party/Container/member.png) }
+#container .party .info > .title > .member > .number { width: auto; height: 17px; position: relative; float: left; color: #aaa; font-size: 10pt; font-family: Tahoma, Geneva, sans-serif; }
+
+/**/#container .party .info > .contents 	{ width: 840px; height: 238px; position: relative; padding: 7px 16px 25px 24px; background-color: #f1f1f1; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5 }
+
+#container .party .info > .contents > .popularpeople { width: 331px; height: 238px; position: relative; float: left; margin-right: 29px; }
+#container .party .info > .contents > .popularpeople > .title { width: 331px; height: 20px; position: relative; padding: 10px 0; border-bottom: 1px solid #d5d5d5; }
+#container .party .info > .contents > .popularpeople > .title > .img { width: 79px; height: 20px; position:relative; float: left; background-image:url(../../images/party/Container/pp.png); }
+/**/#container .party .info > .contents > .popularpeople > .title > .date { width: auto; height: 14px; padding: 6px 0 0 0;  position: relative; float: right; color: #777; font-size: 10pt; font-family: Tahoma, Geneva, sans-serif; text-shadow: 0 1px 1px #fff }
+
+/**/#container .party .info > .contents > .popularpeople > .contents { width: 331px ;height: 177px; position: relative; padding: 20px 0 0 0; border-top: 1px solid #fff }
+
+/**/#container .party .info > .contents > .popularpeople > .contents > .male { width: 154px; height: 175px; position:relative; float: left; border: 1px solid #c4c4c4; margin-right: 19px; background-color: #fff}
+#container .party .info > .contents > .popularpeople > .contents > .male > .nonexist { display: none; width: 153px; height: 175px; position: absolute; top: 0; left: 0; background-image: url(../../images/party/Container/ppmale.png); z-index:10;  }
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist { width: 153px; height: 175px; position: relative; }
+/**/#container .party .info > .contents > .popularpeople > .contents > .male > .exist .pic { width: 140px; height: 137px; position:relative; overflow: hidden; cursor: pointer; border-top: none !important; padding: 7px 7px 0 7px; border-bottom: none !important; background-color: #fff }
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist .pic > .namebg { width: 88px; height: 30px; position: absolute; bottom: 10px; left: 33px; background-color: #fff; z-index: 8; border-radius: 5px; opacity: 0; }
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist .pic > .nametext { width: 88px; height: 21px; position: absolute; bottom: 25px; left: 33px; z-index:9; opacity: .0; }
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist .pic > .nametext > .img { width: 19px; height: 21px; position:relative; float: left; margin-left: 10px; }
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist .pic > .nametext > .name { width: 40px; height: 18px; padding: 3px 0 0 0; position: relative; float: left;  text-align: center; color: #282828; margin-left: 10px; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  font-size: 13px; letter-spacing: 1px; }
+/**/#container .party .info > .contents > .popularpeople > .contents > .male > .exist > .score { width: 153px; height: 14px; float: left; position:relative; text-align: center; color: #666; font-size: 10pt; font-family: Tahoma, Geneva, sans-serif; padding: 6px 0 10px 0; }
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist > .score img { margin: 3px 0 0 0; }
+
+/**/#container .party .info > .contents > .popularpeople > .contents > .female { width: 154px; height: 175px; position: relative; float: left; border: 1px solid #c4c4c4; background-color: #fff }
+#container .party .info > .contents > .popularpeople > .contents > .female > .nonexist { display: none; width: 154px; height: 175px; position: absolute; top: 0; left: 0; background-image: url(../../images/party/Container/ppfemale.png); z-index: 10; }
+/**/#container .party .info > .contents > .popularpeople > .contents > .female > .exist { width: 154px; height: 175px; position: relative }
+/**/#container .party .info > .contents > .popularpeople > .contents > .female > .exist .pic { width: 140px; height: 137px; position:relative; overflow: hidden; cursor:pointer; border-top: none !important; border-bottom: none !important ;padding: 7px 7px 0 7px }
+#container .party .info > .contents > .popularpeople > .contents > .female > .exist .pic > .namebg { width: 88px; height: 30px; position: absolute; bottom: 10px; left: 33px; background-color: #fff; z-index: 8; border-radius: 5px; opacity: 0; }
+#container .party .info > .contents > .popularpeople > .contents > .female > .exist .pic > .nametext { width: 88px; height: 21px; position: absolute; bottom: 25px; left: 33px; z-index:9; opacity: .0; }
+#container .party .info > .contents > .popularpeople > .contents > .female > .exist .pic > .nametext > .img { width: 19px; height: 21px; position:relative; float: left; margin-left: 10px; }
+#container .party .info > .contents > .popularpeople > .contents > .female > .exist .pic > .nametext > .name { width: 40px; height: 18px; padding: 3px 0 0 0; position: relative; float: left;  text-align: center; color: #282828; margin-left: 10px; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  font-size: 13px; letter-spacing: 1px; }
+/**/#container .party .info > .contents > .popularpeople > .contents > .female > .exist > .score { width: 154px; height: 14px; float: left; position:relative; text-align: center; color: #666; font-size: 10pt; font-family: Tahoma, Geneva, sans-serif; padding: 6px 0 10px 0; }
+#container .party .info > .contents > .popularpeople > .contents > .female > .exist > .score img { margin: 3px 0 0 0; }
+
+#container .party .info > .contents > .member { width: 468px; height: 99px; position: relative; float: left; }
+/**/#container .party .info > .contents > .member > .title { width: 467px; height: 40px; position: relative; border-bottom: 1px solid #d5d5d5; float: right; }
+#container .party .info > .contents > .member > .title > .img { width: 73px; height: 20px; position: relative; float: left; background-image: url(../../images/party/Container/members.png); margin: 10px 0; }
+/**/#container .party .info > .contents > .member > .title > .more { width: auto; height: 14px; padding: 18px 0 0 0;  position: relative; float: right; color: #777; font-size: 10pt; font-family: Tahoma, Geneva, sans-serif; text-shadow: 0 1px 1px #fff; cursor: pointer }
+/**/#container .party .info > .contents > .member > .contents { width: 468px; height: 38px; padding: 20px 0 0 0; position: relative; float: left; border-top: 1px solid #fff }
+/**/#container .party .info > .contents > .member > .contents .pic { width: 38px; height: 38px; position: relative; float: left; background-color: #e0e0e0; border-radius: 3px; margin-left: 1px; border-top: none !important; border-bottom: none !important }
+#container .party .info > .contents > .member > .contents > .have { cursor: pointer; }
+/**/#container .party .info > .contents > .member > .contents .pic img { border-radius: 3px }
+#container .party .info > .contents > .member > .contents .pic > .name_position { width: 45px; height: 20px; position: absolute; top: -30px; left: -3px; z-index:10; visibility: hidden; }
+#container .party .info > .contents > .member > .contents .pic > .name_position > .name { width: auto; height: auto; margin: 0 auto; background-color: #4F4F4F; border-radius: 5px; color: #eee; font-size: 8pt; font-family: "돋움","Dotum"; padding: 4px 6px; text-align: center; }
+#container .party .info > .contents > .member > .contents .pic > .name_position > .arrow { width: 8px; height: 5px; position: absolute; bottom: -4px; left: 18.5px; background-image: url(../../images/party/Container/arrow.png) }
+
+#container .party .info > .contents > .anounce { width: 468px; height: 119px; position: relative; float: left; margin-top: 19px; }
+/**/#container .party .info > .contents > .anounce > .title { width: 467px; height: 40px; position: relative; float: right }
+#container .party .info > .contents > .anounce > .title > .img { width: 87px; height: 20px; position: relative; float: left; background-image: url(../../images/party/Container/anounce.png); margin: 10px 0; }
+#container .party .info > .contents > .anounce > .title > .more { width: auto; height: 14px; padding: 18px 0 0 0;  position: relative; float: right; color: #777; font-size: 10pt; font-family: Tahoma, Geneva, sans-serif; text-shadow: 0 1px 1px #fff; cursor: pointer }
+/**/#container .party .info > .contents > .anounce > .contents { width: 465px; height: 38px; position: relative; float: right; border: 1px solid #c4c4c4; background-image: url(../../images/party/Container/anouncebg.png); padding: 20px 0; }
+#container .party .info > .contents > .anounce > .contents > .nonexist { width: 467px; height: 50px; position: absolute; top: 0; right: 0; padding: 14px 0; text-align: center; background-color: #fff; z-index: 10; display: none; }
+#container .party .info > .contents > .anounce > .contents > .exist { width: 467px; height: 78px; position: relative; }
+/**/#container .party .info > .contents > .anounce > .contents > .exist .pic { display: none; width: 38px; height: 38px; position: relative; float: left; margin-right: 10px; margin-left: 10px; }
+#container .party .info > .contents > .anounce > .contents > .exist .pic img { border-radius: 3px; }
+/**/#container .party .info > .contents > .anounce > .contents > .exist > .subtitle { max-width: 382px; width: auto; height: 12px; margin-bottom: 8px; margin-top: 3px; position: relative; float: left;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  font-size: 13px; letter-spacing: -1px; color: #616161; cursor: pointer; margin-left: 65px }
+/**/#container .party .info > .contents > .anounce > .contents > .exist .info { margin-left: 65px; width: 389px; height: 10px; position: relative; float: left; color: #b1b1b1; font-size: 8pt; font-family: Arial, Helvetica, sans-serif;  }
+#container .party .info > .contents > .anounce > .contents > .exist .info > .time { width: auto; height: 10px; position: relative; float: left; margin-right: 10px; }
+#container .party .info > .contents > .anounce > .contents > .exist .info > .comment { width: auto; height: 10px; position: relative; float: left; margin-right: 10px; }
+#container .party .info > .contents > .anounce > .contents > .exist .info > .candy { width: auto; height: 10px; position: relative; float: left; }
+
+/**/#container .party .info > .footer 		{ width: 880px; height: 61px; margin:0 auto; position: relative; }
+
+#copyright { width: 880px; height: 30px; position: absolute; bottom: -50px; left: 0 }
+/**/#copyright > .contents { width: 828px; height: auto; position: relative; float: left; padding: 0 26px }
+#copyright > .contents > .left { width: auto; height: auto; position: relative; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #888; margin-top: -2px }
+#copyright > .contents > .right { width: auto; height: auto; position: relative; float: right !important; font-family: "돋움","Dotum"; font-size: 8pt; letter-spacing: -1px; color: #888; }
+#copyright > .contents > .right > ul { position: relative; float: left; margin-left: 10px }

@@ -1,0 +1,80 @@
+/* 
+======================================================================================================
+
+																									BASE
+
+======================================================================================================
+*/
+
+#copyright > .contents  { letter-spacing: 0px !important }
+
+/* 
+======================================================================================================
+
+																									PARTYPLAY
+
+======================================================================================================
+*/
+
+/* -- Partyadmin_member_search -- */
+
+#partyadmin_member_container  > .ScrollBox > .container > .content > .search  > .text-search { padding: 1px 0 0 0 !important; }
+#partyadmin_member_container  > .ScrollBox > .container > .content > .search  > .text-search input { padding: 1px 0 0 5px !important }
+
+/* Partyadmin */
+
+#container .party > .pic > .partyadminpage > .power > .contents > .header > .explain { letter-spacing: 0px !important;}
+#container .party > .pic > .partyadminpage > .member > .contents > .header > .explain { letter-spacing: 0px !important;}
+#container .party > .pic > .partyadminpage > .invite > .contents > .header > .explain { letter-spacing: 0px !important;}
+
+/* in Tap, center align problem */
+#header > .Tap > .invite-party > .number-party 				{ padding:5px 0 0 0 !important;  background-image: url(../../images/party/Tap/number-bigger_ie.png) }
+#header > .Tap > .invite-member > .number-member 		{ padding:5px 0 0 0 !important;  background-image: url(../../images/party/Tap/number-small_ie.png) }
+
+/* in  PartyadminButton, center align problem */
+#container .party > .pic > .basepic > .partyadmin_position > .bg > .number { padding:5px 0 0 0 !important; background-image: url(../../images/party/Tap/number-bigger_ie.png) !important; }
+
+/* allview */
+
+#pre_party > .owner > .allview { margin: 24px 0 0 10px !important; letter-spacing: 0px !important; }
+
+/* in info */
+#container .party > .info > .title > .relation > .contents { height: 16px !important; padding: 1px 0 0 0 !important; letter-spacing: 0px !important; }
+
+#container .party > .info > .title > .since > .contents { margin: -1px 0 0 0 !important; }
+
+/* info_memberpage */
+#info_memberpage > .contents > .subtitle { letter-spacing: 0px !important }
+#info_memberpage > .contents > .container > .cards > .info > .name {  letter-spacing: 0px !important }
+#info_memberpage > .contents > .container > .cards > .info > .shareparty { letter-spacing: 0px !important }
+
+#info_memberpage > .contents > .title > .search  > .text-search input { padding: 2px 0 0 5px !important;}
+
+#info_anouncepage > .contents > .container > .post > .title > .skill { width: 143px !important;}
+#info_anouncepage > .contents > .container > .post > .title > .skill > .candy { width: 41px !important; }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list > .comments > .contents > .text { letter-spacing: 0px !important }
+
+#win_anounce_original > .container > .contents > .comment > .list > .comments > .contents > .text { letter-spacing: 0px !important }
+
+#container .party .info > .title > .relation > .contents { letter-spacing: 0px !important; }
+#container .party .info > .title > .since > .contents { margin: -2px 0 0 0 !important; }
+
+#container .party .pic > .basepic > .partyadmin_position > .bg > .number { padding:5px 0 0 1px !important; }
+
+#container .board > .Rfield > .contents > .posts > .container > .caption { letter-spacing: 0px !important }
+
+/* 
+======================================================================================================
+
+																									NOTE
+
+======================================================================================================
+*/
+
+#friendlist > .contents > .subtitle > .text { letter-spacing: 0px !important }
+
+#win_add_party_friends  > .ScrollBox > .container > .content > .invitation > .share { letter-spacing: 0px !important }
+
+#friendlist > .contents > .title > .search  > .text-search > .friendlist_input { top: 2px !important }
+
+#friendlist > .contents > .container > .cards > .info > .shareparty { letter-spacing: 0px !important }

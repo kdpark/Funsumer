@@ -1,0 +1,233 @@
+.changewrapBox { position: fixed !important; left: 50% !important; margin-left: -460px !important; }
+
+#fullscreen_bg { display: none; width:100%; min-height: 100%; position: fixed; background-color:#fff; z-index: 100; top: 0; left: 0; opacity: .9; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90) }
+
+/*-- WIN_FREND_INVITE --*/
+
+#win_friend_invite { display: none; width: 650px; height: auto; position: absolute; z-index: 101; top: 0; left: 50%; margin-left: -325px; padding: 20px 0 20px 0;}
+#win_friend_invite > .container { width: 650px; height: auto; position: relative; background-color: #fff; box-shadow: 0 0 10px #B5ACAC; }
+#win_friend_invite > .container > .title { width: 570px; height: 30px; padding: 20px 40px; position: relative; background-image: url(../../images/party/Container/friendinvitebg.png) }
+#win_friend_invite > .container > .title > .text { width: auto; height: auto; position:relative; float: left; color: #999; font-size: 14px; display:inline; font-family: "NanumGothicWeb"; letter-spacing: 0px; padding:7px 0 0 0;}
+#win_friend_invite > .container > .title > .right { float: right }
+#win_friend_invite > .container > .contents { width: 590px; height: auto; padding: 10px 30px 20px 30px; position: relative; }
+#win_friend_invite > .container > .contents > .list 	{ width: 570px; height: 50px; position: relative; padding: 10px 10px; border-bottom: 1px solid #eee; background-color:#fff; cursor: pointer; }
+#win_friend_invite > .container > .contents > .list > .pic 						{ width: 50px; height: 50px; position: relative; float: left; margin-right: 20px; }
+#win_friend_invite > .container > .contents > .list > .pic  img 					{ border-radius: 5px; }
+#win_friend_invite > .container > .contents > .list > .name 					{ width: auto; height: auto; position: relative; float: left; padding:16px 20px 0 0; }
+#win_friend_invite > .container > .contents > .list > .name > h1 			{ color: #999; font-size: 14px; display:inline; font-family: "NanumGothicBoldWeb"; letter-spacing: 0px; }
+#win_friend_invite > .container > .contents > .list > .shareparty				{ color: #aaa; padding: 18px 0 0 0; width: auto; height: auto; position: relative; float: left;  font-size: 8pt; line-height: 13px; font-family: "돋움","Dotum" }
+#win_friend_invite > .container > .contents > .list > .button 					{ width: 40px; height: 30px; margin:12px 0 0 0;  position: relative; float: right; background-image: url(../../images/party/Container/check.png);}
+
+/*-- WIN_ANOUNCE_ORIGINAL --*/
+
+#win_anounce_original div { position: relative; float: left }
+
+#win_anounce_original { display: none; width: 650px; height: auto; position: absolute; z-index: 101; top: 0; left: 50%; margin-left: -325px; padding: 20px 0 20px 0;}
+#win_anounce_original > .container { width: 650px; height: auto; float: left; position: relative; background-color: #fff; box-shadow: 0 0 10px #B5ACAC; }
+#win_anounce_original > .container > .title { width: 610px; height: 50px; padding: 20px 20px; position: relative; background-image: url(../../images/party/Container/anouncepopbg.png); border-bottom: 1px solid #dc5457 }
+
+#win_anounce_original > .container > .title > .summary { width: 470px; height: 50px; position: relative; float: left;  }
+#win_anounce_original > .container > .title > .summary > .pic { width: 50px; height: 50px; position: relative; float: left; margin-right: 19px; }
+#win_anounce_original > .container > .title > .summary > .pic img { border-radius: 5px; }
+#win_anounce_original > .container > .title > .summary > .text { width: 390px; height: 20px; position: relative; float: left;  font-family: "NanumGothicBoldWeb";  font-size: 13px; letter-spacing: -1px; color: #333; margin: 9px 0 0 0; cursor: pointer; }
+#win_anounce_original > .container > .title > .summary > .info { width: 390px; height: 12px; position: relative; float: left; color: #b1b1b1; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; }
+
+#win_anounce_original > .container > .title > .skill { width: auto; height: 12px; position: relative; float: right; color: #888; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; margin-top: 29px; }
+#win_anounce_original > .container > .title > .skill > .candy { width: auto; height: 12px; position: relative; float: left; text-align:right; cursor: pointer; }
+#win_anounce_original > .container > .title > .skill > .scrap { width: auto; height: 12px; position: relative; float: left; margin-left: 10px; text-align:right; cursor: pointer; }
+#win_anounce_original > .container > .title > .skill > .scrapbox { display: none; position: absolute !important; top: 30px; right: 0px; width: 300px; height: auto; padding: 0 0 15px 0; background-color: #f3f3f3; border: 1px solid #ccc; box-shadow: 0 0 20px #ccc; z-index: 30 }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .arrow { width: 13px; height: 7px; position: absolute !important; top: -6px; right: 48px; background-image: url(../../images/board/scrapboxarrow.png); z-index: 10 }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .whiteline1 { width: 300px; height: 1px; background-color: #fff }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .selectbox { cursor: pointer; width: 238px; height: auto; padding: 7px 10px; margin: 15px 20px 0 20px; background-image: url(../../images/board/selectboxbg.png); border: 1px solid #c9c9c9; border-radius: 5px;  font-size: 10pt; font-family: "NanumGothicBoldWeb"; color: #555; z-index: 30 }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .selectbox > .window { display: none; width: 258px; height: 185px; position: absolute !important; top: -1px; left: -1px; border: 1px solid #d2d2d2; border-radius: 5px; box-shadow: 0 0 10px #ccc; background-image:url(../../images/board/selectboxbg2.png); cursor: default }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .selectbox > .window > .board_scrapbox_window { position:relative; width:258px; height:175px; margin: 5px 0 0 0; overflow: auto; overflow-x: hidden }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .selectbox > .window > .board_scrapbox_window  > .list { width: 238px; height: auto; position: relative; padding: 10px; cursor: default; background-color: #fff; cursor: pointer }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .whiteline2 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .contentbox { width: 238px; height: 80px; padding: 10px; margin:0 20px; background-color: #fff; border-radius: 5px; border: 1px solid #d2d2d2 }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .contentbox textarea { width: 100%; height: 100%; border:none; resize: none; background:none; outline: none; font-family: Arial, Helvetica, sans-serif; }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .whiteline3 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_anounce_original > .container > .title > .skill > .scrapbox > .button { width: auto; height: auto; float: none !important; margin-left: 100px }
+#win_anounce_original > .container > .title > .skill > .delete { width: auto; height: 12px; position: relative; float: left; margin-left: 10px; text-align:right; cursor: pointer; }
+
+#win_anounce_original > .container > .contents { width: 590px; height: auto; padding: 20px 0 0 0; position: relative; }
+
+#win_anounce_original > .container > .contents > .container { width: 610px; height: auto; padding: 0 20px }
+
+#win_anounce_original > .container > .contents > .container > .caption { display: none; width: 594px; height: auto; margin-bottom: 20px; border-left: 4px solid #d9d9d9; padding: 5px 0 5px 12px; font-size: 9pt; font-family: "굴림","Gulim"; letter-spacing: -1px; line-height: 17px; color: #777 }
+
+#win_anounce_original > .container > .contents > .container > .pic { width: 610px; height: auto; }
+
+#win_anounce_original > .container > .contents > .container > .pic > .noneframe { width: 610px; height: auto; background-color: #f3f3f3; margin-bottom: 20px; text-align: center }
+#win_anounce_original > .container > .contents > .container > .pic > .noneframe img{ max-width: 610px }
+
+#win_anounce_original > .container > .contents > .container > .pic > .frames { width: 610px; height: auto }	/* for width & height */
+
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases { width: 610px; height: auto; margin-bottom: 20px }	/* for width & height */
+
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > ul.steps { width: 610px; height: auto; float: left !important }	/* for width & height */
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .step2 { margin-top: 2px }
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .step3 { margin-top: 2px }
+
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > li { float: left }
+
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > .XLarge { width: 610px; height: 380px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > .Large { width: 304px; height: 200px; overflow: hidden; text-align: center; background-color: #ddd }
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > .Small { width: 202px; height: 130px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > .box1 { margin-left: 0}				/* for margin */
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > .box2 { margin-left: 2px}			/* for margin */
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > .box3 { margin-left: 2px }			/* for margin */
+
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > .XLarge img { max-width: 610px }
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > .Large img { max-width: 304px }
+#win_anounce_original > .container > .contents > .container > .pic > .frames > .cases > .steps > .Small img { max-width: 202px }
+
+#win_anounce_original > .container > .contents > .container > .text { width: 610px; height: auto; margin-bottom: 15px; font-size: 9pt }
+#win_anounce_original > .container > .contents > .container > .text > .title { width: 610px; height: auto; margin-bottom: 10px; font-size: 10pt; font-family: "NanumGothicBoldWeb"; color: #555; }
+#win_anounce_original > .container > .contents > .container > .text > .contents { width: 610px; height: auto; font-family: "굴림","Gulim"; word-spacing: -1px; color: #444; line-height: 15px }
+
+#win_anounce_original > .container > .contents > .container > .info { width: 610px; height: auto; margin-bottom: 20px; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; color: #aaaaaa }
+#win_anounce_original > .container > .contents > .container > .info > .candy { width: auto; height: auto }
+#win_anounce_original > .container > .contents > .container > .info > .comment { width: auto; height: auto; margin-left: 10px }
+#win_anounce_original > .container > .contents > .container > .info > .scrap { width: auto; height: auto; margin-left: 10px }
+
+
+#win_anounce_original > .container > .contents > .comment { width: 650px; height: auto; float: left; position: relative; background-color: #f1f1f1;}
+
+#win_anounce_original > .container > .contents > .comment > .moreview { text-align: center; border-top: 1px solid #fff;width: 610px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px; border-bottom: 1px solid #d5d5d5 }
+#win_anounce_original > .container > .contents > .comment > .allview { text-align: center; border-top: 1px solid #fff;width: 610px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px; border-bottom: 1px solid #d5d5d5 }
+
+#win_anounce_original > .container > .contents > .comment > .list { width: 650px; height: auto; float: left; position: relative; }
+#win_anounce_original > .container > .contents > .comment > .list > .comments { width: 650px; height: auto; float: left; position: relative; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5; padding: 15px 0; }
+#win_anounce_original > .container > .contents > .comment > .list > .comments > .pic { width: 38px; height: 38px; position: relative; float: left; margin: 0 10px 0 20px; }
+#win_anounce_original > .container > .contents > .comment > .list > .comments > .pic img { border-radius: 5px }
+#win_anounce_original > .container > .contents > .comment > .list > .comments > .contents { width: 534px; height: auto; position: relative; float: left; margin:4px 0 0 0; }
+#win_anounce_original > .container > .contents > .comment > .list > .comments > .contents > .name { width: auto; height: 18px; position: relative; float: left;  font-family: "NanumGothicBoldWeb";  font-size: 12px; color: #555; margin-right: 5px; }
+#win_anounce_original > .container > .contents > .comment > .list > .comments > .contents > .time { width: auto; height: 18px; position: relative; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #999; }
+#win_anounce_original > .container > .contents > .comment > .list > .comments > .contents > .text { width: 534px; height: auto; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #666; letter-spacing: -1px; line-height: 13px }
+#win_anounce_original > .container > .contents > .comment > .list > .comments > .delete { visibility: visible; width: 8px; height: 8px; margin: 15px 20px 15px 15px; position: relative; float: right; background-image: url(file:///C|/APM_Setup/images/party/Container/cmx.png); cursor: pointer; }
+
+#win_anounce_original > .container > .contents > .comment > .write { width: 610px; height: auto; float: left; padding: 15px 20px; border-top: 1px solid #fff }
+#win_anounce_original > .container > .contents > .comment > .write > .pic { width: 38px; height: 38px; float: left; margin-right: 10px;}
+#win_anounce_original > .container > .contents > .comment > .write > .pic img { border-radius: 5px; }
+#win_anounce_original > .container > .contents > .comment > .write > .text { width: 516px; height: 15px; float: left; background-color: #fff; padding: 10px 10px; border-radius: 5px; border-top: 1px solid #d5d5d5; position:relative; margin: 1px 0 0 0; }
+#win_anounce_original > .container > .contents > .comment > .write > .text textarea { resize: none; width: 100%; height: 15px; float: left; background-color: #fff; border: none; outline: none; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #777; overflow:hidden; position:relative; margin:0; }
+
+/* -- 	WIN_BOARD_ORIGINAL --*/
+
+#win_board_original { display: none; width: 650px; height: auto; position: absolute !important; top: 0; left: 50%; margin-left: -325px; padding: 20px 0; z-index: 102; }
+
+#win_board_original div { float: left; position: relative }
+
+#win_board_original > .posts { width: 650px; height: auto; border: 1px solid #aaa; background-color: #fff; box-shadow: 0 0 20px #B5ACAC; }
+
+#win_board_original > .posts > .header { width: 610px; height: 50px; padding: 20px; background-image: url(../../images/board/post_titlebg.png); z-index: 10 }
+
+#win_board_original > .posts > .header > .pic { width: 50px; height: 50px }
+#win_board_original > .posts > .header > .pic img { border-radius: 5px; behavior: url(../../js/pie.htc); width: 50px; height: 50px; }
+
+#win_board_original > .posts > .header > .info { width: 388px; height: 41px; padding: 9px 0 0 12px;}
+#win_board_original > .posts > .header > .info > .top { width: 400px; height: 16px; font-size: 14px; font-family: "NanumGothicBoldWeb"; color: #666; margin-bottom: 2px }
+#win_board_original > .posts > .header > .info > .top > .writer { width: auto; height: 16px; margin-right: 7px }
+#win_board_original > .posts > .header > .info > .top > .path { width: 16px; height: 16px; margin-right: 7px }
+#win_board_original > .posts > .header > .info > .top > .place { width: auto; height: 16px }
+#win_board_original > .posts > .header > .info > .bottom { width: 400px; height: 14px; font-size: 11px; color: #a5a5a5; font-family: Arial, Helvetica, sans-serif }
+#win_board_original > .posts > .header > .info > .bottom > .time { width: auto; height: 14px }
+
+#win_board_original > .posts > .header > .button { width: 120px; height: 14px; padding: 27px 0 0 0; float: right !important;  font-size: 11px; color: #888; font-family: Arial, Helvetica, sans-serif; }
+#win_board_original > .posts > .header > .button > .delete { width: auto; height: 14px; float: right !important; margin-left: 10px; cursor: pointer }
+#win_board_original > .posts > .header > .button > .scrap { width: auto; height: 14px; float: right !important; margin-left: 10px; cursor: pointer }
+#win_board_original > .posts > .header > .button > .scrapbox { display: none; position: absolute !important; top: 50px; right: 0; width: 300px; height: auto; padding: 0 0 15px 0; background-color: #f3f3f3; border: 1px solid #ccc; box-shadow: 0 0 20px #ccc }
+#win_board_original > .posts > .header > .button > .scrapbox > .arrow { width: 13px; height: 7px; position: absolute !important; top: -6px; right: 48px; background-image: url(../../images/board/scrapboxarrow.png); z-index: 10 }
+#win_board_original > .posts > .header > .button > .scrapbox > .whiteline1 { width: 300px; height: 1px; background-color: #fff }
+#win_board_original > .posts > .header > .button > .scrapbox > .selectbox { cursor: pointer; width: 238px; height: auto; padding: 7px 10px; margin: 15px 20px 0 20px; background-image: url(../../images/board/selectboxbg.png); border: 1px solid #c9c9c9; border-radius: 5px;  font-size: 10pt; font-family: "NanumGothicBoldWeb"; color: #555; z-index: 30 }
+#win_board_original > .posts > .header > .button > .scrapbox > .selectbox > .window { display: none; width: 258px; height: 185px; position: absolute !important; top: -1px; left: -1px; border: 1px solid #d2d2d2; border-radius: 5px; box-shadow: 0 0 10px #ccc; background-image:url(../../images/board/selectboxbg2.png); cursor: default }
+#win_board_original > .posts > .header > .button > .scrapbox > .selectbox > .window > .board_scrapbox_window { position:relative; width:258px; height:175px; margin: 5px 0 0 0; overflow: auto; overflow-x: hidden }
+#win_board_original > .posts > .header > .button > .scrapbox > .selectbox > .window > .board_scrapbox_window  > .list { width: 238px; height: auto; position: relative; padding: 10px; cursor: default; background-color: #fff; cursor: pointer }
+#win_board_original > .posts > .header > .button > .scrapbox > .whiteline2 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_board_original > .posts > .header > .button > .scrapbox > .contentbox { width: 238px; height: 80px; padding: 10px; margin:0 20px; background-color: #fff; border-radius: 5px; border: 1px solid #d2d2d2 }
+#win_board_original > .posts > .header > .button > .scrapbox > .contentbox textarea { width: 100%; height: 100%; border:none; resize: none; background:none; outline: none; font-family: Arial, Helvetica, sans-serif; }
+#win_board_original > .posts > .header > .button > .scrapbox > .whiteline3 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_board_original > .posts > .header > .button > .scrapbox > .button { width: auto; height: auto; float: none !important; margin-left: 100px }
+#win_board_original > .posts > .header > .button > .candy { width: auto; height: 14px; float: right !important; cursor: pointer }
+
+#win_board_original > .posts > .container { width: 610px; height: auto; padding: 0 20px }
+
+#win_board_original > .posts > .container > .caption { display: none; width: 594px; height: auto; margin-bottom: 20px; border-left: 4px solid #d9d9d9; padding: 5px 0 5px 12px; font-size: 9pt; font-family: "굴림","Gulim"; letter-spacing: -1px; line-height: 17px; color: #777 }
+
+#win_board_original > .posts > .container > .pic { width: 610px; height: auto; display: none }
+
+#win_board_original > .posts > .container > .pic > .noneframe { width: 610px; height: auto; background-color: #f3f3f3; margin-bottom: 20px; text-align: center }
+#win_board_original > .posts > .container > .pic > .noneframe img{ max-width: 610px }
+
+#win_board_original > .posts > .container > .pic .frames { width: 610px; height: auto }	/* for width & height */
+
+#win_board_original > .posts > .container > .pic .frames .cases { width: 610px; height: auto; margin-bottom: 20px }	/* for width & height */
+
+#win_board_original > .posts > .container > .pic > .frames > .cases > ul.steps { width: 610px; height: auto; float: left !important }	/* for width & height */
+#win_board_original > .posts > .container > .pic > .frames > .cases > .step2 { margin-top: 2px }
+#win_board_original > .posts > .container > .pic > .frames > .cases > .step3 { margin-top: 2px }
+
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > li { float: left }
+
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > .XLarge { width: 610px; height: 380px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > .Large { width: 304px; height: 200px; overflow: hidden; text-align: center; background-color: #ddd }
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > .Small { width: 202px; height: 130px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > .box1 { margin-left: 0}				/* for margin */
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > .box2 { margin-left: 2px}			/* for margin */
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > .box3 { margin-left: 2px }			/* for margin */
+
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > .XLarge img { max-width: 610px }
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > .Large img { max-width: 304px }
+#win_board_original > .posts > .container > .pic > .frames > .cases > .steps > .Small img { max-width: 202px }
+
+#win_board_original > .posts > .container > .text { width: 610px; height: auto; margin-bottom: 15px; font-size: 9pt }
+#win_board_original > .posts > .container > .text > .title { width: 610px; height: auto; margin-bottom: 10px; font-size: 10pt; font-family: "NanumGothicBoldWeb"; color: #555; }
+#win_board_original > .posts > .container > .text > .contents { width: 610px; height: auto; font-family: "굴림","Gulim"; word-spacing: -1px; color: #444; line-height: 15px }
+
+#win_board_original > .posts > .container > .info { width: 610px; height: auto; margin-bottom: 20px; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; color: #aaaaaa }
+#win_board_original > .posts > .container > .info > .candy { width: auto; height: auto }
+#win_board_original > .posts > .container > .info > .comment { width: auto; height: auto; margin-left: 10px }
+#win_board_original > .posts > .container > .info > .scrap { width: auto; height: auto; margin-left: 10px }
+
+
+#win_board_original > .posts > .comment { width: 650px; height: auto; float: left; position: relative; background-color: #f1f1f1;}
+
+#win_board_original > .posts > .comment > .moreview { text-align: center; border-top: 1px solid #fff;width: 610px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px; border-bottom: 1px solid #d5d5d5 }
+#win_board_original > .posts > .comment > .allview { text-align: center; border-top: 1px solid #fff;width: 610px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px; border-bottom: 1px solid #d5d5d5 }
+
+#win_board_original > .posts > .comment > .list { width: 650px; height: auto; float: left; position: relative; }
+#win_board_original > .posts > .comment > .list > .comments { width: 650px; height: auto; float: left; position: relative; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5; padding: 15px 0; }
+#win_board_original > .posts > .comment > .list > .comments > .pic { width: 38px; height: 38px; position: relative; float: left; margin: 0 10px 0 20px; }
+#win_board_original > .posts > .comment > .list > .comments > .pic img { border-radius: 5px }
+#win_board_original > .posts > .comment > .list > .comments > .contents { width: 534px; height: auto; position: relative; float: left; margin:4px 0 0 0; }
+#win_board_original > .posts > .comment > .list > .comments > .contents > .name { width: auto; height: 18px; position: relative; float: left;  font-family: "NanumGothicBoldWeb";  font-size: 12px; color: #555; margin-right: 5px; }
+#win_board_original > .posts > .comment > .list > .comments > .contents > .time { width: auto; height: 18px; position: relative; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #999; }
+#win_board_original > .posts > .comment > .list > .comments > .contents > .text { width: 534px; height: auto; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #666; letter-spacing: -1px; line-height: 13px }
+#win_board_original > .posts > .comment > .list > .comments > .delete { visibility: visible; width: 8px; height: 8px; margin: 15px 20px 15px 15px; position: relative; float: right; background-image: url(file:///C|/APM_Setup/images/party/Container/cmx.png); cursor: pointer; }
+
+#win_board_original > .posts > .comment > .write { width: 610px; height: auto; float: left; padding: 15px 20px; border-top: 1px solid #fff }
+#win_board_original > .posts > .comment > .write > .pic { width: 38px; height: 38px; float: left; margin-right: 10px;}
+#win_board_original > .posts > .comment > .write > .pic img { border-radius: 5px; }
+#win_board_original > .posts > .comment > .write > .text { width: 516px; height: 15px; float: left; background-color: #fff; padding: 10px 10px; border-radius: 5px; border-top: 1px solid #d5d5d5; position:relative; margin: 1px 0 0 0; }
+#win_board_original > .posts > .comment > .write > .text textarea { resize: none; width: 100%; height: 15px; float: left; background-color: #fff; border: none; outline: none; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #777; overflow:hidden; position:relative; margin:0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+/* 
+======================================================================================================
+
+																									PARTYPLAY
+
+======================================================================================================
+*/
+
+
+/* -- Search change -- */
+
+#header > .nav > .nav-search { width: 162px !important; height: 21px !important; background-image: url(../../images/party/Header/IE_header_searchbg.png); margin-top: 6px !important; }
+#header > .nav > .nav-search { border-radius: 0px !important; border: none !important; }
+
+#header > .nav > .nav-search > .wht-nav-search 					{ display: none !important; }
+#header > .nav > .nav-search > .ico-search 							{ float: left !important; margin: 5px 0 0 10px !important; }
+#header > .nav > .nav-search > .ch-ico-search						{ filter:alpha(opacity=0); }
+#header > .nav > .nav-search > .text-search 							{ width: 130px !important; float: left !important; margin: 4px 0 0 3px !important; }
+#header > .nav > .nav-search > .text-search input 					{ width: 130px !important; color: #802D2E !important; }
+
+#header > .nav > .win-search	 { top: 37px !important; }
+
+/* -- Partyadmin_member_search -- */
+
+#partyadmin_member_container  > .ScrollBox > .container > .content > .search  > .text-search { padding: 1px 0 0 0 !important; }
+#partyadmin_member_container  > .ScrollBox > .container > .content > .search  > .text-search input { padding: 1px 0 0 5px !important }
+
+/*-- in pp, css --*/
+
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist .pic > .namebg { display: none !important; }
+#container .party .info > .contents > .popularpeople > .contents > .male > .exist .pic > .nametext { visibility: hidden; border-radius: 5px !important; padding-top: 5px !important; padding-bottom: 5px !important; bottom: 15px !important; background-color: transparent !important; background-image: url(../../images/party/Container/ppnamebg_ie8.png);}
+
+#container .party .info > .contents > .popularpeople > .contents > .female > .exist .pic > .namebg { display: none; }
+#container .party .info > .contents > .popularpeople > .contents > .female > .exist .pic > .nametext { visibility: hidden; border-radius: 5px !important; padding-top: 5px !important; padding-bottom: 5px !important; bottom: 15px !important; background-color: transparent !important; background-image: url(../../images/party/Container/ppnamebg_ie8.png);}
+
+#info_memberpage > .header > .img { margin: 20px 0 0 0 !important; }
+
+#info_memberpage > .contents > .title > .search  > .text-search input { padding: 1px 0 0 5px !important;}
+
+/* -- For_IE8 -- */
+#for_IE8 { display: block !important; width: 960px; height: 15px; position: absolute; bottom: -10px; left: -20px; background-image: url(../../images/party/Container/container_bg5-for-ie8.png) }
+
+#loaderDiv { visibility: hidden }
+
+#pre_party > .contents > .section > ul > .name 				{ margin: 2px 0 0 0 !important }
+
+#container .board > .Rfield > .write > .cameraspace > .framepart > .frame .outline { padding: 3px 3px 6px 3px !important}

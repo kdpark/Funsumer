@@ -1,0 +1,192 @@
+/* -- INFO WINDOW MEMBERS -- */
+#info_memberpage div { position: relative; float: left }
+
+/**/#info_memberpage { display: none; opacity: 0; width: 880px; height: auto }
+
+#info_memberpage > .header { display: none; width: 826px; height: 74px; margin: 0 26px; }
+#info_memberpage > .header > .img { width: 167px; height: 30px; margin: 20px 0 0 320px;  float: left; }
+
+#info_memberpage > .contents { width:828px; height: auto }
+#info_memberpage > .contents > .title { width: 768px; height: 25px; position: relative; background-image: url(../../images/base/buttongray3bg.png); padding: 10px 20px 0 20px; background-color: #fff; border-top: 1px solid #e1e1e1;border: 1px solid #d2d2d2; border-bottom: 1px solid #aaa; border-radius: 5px; float: right }
+
+#info_memberpage > .contents > .title > .text { float: right !important; width: auto; height: auto;  text-align: right; font-size: 8pt; font-family: "돋움","Dotum"; padding: 1px 0; color: #888; text-shadow: 0 1px 1px #fff; margin-top: -1px }
+#info_memberpage > .contents > .title > .text > h1 { font-size: 8pt; color: #dc5457; font-weight: normal; display: inline }
+#info_memberpage > .contents > .title > .back { width: 50px; height: 50px; background-image: url(../../images/partyplay/backbutton.png); position: absolute; top: -8px; left: -20px; cursor: pointer; z-index: 10 }
+#info_memberpage > .contents > .title > .back:hover { background-image: url(../../images/partyplay/backbuttonov.png) }
+
+#info_memberpage > .contents > .subtitle { width: 828px; height: auto; padding: 20px 0 14px 0 }
+#info_memberpage > .contents > .subtitle > .title { width: auto; height: auto; position: absolute; bottom: 0; left: 0; font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; margin-bottom: 14px; text-shadow: 0 1px 1px #fff }
+#info_memberpage > .contents > .subtitle > .search { width: 200px; height: 23px; float: right; border: 1px solid #c5c5c5; border-radius: 15px; box-shadow:inset 0 1px 5px #d6d6d6; background-color: #f5f5f5 }
+#info_memberpage > .contents > .subtitle > .search  > .ico-search { width: 15px; height: 14px;  float: left; padding: 4px 0 0 0; margin-left: 8px }
+#info_memberpage > .contents > .subtitle > .search  > .text-search { width: 160px; height: 14px;  float: left; margin: 2px 0 0 0 }
+#info_memberpage > .contents > .subtitle > .search  > .text-search input { width: 160px; height: 14px; border:none; outline: none; padding: 0 0 0 7px; font-size: 12px; color: #777; background: none }
+
+#info_memberpage > .contents > .container { width: 828px; height: auto; background-color: #fff; border-top: 1px solid #e1e1e1; border: 1px solid #d2d2d2; border-bottom: 1px solid #aaa; border-radius: 5px; }
+#info_memberpage > .contents > .container > .cards { width: 788px; height: 50px; padding: 20px; border-bottom: 1px solid #eee }
+#info_memberpage > .contents > .container > .cards:hover { background-color: #f9f9f9 }
+#info_memberpage > .contents > .container > .cards > .pic { width: 50px; height: 50px;  float: left; border-radius: 3px }
+#info_memberpage > .contents > .container > .cards > .pic img { border-radius: 3px; }
+#info_memberpage > .contents > .container > .cards > .info { width: auto; height: 50px;  float: left; margin: 7px 0 0 20px; }
+#info_memberpage > .contents > .container > .cards > .info > .name { float: none !important; width: auto; height: 20px;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;   font-size: 15px; letter-spacing: -1px; color: #777; }
+#info_memberpage > .contents > .container > .cards > .info > .shareparty { float: none !important; width: auto; height: 12px;  font-size: 8pt; letter-spacing: -1px; font-family: "돋움","Dotum"; margin: 3px 0 0 0; color: #999; }
+
+#info_memberpage > .contents > .container > .cards > .button { width: auto; height: 22px;  float: right; margin: 12px 0 0 0; }
+
+#info_memberpage > .contents > .container > .cards > .button > .friendsbutton { padding: 2px 15px 0 15px; width:auto;height:20px; background-image:url(../../images/party/Container/buttonbg.png); border: 1px solid #A82020; border-radius:5px; color: #771919;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  behavior:url(../js/pie.htc); cursor: pointer; float: left }
+#info_memberpage > .contents > .container > .cards > .button > .friendsbutton > .word { padding: 3px 10px 0 15px; position: absolute; top: 0; left: 0; width: auto; height:20px; color: #fff;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  }
+
+/* -- INFO WINDOW ANOUNCE -- */
+
+#info_anouncepage div { position: relative; float: left }
+
+/**/#info_anouncepage { display: none; opacity: 0; width: 828px; height: auto; float: left; position:relative }
+
+#info_anouncepage > .header { display: none; width: 828px; height: 80px; position: relative; background-color: #fff; padding: 0 26px; }
+#info_anouncepage > .header > .img { width: 157px; height: 40px; margin: 20px 0 0 0; position:relative; float: left; background-image: url(../../images/party/Container/memberpage_back.png); cursor: pointer }
+
+#info_anouncepage > .contents { width:828px; height: auto }
+#info_anouncepage > .contents > .title { width: 768px; height: 25px; position: relative; background-image: url(../../images/base/buttongray3bg.png); padding: 10px 20px 0 20px; background-color: #fff; border-top: 1px solid #e1e1e1;border: 1px solid #d2d2d2; border-bottom: 1px solid #aaa; border-radius: 5px; float: right }
+
+#info_anouncepage > .contents > .title > .text { float: right !important; width: auto; height: auto;  text-align: right; font-size: 8pt; font-family: "돋움","Dotum"; padding: 1px 0; color: #888; text-shadow: 0 1px 1px #fff; margin-top: -1px }
+#info_anouncepage > .contents > .title > .text > h1 { font-size: 8pt; color: #dc5457; font-weight: normal; display: inline }
+#info_anouncepage > .contents > .title > .back { width: 50px; height: 50px; background-image: url(../../images/partyplay/backbutton.png); position: absolute; top: -8px; left: -20px; cursor: pointer; z-index: 10 }
+#info_anouncepage > .contents > .title > .back:hover { background-image: url(../../images/partyplay/backbuttonov.png) }
+
+/* 게시판 작아질 경우 board_cut: display:none, posts s높이값 90px로 잡으면 됨. */
+
+.board_cut { display: none }
+
+#info_anouncepage > .contents > .container { width: 828px; height: auto; float: left; position: relative; margin-top: 31px }
+
+#info_anouncepage > .contents > .container > .Rfield { width: 828px; height: auto }
+
+#info_anouncepage > .contents > .container > .Rfield > .title { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; margin-bottom: 14px; text-shadow: 0 1px 1px #fff }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents { width: auto; height: auto; }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts { width: 828px; height: 90px; float: right; overflow: hidden; border: 1px solid #d2d2d2; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #aaa; background-color: #fff; margin-bottom: 5px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .closed:hover { background-color: #f9f9f9; cursor: pointer; height: 90px;/* 90px is cut */ }
+.kim_anounce_post_opened { height: auto }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .noticepop { width: 100px; height: 100px; position: absolute !important; top: 0; left: 0; }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header { width: 788px; height: 0px; padding: 20px 20px 0 20px; z-index: 10; border-radius: 5px }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .pic { width: 50px; height: 50px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .pic img { border-radius: 4px; behavior: url(../../js/pie.htc); width: 50px; height: 50px; }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .info { width: 300px; height: 0px; padding: 0 0 0 10px; text-shadow: 0 1px 1px #fff }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .info > .top { width: 400px; height: 16px; font-size: 10pt; ont-weight: bold; color: #666; font-family: 'Nanum Gothic', sans-serif; font-weight: bold }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .info > .top > .writer { width: auto; height: 16px; margin-right: 7px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .info > .top > .path { width: 16px; height: 16px; margin-right: 7px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .info > .top > .place { width: auto; height: 16px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .info > .top > .time { font-size: 11px; color: #a5a5a5; font-family: "돋움","Dotum"; margin:2px 0 0 7px; font-weight: normal }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button { width: auto; height: 14px; padding: 0; float: right !important;  font-size: 11px; color: #999; font-family: '돋움', sans-serif }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .delete { display:none; width: auto; height: 12px; float: right !important;  border-left: 1px solid #e5e5e5; cursor: pointer; z-index: 1; margin-left: 7px !important; padding: 0 0 0 7px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .delete:hover { color: #dc5457; text-decoration: underline }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap { width: auto; height: 12px; float: right !important; margin-left: 0 !important; cursor: pointer; z-index: 200; border-left: 1px solid #e5e5e5; padding: 0 0 0 7px; }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap:hover { color: #dc5457; text-decoration: underline }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox { visibility:hidden; position: absolute !important; top: -52px; right: 40px; width: 300px; height: auto; padding: 0 0 15px 0; background-color: #f3f3f3; border: 1px solid #ccc; box-shadow: 0 0 20px #ccc; z-index: 10; border-bottom: 1px solid #a1a1a1; cursor: default }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .arrow { width: 7px; height: 13px; position: absolute !important; top: 51px; right: -6px; background-image: url(../../images/board/scrapboxarrow.png); z-index: 10 }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .whiteline1 { width: 300px; height: 1px; background-color: #fff }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .selectbox { cursor: pointer; width: 238px; height: auto; padding: 7px 10px; margin: 15px 20px 0 20px; background-image: url(../../images/board/selectboxbg.png); border: 1px solid #c9c9c9; border-radius: 5px;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: #555; z-index: 30 }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window { display: none; width: 258px; height: 165px; position: absolute !important; top: -1px; left: -1px; border: 1px solid #d2d2d2; border-radius: 5px; box-shadow: 0 0 10px #ccc; background-image:url(../../images/board/selectboxbg2.png); cursor: default }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window { position:relative; width:258px; height:175px; margin: 5px 0 0 0; overflow: auto; overflow-x: hidden }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window  > .list { width: 238px; height: auto; position: relative; padding: 10px; cursor: default; background-color: #fff; cursor: pointer }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .whiteline2 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .contentbox { width: 238px; height: 60px; padding: 10px; margin: 0 20px;  background-color: #fff; border-radius: 5px; border: 1px solid #d2d2d2 }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .contentbox textarea { position: absolute; top: 10px; left: 10px; width:238px; height: 60px; border:none; resize: none; background:none; outline: none; font-family: Arial, Helvetica, sans-serif; overflow: auto }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .whiteline3 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .scrap > .scrapbox > .button { width: auto; height: auto; float: none !important; margin-left: 100px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .candy { width: auto; height: 12px; float: right !important; cursor: pointer;  padding: 0 7px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .header > .button > .candy:hover { color: #dc5457; text-decoration: underline }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container { width: 728px; height: auto; padding: 0 20px 10px 20px; margin-left: 60px; margin-top: 20px }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .caption { width: 705px; height: auto; margin-top: 3px; border-left: 4px solid #d9d9d9; padding: 5px 0 5px 12px; font-size: 9pt; font-family: "굴림","Gulim"; letter-spacing: -1px; line-height: 17px; color: #777; background-color: #f9f9f9; margin-bottom: 10px !important; margin-top: 5px }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .text { width: 728px; height: auto; font-size: 9pt; padding-bottom: 3px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .text > .title { width: auto; max-width: 493px; height: auto; font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: #444; margin-top: 2px; border-bottom: 1px solid #ccc; letter-spacing: -1px; margin-bottom: 5px; margin-top: 5px; padding: 0 0 5px 0 }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .text > .contents { width: 728px; height: auto; font-family: "굴림","Gulim";  color: #444; line-height: 16px; margin-top: 2px }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic { width: 728px; height: auto }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .noneframe { width: 493px; height: auto; padding-bottom: 10px; padding-top: 6px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .noneframe > .pic { width: 493px; height: auto; background-color: #f3f3f3; text-align: center }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .noneframe > .pic img{ max-width: 493px }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames { width: 500px; height: auto; display: none }	/* for width & height */
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases { width: 500px; height: auto; margin-bottom: 20px }	/* for width & height */
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > ul.steps { width: 500px; height: auto; float: left !important }	/* for width & height */
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .step2 { margin-top: 2px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .step3 { margin-top: 2px }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > li { float: left }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .XLarge { width: 500px; height: 380px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .Large { width: 304px; height: 200px; overflow: hidden; text-align: center; background-color: #ddd }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .Small { width: 202px; height: 130px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .box1 { margin-left: 0}				/* for margin */
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .box2 { margin-left: 2px}			/* for margin */
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .box3 { margin-left: 2px }			/* for margin */
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .XLarge img { width: 500px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .Large img { width: 304px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .pic > .frames > .cases > .steps > .Small img { width: 202px }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .info { width: 500px; height: 11px; margin-bottom: 7px; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; color: #aaaaaa }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .hover_express { display: none; width: auto; position: absolute; top: 20px; right: 20px; color: #dc5457 }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .info > .comment { width: auto; height: auto }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .info > .candy { width: auto; height: auto; margin-left: 10px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .container > .info > .scrap { width: auto; height: auto; margin-left: 10px }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment { width: 828px; height: auto; float: left; position: relative; background-color: #f1f1f1; }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .origin { border-top: 1px solid #fff; width: 728px; height: auto; color: #777; font-size: 9pt;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5; cursor: default !important }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .origin img { margin-right: 10px }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .moreview { text-align: left; border-top: 1px solid #fff;width: 728px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .allview { text-align: left; border-top: 1px solid #fff;width: 728px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .list { width: 828px; height: auto; float: left; position: relative }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .list > .comments { width: 828px; height: auto; float: left; position: relative; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5; padding: 15px 0; }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .list > .comments > .pic { width: 38px; height: 38px; position: relative; float: left; margin: 0 10px 0 32px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .list > .comments > .pic img { border-radius: 5px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .list > .comments > .contents { width: 700px; height: auto; position: relative; float: left; margin:4px 0 0 0 }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .list > .comments > .contents > .name { width: auto; height: 18px; position: relative; float: left;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  font-size: 12px; color: #555; margin-right: 5px; }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .list > .comments > .contents > .time { width: auto; height: 18px; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #999; }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .list > .comments > .contents > .text { width: 700px; height: auto; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #666; letter-spacing: -1px; line-height: 13px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .list > .comments > .delete { display: none; width: 8px; height: 8px; margin: 15px 20px 15px 15px; position: relative; float: right; background-image: url(../../images/party/Container/cmx.png); cursor: pointer }
+
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .write { width: 798px; height: auto; float: left; padding: 15px 20px 15px 32px }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .write > .pic { width: 38px; height: 38px; float: left; margin-right: 10px;}
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .write > .pic img { border-radius: 3px; }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .write > .text { width: 720px; height: 15px; float: left; background-color: #fff; padding: 10px 0 10px 10px; border-radius: 5px; border-top: 1px solid #d5d5d5; position:relative; margin: 1px 0 0 0; }
+#info_anouncepage > .contents > .container > .Rfield > .contents > .posts > .comment > .write > .text textarea { resize: none; width: 100%; height: 15px; float: left; background-color: #fff; border: none; outline: none; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #777; overflow:hidden; position:relative; margin:0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

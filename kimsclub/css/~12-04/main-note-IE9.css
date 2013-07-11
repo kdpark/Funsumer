@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-party-rank-contents-name-share p {
+	margin:0 0 0 0;
+	letter-spacing:0px; !important;
+}
+
+.board-contents-info2-likesmember-explain p {
+	margin:0 0 0 0;
+	letter-spacing:0px !important;
+}
+
+.board-contents-info2-likemember-explain-pics-names {
+	padding:3px 3px 0 3px !important;
+	letter-spacing:0px !important;
+}
+
+.party-pics-explain p {
+	letter-spacing:0px !important;
+}
+
+.party-pics-explain-title {
+	letter-spacing:0px !important;
+}
+
+.header-search input {
+	margin:0 0 0 0 !important;
+}
+
+.container-party-profile-named-name-img {
+	margin-top:-1px;
+}
+
+.container-party-profile-named-born-img {
+	margin-top:0px;
+}
+
+.container-party-profile-named-job-img {
+	margin-top:0px;
+}

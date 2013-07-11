@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding:0;
+	margin:0;
+	font-family:"굴림";
+	background-color:#F6F7F7;
+}
+
+img {
+	border:none;
+	vertical-align:top;
+}
+
+A:unknown {text-decoration:none} 
+A:link {color:#444;text-decoration: none} 
+A:visited {color:#444;text-decoration: none} 
+A:active {text-decoration: none} 
+A:hover {color:#DA171A;text-decoration: none}
+
+p.title {
+	margin:0;
+	padding-top:20px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	word-spacing:-1px;
+}
+
+p.contents {
+	margin:8px 0 0 0;
+	line-height:17px;
+}
+
+.header-wrap {
+	width:100%;
+	position:relative;
+	height:auto;
+	background-color:#FF3E3E;
+}
+
+.header {
+	width:900px;
+	position:relative;
+	height:auto;
+	background-color:#FF3E3E;
+	margin:auto;
+	padding:0 20px 0 40px;
+}
+
+.header-logo {
+	margin-right:360px;
+}
+
+.header-menu {
+	margin-right:20px;
+}
+
+.all {
+	width:960px;
+	margin:auto;
+}
+
+#second-text{
+	clear:both;
+	position:relative;
+	padding:44px 0 20px 40px;
+}
+
+#second-text img {
+	display:block;
+}
+
+#second-box{
+	height:auto;
+	clear:both;
+	position:relative;
+	border-top:1px solid #D9D9D9;
+	border-bottom:1px solid #D9D9D9;
+	font-size:9pt;
+	color:#666;
+	padding:20px 40px 40px 40px;
+	word-break:break-all;
+}
+
+.copyright {
+	position:relative;
+	margin:auto;
+	margin-top:50px;
+	width:960px;
+	height:auto;
+	bottom:0;
+	left:0;
+	text-align:center;
+	color:#555;
+	font-family:"굴림";
+}
+
+.copyright p {
+	line-height:20px;;
+	font-size:8pt;
+}

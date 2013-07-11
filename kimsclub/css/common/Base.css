@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,time { margin: 0; padding: 0; }
+fieldset,iframe { border: none; }
+ul, li, ol { list-style:none }
+
+body, html { 
+	padding:0;
+	margin:0;
+	font-size:16px;
+	color:#666;
+	font-family:"Gulim";
+	background-color:#f1f1f1;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+	
+div { margin: 0; padding: 0; }
+
+* { margin:0;padding:0; }
+
+img { vertical-align:top;border:none; }
+
+.pie { behavior:url(../../js/pie.htc) }
+.bold { font-weight:bold }
+.nine { font-size:9pt }
+
+a { cursor: pointer }
+
+a:link { text-decoration:none; color: inherit }
+a:visited { text-decoration:none; color: inherit }
+a:active { text-decoration:none; color: inherit }
+a:hover { text-decoration: underline; color: #dc5457 }
+
+.1color { color: #555 }
+.2color { color: #666 }
+.3color { color: #777 }
+.4color { color: #b1b1b1 }
+.redcolor { color: #dc5457 }
+
+.grayover { background-color: #f5f5f5 }
+
+/* -- BUTTON -- */
+
+#p_s_more { cursor:pointer; }
+#m_s_more { cursor:pointer; }
+
+.Button_red { padding: 2px 15px 0 15px; width:auto;height:20px; position:relative;background-image:url(../../images/party/Container/buttonbg.png); border: 1px solid #A82020; border-radius:5px; color: #771919;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif;; behavior:url(../../js/pie.htc); cursor: pointer; float: left }
+.Button_red > .Button_red_word { padding: 3px 10px 0 15px; position: absolute !important; top: 0; left: 0; width: auto; height:20px; color: #fff;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif;; }
+
+.Button2_red { padding: 2px 20px 0 20px; width:auto;height:28px; position:relative; background-image:url(../../images/party/Container/button2bg.png); border: 1px solid #A82020; border-radius:5px; color: #771919;  font-size: 13pt; font-family: 'Nanum Gothic', sans-serif;; behavior:url(../../js/pie.htc); cursor: pointer; float: left }
+.Button2_red > .Button2_red_word { padding: 3px 10px 0 20px; position: absolute !important; top: 0; left: 0; width: auto; height:20px; color: #fff;  font-size: 13pt; font-family: 'Nanum Gothic', sans-serif;; float: none !important; }
+
+.Button_gray { padding: 4px 15px 0 15px; width:auto;height:18px; position:relative; background-image:url(../../images/party/Container/buttongraybg.png); border: 1px solid #bbbbbb; border-radius:5px; color: #fff;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif;; behavior:url(../../js/pie.htc); cursor: pointer; float: left }
+.Button_gray> .Button_gray_word { padding: 3px 10px 0 15px; position: absolute !important; top: 0; left: 0; width: auto; height:20px; color: #524D4D;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif;; float: none !important; }
+
+.Button_gray_selected{ background-color: #e7e7e7; background-image:none !important; border: 1px solid #ccc !important; border-radius: 5px }
+.Button_gray_selected_word { color: #b5b5b5 !important; }
+
+.Button_gray_selected_ie8{ background-color: #e7e7e7; background-image:none !important; border: 1px solid #ccc !important; border-radius: 0px }
+.Button_gray_selected_word_ie8 { color: #a5a5a5 !important; }
+
+/* -- Header, pre_party :  header (foundation_partytitle) -- */
+/* ★★★ 01/11★★★ */#header div.nav 				{ padding: 5px 0 0 0; border-bottom: 1px solid #91000B }	
+#header div.nav 				{ width: 828px; height: 34px; border-radius: 5px; position: absolute; top: -5px; left: 46px;}
+#header div.nav 				{ background-image: url(../../images/party/Header/header_bg.png); box-shadow: 0 1px 2px #aaa }
+
+#header div.nav ul.logo 		{ width: 84px; height: 34px; position: relative; margin: 8px 0 0 23px; float: left }
+
+#header div.nav ul.nav-menu 	{ width: 301px; height: 34px; position: absolute; top: 5px; left: 270px; cursor: pointer }
+#header div.nav ul.nav-menu 	{ border-left:1px solid #DA5568; border-right: 1px solid #DA5568 }
+
+/* -- Nav-menu Text Decoration -- */
+ul.nav-menu  li
+{ 
+	/* FONT */		font-family:Tahoma, Geneva, sans-serif; font-size: 10pt; text-align:center;
+							width: 100px; height: 22px; padding: 7px 0 5px 0; position: absolute;
+}
+
+.nav-wassup,	.nav-note,	.nav-party 			{ color: #FFFFFF; bottom: 0; z-index: 3; }
+.SDT-wassup,	.SDT-note,	.SDT-party 	{ color: #6D1F32; bottom: 1px; z-index: 2; }													/* SDT = shadow Top */
+.SDD-wassup,	.SDD-note,	.SDD-party 	{ color: #A52B43; bottom: 0px; z-index: 1; padding: 8px 0 4px 0 !important; }	/* SDD = shadow Down */
+
+.nav-wassup 	{ border-left:1px solid #C63449; border-right: 1px solid #C63449; width: 98px !important;  }
+.nav-note 		{ border-right: 1px solid #C63449; }
+.nav-party  	{ border-right: 1px solid #C63449; }
+
+.nav-wassup,	.SDT-wassup,	.SDD-wassup 	{ left: 0; }
+.nav-note,		.SDT-note,			.SDD-note 			{ left: 100px; }
+.nav-party,		.SDT-party,		.SDD-party 		{ left: 200px; }
+
+#header > .nav > .nav-search { height: 18px; float: right; margin:7px 25px 0 0; position:relative; }
+#header > .nav > .nav-search { border-radius: 10px; border-top:1px solid #62141D; border-bottom: 1px solid #DA5568 }
+
+#header > .nav > .nav-search > .wht-nav-search 	{ width: 102px; height: 19px; border-radius: 10px; background-color: #fff; opacity: 0.15; position: relative; margin: 0; z-index: 0;}
+#header > .nav > .nav-search > .ico-search 			{ width: 12px; height: 12px; position: relative; float: left; margin: -16px 0 0 6px; z-index: 2; }
+#header > .nav > .nav-search > .ch-ico-search		{ width: 12px; height: 12px; position: absolute; top: 3px; left: 6px; z-index: 3; opacity: 0; }
+#header > .nav > .nav-search > .text-search 			{ width: auto; height: 12px; position: relative; float: right; margin: -20px 7px 0 0; z-index: 2; }
+#header > .nav > .nav-search > .text-search input 	{ position: relative; width: 70px; height: 18px; font-size: 9pt; font-family: "굴림","Gulim"; color: #802D2E; border: none; outline: none; background: none; }
+
+/* -- Window-Search -- */
+#header > .nav > .win-search	 { width: 215px; height: auto; position: absolute; top: 37px; right: 26px; background-color: #fff; z-index:5; box-shadow: 0 2px 13px #aaa; border-radius: 5px; }
+#header > .nav > .win-search > .noresult {  width: 203px; height: 21px; position: relative; float: left; font-size:8pt; font-family: "돋움","Dotum"; letter-spacing: -1px; color: #b5b5b5; padding: 9px 6px 0 6px; text-align:center; }
+
+#header > .nav > .win-search > .pple-search 						{ width: 215px; height: auto; position: relative; float: left; }
+#header > .nav > .win-search > .pple-search > .title 			{ width: 215px; height: 20px; position: relative; float: left; background-image: url(../../images/party/Header/header_searchwinbg.png) }
+#header > .nav > .win-search > .pple-search > .contents 		{ width: 215px; height: auto; position: relative; float: left; padding: 5px  0px; }
+#header > .nav > .win-search > .pple-search > .contents > .cards 				{ width: 195px; height: 30px; position: relative; float: left; padding: 4px 7px 6px 13px; cursor: pointer; }
+#header > .nav > .win-search > .pple-search > .contents > .cards > .pic				 { width: 30px; height: 30px; position: relative; float: left; margin-right: 10px; border-radius: 5px }
+#header > .nav > .win-search > .pple-search > .contents > .cards > .pic img 		{ border-radius: 5px; }
+#header > .nav > .win-search > .pple-search > .contents > .cards > .name 			{ width: 120px; height: 15px; position: relative; float: left; font-size: 10pt; font-family: 'Nanum Gothic', sans-serif;; letter-spacing: 0px; color: #777; margin: 1px 0 0 0; }
+#header > .nav > .win-search > .pple-search > .contents > .cards > .shareparty 	{ width: 145px; height: 13px; position: relative; float: left; font-size: 8pt; letter-spacing: -1px; word-spacing: 0px; font-family: "굴림","Gulim"; color: #b1b1b1; margin:2px 0 0 0; }
+
+#header > .nav > .win-search > .party-search > .title 			{ width: 215px; height: 20px; position: relative; float: left; background-image: url(../../images/party/Header/header_searchwin_subtitle.png) }
+#header > .nav > .win-search > .party-search > .contents 		{ width: 215px; height: auto; position: relative; float: left; padding: 5px  0px; }
+#header > .nav > .win-search > .party-search > .contents > .cards 				{ width: 195px; height: 30px; position: relative; float: left; padding: 4px 7px 6px 13px; cursor: pointer; }
+#header > .nav > .win-search > .party-search > .contents > .cards > .pic				{ width: 30px; height: 30px; position: relative; float: left; margin-right: 10px; border-radius: 5px; overflow:hidden; }
+#header > .nav > .win-search > .party-search > .contents > .cards > .outline30 	{ width: 30px; height: 30px; position: absolute; top: 4px; left: 13px; background-image: url(../../images/party/Header/header_searchwin_partyframe.png); z-index:2; }
+#header > .nav > .win-search > .party-search > .contents > .cards > .pic img 		{ margin: 0 0 0 -4px; }
+#header > .nav > .win-search > .party-search > .contents > .cards > .name 			{ width: 120px; height: 15px; position: relative; float: left; font-size: 10pt; font-family: 'Nanum Gothic', sans-serif;; letter-spacing: 0px; color: #777; margin: 1px 0 0 0; }
+#header > .nav > .win-search > .party-search > .contents > .cards > .shareparty 	{ width: 145px; height: 13px; position: relative; float: left; font-size: 8pt; letter-spacing: -1px; word-spacing: 0px; font-family: "굴림","Gulim"; color: #b1b1b1; margin:2px 0 0 0; }
+
+#header > .nav > .win-search > .footer 	{ width: 203px; height: 21px; position: relative; float: left; background-image: url(../../images/party/Header/header_searchwin_more.png); font-size:8pt; font-family: "돋움","Dotum"; letter-spacing: -1px; color: #b5b5b5; padding: 9px 6px 0 6px; text-align:center; }
+
+/* -- Tap bar -- */
+#header > .Tap { z-index: 11; width: 27px; height: 91px; position: fixed; top: 80px; background-image: url(../../images/party/Tap/bg.png); padding: 5px 3px 5px 1px; cursor: pointer; margin:0 0 0 920px }
+#header > .Tap > .invite-party 										{ width: 26px; height: 28px; position: relative; float:left; background-image: url(../../images/party/Tap/invite-party.png); }
+#header > .Tap > .invite-party > .ico_pinvite							{ width: 26px; height: 28px; position: relative; float:left; background-image: url(../../images/party/Tap/invite-party.png); }
+
+
+#header > .Tap > .invite-party > .number-party 				{ display: none; z-index: 3; width: 28px; height: 20px; position: absolute; top: -5px; left: 13px; padding:4px 0 0 0; background-image: url(../../images/party/Tap/number-bigger.png); font-size:8pt; font-family: Arial, Helvetica, sans-serif; letter-spacing: 0px; color: #fff; font-weight: bold; text-align:center; }
+#header > .Tap > .invite-party > .win-party						{ visibility: hidden; z-index: 2; width: 230px; height: auto; position: absolute; top: 6px; left: 36px; background-color: #fff; box-shadow: 0 2px 13px #aaa; border-radius: 5px; overflow:hidden; background-image: url(../../images/party/Tap/invite-winbg.png); background-repeat:no-repeat; cursor: default;}
+#header > .Tap > .invite-party > .win-party > .title 			{ width: 230px; height: 20px; position: relative; background-image: url(../../images/party/Tap/invite-party-title.png) }
+																					/* Contents part is in mScrollbar.css */
+#header > .Tap > .invite-party > .win-party > .bottom 		{ width: 230px; height: 5px; position: relative; float: left; background-image: url(../../images/party/Tap/bottombarbg.png) }
+
+#header > .Tap > .invite-member 									{ width: 26px; height: 28px; position: relative; float:left; background-image: url(../../images/party/Tap/invite-member.png); }
+#header > .Tap > .invite-member  > .ico_minvite						{ width: 26px; height: 28px; position: relative; float:left; background-image: url(../../images/party/Tap/invite-member.png); }
+
+#header > .Tap > .invite-member > .number-member 		{ display:none; z-index: 3; width: 28px; height: 20px; position: absolute; top: -5px; left: 13px; padding:4px 0 0 0; background-image: url(../../images/party/Tap/number-small.png); font-size:8pt; font-family: Arial, Helvetica, sans-serif; letter-spacing: 0px; color: #fff; font-weight: bold; text-align:center; }
+#header > .Tap > .invite-member > .win-member			{ visibility: hidden; z-index: 2; width: 230px; height: auto; position: absolute; top: 6px; left: 36px; background-color: #fff; box-shadow: 0 2px 13px #aaa; border-radius: 5px; overflow:hidden; background-image: url(../../images/party/Tap/invite-winbg.png); background-repeat:no-repeat; cursor: default; }
+#header > .Tap > .invite-member > .win-member > .title 			{ width: 230px; height: 20px; position: relative; background-image: url(../../images/party/Tap/invite-member-title.png) }
+																								/* Contents part is in mScrollbar.css */
+#header > .Tap > .invite-member > .win-member > .bottom 		{ width: 230px; height: 5px; position: relative; float: left; background-image: url(../../images/party/Tap/bottombarbg.png) }
+
+#header > .Tap > .setting 												{ width: 26px; height: 34px; position: relative; float:left; background-image: url(../../images/party/Tap/setting.png); }
+#header > .Tap > .setting > .ico_set									{ width: 26px; height: 34px; position: relative; float:left; background-image: url(../../images/party/Tap/setting.png); }
+#header > .Tap > .setting > .win-setting							{ visibility: hidden; z-index: 2; width: 71px; height: auto; position: absolute; top: 6px; left: 36px; background-color: #fff; box-shadow: 0 2px 13px #aaa; border-radius: 5px; }
+#header > .Tap > .setting > .win-setting	 > .title 				{ width: 71px; height: 20px; position: relative; background-image: url(../../images/party/Tap/setting-title.png) }
+#header > .Tap > .setting > .win-setting	 > .contents		{ width: 71px; height: auto; position: relative; font-family: 'Nanum Gothic', sans-serif;; font-size: 10pt}
+#header > .Tap > .setting > .win-setting	 > .contents > div { text-align:center; width: 71px; height: 13px; position: relative; padding: 5px 0 5px 0; }
+#header > .Tap > .setting > .win-setting	 > .contents > .admin				{  margin: 5px 0 0 0; }
+#header > .Tap > .setting > .win-setting	 > .contents > .logout				{  border-top: 1px solid #eee; }
+#header > .Tap > .setting > .win-setting	 > .contents > .clientcenter		{  border-top: 1px solid #eee; }
+#header > .Tap > .setting > .win-setting	 > .bottom 		{ width: 71px; height: 5px; position: relative; float: left; background-image: url(../../images/party/Tap/setting-bottom.png) }
+
+/*Switch form*/ 
+						
+			.pple-search, .party-search, .win-search > .footer { display: none; }
+			.noresult { display: none }
+
+/* -- Container > footer -- */
+#wrapBoxfooter { width: 920px; height: 50px; position: absolute; bottom: 0; left: 0;}
+
+/* -- For_IE8 -- */
+#for_IE8 { display:none; }

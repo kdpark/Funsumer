@@ -1,0 +1,169 @@
+/* NEW */
+
+#pre_party > .title { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; margin-bottom: 14px; text-shadow: 0 1px 1px #fff; position: absolute !important; top:20px; left: 46px }
+
+
+/* 130225 */.nonepost { width: 532px; height: 382px; position: relative; margin: 50px 0 0 60px; background-image: url(../../images/basic/board/noneboard.png) }
+
+body, html { background-color: none !important; background-image: url(../../images/note/directory_bg.png) !important }
+
+#body_gradient { position: absolute; top: 0; left: 0; width: 100%; height: 560px; background-image: url(../../images/note/body_gradient.png); z-index: 0 }
+
+/* 130225 */#wrapbox { 
+	width: 920px; min-height: 100%;
+	border-right: 1px solid #999; border: 1px solid #b4b4b4;
+	position:absolute; left: 50%; margin-left: -460px; background-color: #fff; z-index: 1; margin-top: -1px
+}
+
+#header { width: 920px; height: 0px; position: relative; z-index:30; }
+
+/**/#container .board { margin-top: 0px !important; }
+#header div.nav	  { box-shadow: 0 1px 8px #444 }
+
+.SDD-wassup	 	{ background-image: url(../../images/party/Header/header_menu_wassup.png) }
+.SDD-note			{ background-image: url(../../images/party/Header/header_selected.png) }
+.SDD-party 		{ background-image: url(../../images/party/Header/header_menu_party.png) }
+
+/* 중복 CLASS */
+.nanumbold { font-family: 'Nanum Gothic', sans-serif; font-weight: bold }
+.mine {  /* 나에게 보여지는 것들*/ display: block;}
+.yours { /* 친구가 아닌 타인의 경우 */ display: none; }
+.noyours { /* 친구인 타인의 경우 */display: none; }
+
+#container { width: 920px; height: auto; float: left; position: relative }
+
+#container div { position: relative; float: left }
+
+/* :: 최상단 커버사진 part :: */
+#container > .baseinfo { width: 828px; height: 560px; padding: 0 46px; background-color: #000; background-size: 920px; overflow:hidden; background-image: url(../../images/0ALPHA/8de14837edd916616fa92575da6efb2e.jpg) }
+#container > .baseinfo > .divbaseinfo { margin-left:-46px; width: 100%; height: 100%; padding: 0 46px; overflow:hidden; }
+#box { margin-left:-46px; width:920px; height:1000px; background-repeat:no-repeat; }
+/* :: 커버 아래쪽 검은 gradient :: */
+#container > .baseinfo > .gradient { width: 920px; height: 300px; position: absolute !important; bottom: 0; left: 0; background-image: url(../../images/note/gradient.png); z-index: 1 }
+
+/* :: 프로필 part :: */
+#container > .baseinfo > .info { position: absolute !important; bottom: 46px; left: 46px; width: auto; height: auto; z-index: 3 }
+#container > .baseinfo > .info > .prof_pic { width: 160px; height: 160px; box-shadow: 0 1px 2px #111; border-radius: 5px; cursor: pointer; background-image: url(../../images/note/profilebg.png); }
+#container > .baseinfo > .info > .prof_pic img { width: 160px; height: 160px; border-radius: 5px }
+/* 프로필 사진에 마우스 over시 나오는 image */
+#container > .baseinfo > .info > .prof_pic > .prof_over { width: 160px; height: 160px; position: absolute !important; top: 0; left: 0; background-image: url(../../images/note/prof_chg.png); display: none }
+#container > .baseinfo > .info > .prof_info { width: auto; height: auto; color: #fff; padding: 106px 0 0 20px; text-shadow: 0 0 4px #000 }
+#container > .baseinfo > .info > .prof_info > .name { float: none !important; width: auto; height: auto; font-size: 16pt }
+#container > .baseinfo > .info > .prof_info > .info { float: none !important; width: auto; height: auto; font-size: 9pt; margin-top: 3px }
+
+/* :: 우측 5개의 버튼들 :: */
+#container > .baseinfo > .button { position: absolute !important; bottom: 46px; right: 46px; width: auto; height: auto; z-index: 2 }
+#container > .baseinfo > .button > div { float: right !important; margin: 0 -4px -7px 20px; width: 70px; height: 105px; cursor: pointer }
+#container > .baseinfo > .button > div:hover { margin-top: -2px; opacity: .8 }
+
+/* ■■■■■■■■ 수정될곳 ■■■■■■■■■ :: 파티 즐겨찾기 부분 :: */
+#pre_party { width: 920px; height: 130px;  z-index:10; padding: 28px 0 15px 0; background-color: #f2f2f2; border-bottom: 1px solid #fff }
+#pre_party > .arrow { opacity: 0; filter:alpha(opacity=0) }
+#pre_party > .arrow_L 	{ width: 26px; height: 86px; margin: 20px 9px 33px 10px; background-image: url(../../images/party/Pre_party/L-arrow.png); cursor: pointer; }
+#pre_party > .contents 	{ width: 830px; height: 120px; margin: 20px 0; overflow: hidden }
+#pre_party > .contents > .section { width: 3000px; height: 120px; position: absolute; top: 0; left: 0; padding: 0 0 0 1px }
+#pre_party > .contents > .section > ul { width:86px; height:109px; position:relative; float: left; margin:0 20px 0 0; cursor: pointer; text-shadow: 0 1px 1px #fff }
+#pre_party > .contents > .section > ul:hover { margin-top: 2px }
+#pre_party > .contents > .section > ul > .party_thumb 	{ width: 84px; height: 84px; position: relative; overflow:hidden; background-color: #fff; outline: 1px solid #d2d2d2; margin-top: 1px }
+#pre_party > .contents > .section > ul > .party_thumb:hover { outline: 1px solid #888 }
+#pre_party > .contents > .section > ul > .party_thumb img	{ height: 86px; position: relative; margin:0 0 0 -10px }
+#pre_party > .contents > .section > ul > ._86base_1		{ width: 86px; height: 86px; position: relative;  }
+#pre_party > .contents > .section > ul > ._86base_2		{ width: 86px; height: 86px; position: relative;  }
+#pre_party > .contents > .section > ul > ._86base_3		{ width: 86px; height: 86px; position: relative;  }
+#pre_party > .contents > .section > ul > ._86base_4		{ width: 86px; height: 86px; position: relative; }
+#pre_party > .contents > .section > ul > ._86base_5		{ width: 86px; height: 86px; position: relative;  }
+#pre_party > .contents > .section > ul > ._86base_6		{ width: 86px; height: 86px; position: relative;  }
+#pre_party > .contents > .section > ul > ._86base_7		{ width: 86px; height: 86px; position: relative;  }
+#pre_party > .contents > .section > ul > ._86base_8		{ width: 86px; height: 86px; position: relative;  }
+/* 130225 */#pre_party > .contents > .section > ul > .name 				{ width: 86px; height: 13px; position: relative; margin: 1px 0 0 0; padding: 7px 0 0 0;  font-size: 8pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; letter-spacing: 0px; color: #555; text-align: center; border-top: 1px solid #fff }
+#pre_party > .contents > .section > ul > .frame_86thumb { display:none; width: 90px; height: 90px; position: absolute; top: 0; left: 0; }
+#pre_party > .arrow_R 	{ width: 26px; height: 86px; margin: 20px 10px 33px 9px; background-image: url(../../images/party/Pre_party/R-arrow.png); cursor: pointer; }
+
+/* 130225 */#container > .wholist { width: 920px; height: auto; margin: 0 0 25px 0; border-top: 1px solid #d2d2d2 }
+/* 130227 */#container > .wholist > .left { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; text-shadow: 0 1px 1px #fff; position: absolute !important; top:18px; left: 46px }
+/* 130227 */#container > .wholist > .left > .questionmark { width: auto; height: 14px; float: left; padding: 0 3px; margin-left: 7px;
+													border-radius: 2px; font-family:"굴림"; font-weight: bold; color: #aaa; text-shadow: none; font-size: 8pt;
+													background-image: url(../../images/base/questionmarkbg.png); border: 1px solid #e1e1e1; border-bottom: 1px solid #c8c8c8; line-height: 15px; cursor: pointer }
+/* 130227 */#container > .wholist > .left > .pop { display:none; opacity: 0; width: auto; height: auto; position: absolute !important; top: -31px; left: 90px; z-index: 11 }
+/* 130227 */#container > .wholist > .left > .pop > .content { width: auto; height: auto; z-index: 2; background-image: url(../../images/base/questionmarkbg2.png); border-radius: 4px }
+/* 130227 */#container > .wholist > .left > .pop > .content > .list { width: auto; height: auto; background-color: #f7f7f7; border: 1px solid #ddd; border-radius: 4px; border-bottom: 1px solid #c8c8c8 }
+/* 130227 */#container > .wholist > .left > .pop > .content > .list > .white { width:179px; height: auto; z-index: 2; border-radius: 4px; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff;padding: 7px 10px }
+/* 130227 */#container > .wholist > .left > .pop > .content > .list > .white > .text { font-size: 8pt; font-family: "돋움"; font-weight: normal; letter-spacing: -1px; color: #999; float: left; width: 160px; line-height: 15px; text-shadow: 0 1px 1px #fff }
+/* 130227 */#container > .wholist > .left > .pop > .content > .list > .white > .close { width: 15px; height: 15px; float: right; background-image: url(../../images/base/winclose.png); cursor: pointer }
+
+/* 130225 */#container > .wholist > .right { width: 826px; height: 60px; margin-top: 46px; border: 1px solid #ddd; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #c4c4c4; border-radius: 4px; background-color: #f7f7f7; margin-left: 46px }
+/* 130225 */#container > .wholist > .right > .nonecard { width: 100%; height: auto; text-align: center; font-family: "굴림"; font-size: 9pt; color: #aaa; padding: 27px 0 0 0 }
+/* 130225 */#container > .wholist > .right > .card { width: 124px; height: auto; cursor: pointer; border-right: 1px solid #e1e1e1; padding: 10px 0 10px 12px }
+/* 130225 */#container > .wholist > .right > .card:hover { box-shadow: 0 4px 10px #e5e5e5 inset; background-color: #f5f5f5 }
+/* 130225 */#container > .wholist > .right > .lastcard { border-right: none !important; width: 129px }
+/* 130225 */#container > .wholist > .right > .card > .pic { width: 40px; height: 40px; border-radius: 5px; }
+/* 130225 */#container > .wholist > .right > .card > .pic img { width: 40px; height: 40px; border-radius: 5px }
+/* 130225 */#container > .wholist > .right > .card > .name { width: 84px; height: auto; font-size: 9pt; margin-top: 12px; text-align: center }
+ul, li { list-style: none }
+
+
+/* 130225 */#container > .boundary { width: 920px; height: 22px; border-top: 1px solid #d2d2d2 }
+
+/*
+===========================================================================
+
+															CONTAINER 2 ( _친구목록 )
+
+===========================================================================
+
+*/
+
+#container2 { display: none; width: 920px; height: auto; float: left; position: relative; opacity: 0 }
+
+#container2 div { position: relative; float: left }
+
+#friendlist { width: 920px; height: auto; margin-bottom: 20px }
+
+#friendlist > .gradient_top { width: 920px; height: 61px; background-image: url(../../images/note/gradient_top61.png) }
+
+#friendlist > .header { width: 828px; height: 90px; padding: 0 46px; background-image: url(../../images/note/friendlist_titlebg.png) }
+#friendlist > .header > .profile { width: 828px; height: 50px; padding: 20px 0 }
+#friendlist > .header > .profile > .pic { width: 50px; height: 50px; float: right !important }
+#friendlist > .header > .profile > .pic img { width: 50px; height: 50px; border-radius: 5px }
+#friendlist > .header > .profile > .name { width: auto; height: 50px; font-size: 16pt; margin-left: 20px; padding: 24px 0 0 0; color: #777; float: right !important }
+#friendlist > .header > .profile > .button { width: auto; height: auto; float: left !important; padding: 10px; border-radius: 5px }
+#friendlist > .header > .profile > .button > .outline { width: 167px; height: 30px; position: absolute !important; top: -1px; left: -1px; padding: 10px; border-radius: 5px;
+																			 border-top: 1px solid #e1e1e1; border-left: 1px solid #d5d5d5; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #c1c1c1; box-shadow: 0 1px 2px #c9c9c9;
+																			 opacity: 0 }
+.friendlist_button_outline_mousedown { border-top: 1px solid #b6b6b6 !important; border-bottom: 1px solid #d2d2d2 !important; box-shadow: none !important }
+
+#friendlist > .gradient_down { width: 920px; height: 29px;  background-image: url(../../images/note/gradient_down2.png) }
+
+#friendlist > .contents { width:828px; height: auto; padding: 0 46px }
+#friendlist > .contents > .title { width: 828px; height: 32px }
+
+#friendlist > .contents > .title > .img { width: 74px; height: 20px; background-image:  url(../../images/note/friendlist_title.png) }
+#friendlist > .contents > .title > .search { width: 183px; height: 20px;  border-bottom: 2px solid #ddd; float: right !important }
+#friendlist > .contents > .title > .search  > .ico-search { width: 15px; height: 14px }
+#friendlist > .contents > .title > .search  > .text-search { width: 160px; height: 14px }
+#friendlist > .contents > .title > .search  > .text-search input { width: 160px; height: 14px; border:none; outline: none; padding: 0 0 0 5px; font-size: 12px; color: #777; background: none }
+#friendlist > .contents > .title > .search  > .text-search > .friendlist_input { position: absolute !important; top: 0; left: 0 }
+
+#friendlist > .contents > .subtitle { width: 828px; height: 12px;  border-top: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; text-align: right; font-size: 8pt; font-family: "돋움","Dotum"; padding: 19px 0; color: #888 }
+#friendlist > .contents > .subtitle > .text { float: right !important; letter-spacing: -1px; }
+#friendlist > .contents > .subtitle > .position { margin: -7px 0 0 15px; float: right !important }
+
+#friendlist > .contents > .container { width: 828px; height: auto }
+#friendlist > .contents > .container > .cards { width: 828px; height: 50px; padding: 20px 0;  border-bottom: 1px solid #eee }
+#friendlist > .contents > .container > .cards > .pic { width: 50px; height: 50px }
+#friendlist > .contents > .container > .cards > .pic img { border-radius: 5px }
+#friendlist > .contents > .container > .cards > .info { width: auto; height: 50px;   margin: 7px 0 0 20px }
+#friendlist > .contents > .container > .cards > .info > .name { width: auto; height: 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  font-size: 15px; letter-spacing: -1px; color: #777; float: none !important }
+#friendlist > .contents > .container > .cards > .info > .shareparty { width: auto; height: 12px; font-size: 8pt; letter-spacing: -1px; font-family: "돋움","Dotum"; margin: 3px 0 0 0; color: #999; float: none !important }
+
+#friendlist > .contents > .container > .cards > .button { width: auto; height: 22px;  float: right !important; margin: 14px 0 0 0 }
+
+#friendlist > .contents > .container > .cards > .button > .friendsbutton { padding: 2px 15px 0 15px; width:auto;height:20px; float: none !important; background-image:url(../../images/party/Container/buttonbg.png); border: 1px solid #A82020; border-radius:5px; color: #771919;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; behavior:url(../js/pie.htc); cursor: pointer; float: left }
+#friendlist > .contents > .container > .cards > .button > .friendsbutton > .word { padding: 3px 10px 0 15px; position: absolute !important; float: none !important; top: 0; left: 0; width: auto; height:20px; color: #fff;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold }
+
+#copyright { width: 920px; height: auto; padding: 10px 0 20px 0; }
+#copyright > .contents { width: 828px; height: auto; position: relative; float: left; padding: 0px 46px 20px 46px }
+#copyright > .contents > .left { width: auto; height: auto; position: relative; float: right !important; font-family: "돋움","Dotum"; font-size: 9pt; color: #888; margin-right: 20px }
+#copyright > .contents > .right { width: auto; height: auto; position: relative; float: right !important; font-family: "돋움","Dotum"; font-size: 8pt; letter-spacing: -1px; color: #888; }
+#copyright > .contents > .right > ul { position: relative; float: left; cursor: pointer }
+#copyright > .contents > .right > ul:hover { color: #dc5457 }

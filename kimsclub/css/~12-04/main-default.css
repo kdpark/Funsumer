@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html { 
+	padding:0;
+	margin:0;	
+	font-size:9pt;
+	color:#666;
+	font-family:"Gulim";
+	background-color:#f1f1f1;
+}
+
+* { margin:0;padding:0; }
+
+img { vertical-align:top;border:none; }
+
+.pie { behavior:url(js/pie.htc) }
+.bold { font-weight:bold }
+.nine { font-size:9pt }
+
+a:link { text-decoration:none;}
+a:visited { text-decoration:none; }
+a:active { text-decoration:none; }
+a:hover { text-decoration:none; }

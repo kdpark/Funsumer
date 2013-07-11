@@ -1,0 +1,7 @@
+#friendlist > .contents > .subtitle > .text { letter-spacing: 0px !important }
+
+#win_add_party_friends  > .ScrollBox > .container > .content > .invitation > .share { letter-spacing: 0px !important }
+
+#friendlist > .contents > .title > .search  > .text-search > .friendlist_input { top: 2px !important }
+
+#friendlist > .contents > .container > .cards > .info > .shareparty { letter-spacing: 0px !important }

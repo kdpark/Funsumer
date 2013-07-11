@@ -1,0 +1,8 @@
+#copyright > .contents  { letter-spacing: 0px !important }
+
+/* in Tap, center align problem */
+#header > .Tap > .invite-party > .number-party 				{ padding:5px 0 0 0 !important;  background-image: url(../../images/party/Tap/number-bigger_ie.png) }
+#header > .Tap > .invite-member > .number-member 		{ padding:5px 0 0 0 !important;  background-image: url(../../images/party/Tap/number-small_ie.png) }
+
+/* Copyright */
+#copyright > .contents > .right { letter-spacing: 0px !important }

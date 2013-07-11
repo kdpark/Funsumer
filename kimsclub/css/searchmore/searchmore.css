@@ -1,0 +1,73 @@
+body, html { background-color: none !important; background-image: url(../../images/note/directory_bg.png) !important }
+
+#body_gradient { position: absolute; top: 0; left: 0; width: 100%; height: 50px; background-image: url(../../images/wassup/body_gradient2.png); z-index: 0 }
+
+#wrapbox { 
+	width: 920px; min-height: 100%;
+	position:absolute; left: 50%; margin-left: -460px; background-color: none !important; z-index: 1;
+}
+
+#header { width: 920px; height: 0px; position: absolute; top: 0; z-index:30 !important; left: 50%; margin-left: -459px }
+#header > .Tap { margin:0 0 0 921px !important }
+
+#container .board > .Lfield > .preview > .list > .cards > .frame { background-image: url(../../images/board/preparty_frame_gray.png) !important }
+#container .board { margin-top: 0px !important; }
+#header div.nav	  { box-shadow: 0 1px 2px #a1a1a1 }
+
+.SDD-wassup	 	{ background-image: url(../../images/party/Header/header_menu_wassup.png) }
+.SDD-note			{ background-image: url(../../images/party/Header/header_menu_note.png) }
+.SDD-party 		{ background-image: url(../../images/party/Header/header_menu_party.png) }
+
+/* 중복 CLASS */
+.nanumbold { font-family: "NanumGothicBoldWeb" }
+
+/* wassup 게시판 레이아웃 조정 */
+#container .board > .Lfield > .preview > .list > .cards > .frame { background-image: none !important }
+#container .board > .Lfield > .bg { display: none }
+#container .board { padding: 23px 0 100px 0 !important; border-top: 1px solid #fff }
+
+/* Tap 변경 */
+#header > .Tap { top: 0px !important; padding: 90px 0 0 0 !important; background-image: url(../../images/wassup/tapbg.png) !important; width: 31px !important; margin: 0 0 0 919px !important }
+#header > .Tap > .invite-party { margin-left: 2px !important; margin-top: -5px !important }
+#header > .Tap > .invite-member { margin-left: 2px !important; margin-top: 0px !important }
+#header > .Tap > .setting { margin-left: 2px !important; margin-top: 0px !important }
+
+
+#container { width: 920px; height: auto; float: left; position: relative; padding: 0 }
+
+#container div { position: relative; float: left }
+
+#container > .people { display:none; width: 920px; height: auto; padding: 66px 0 0 0 }
+#container > .people > .title { width: 828px; height: auto; color: #777; font-size: 10pt; word-spacing: 1px; padding: 20px 46px }
+#container > .people > .title h1 { color: #dc5457; font-size: 12pt; font-family: Tahoma, Geneva, sans-serif; display: inline }
+#container > .people > .line { width: 920px; height: 1px; background-image: url(../../images/searchmore/line.png) }
+#container > .people > .contents { width: 920px; height: auto; background-image: url(../../images/searchmore/bg.png) }
+#container > .people > .contents > .cards { width: 828px; height: 50px; padding: 20px 46px 21px 46px }
+#container > .people > .contents > .cards > .pic { width: 50px; height: 50px }
+#container > .people > .contents > .cards > .pic img { border-radius: 5px }
+#container > .people > .contents > .cards > .info { width: auto; height: 50px;   margin: 7px 0 0 20px }
+#container > .people > .contents > .cards > .info > .name { width: auto; height: 20px; font-family: "NanumGothicBoldWeb";  font-size: 15px; letter-spacing: -1px; color: #777; float: none !important }
+#container > .people > .contents > .cards > .info > .shareparty { width: auto; height: 12px; font-size: 8pt; letter-spacing: -1px; font-family: "돋움","Dotum"; margin: 3px 0 0 0; color: #999; float: none !important }
+
+#container > .people > .contents > .cards > .button { width: auto; height: 22px;  float: right !important; margin: 14px 0 0 0 }
+
+#container > .party { display:none; width: 920px; height: auto; padding: 66px 0 0 0 }
+#container > .party > .title { width: 828px; height: auto; color: #777; font-size: 10pt; word-spacing: 1px; padding: 20px 46px }
+#container > .party > .title h1 { color: #dc5457; font-size: 12pt; font-family: Tahoma, Geneva, sans-serif; display: inline }
+#container > .party > .line { width: 920px; height: 1px; background-image: url(../../images/searchmore/line.png) }
+#container > .party > .contents { width: 920px; height: auto; background-image: url(../../images/searchmore/bg.png) }
+#container > .party > .contents > .cards { width: 828px; height: 50px; padding: 20px 46px 21px 46px }
+#container > .party > .contents > .cards > .pic { width: 50px; height: 50px; overflow: hidden }
+#container > .party > .contents > .cards > .pic img { height: 50px }
+#container > .party > .contents > .cards > .info { width: auto; height: 50px;   margin: 7px 0 0 20px }
+#container > .party > .contents > .cards > .info > .name { width: auto; height: 20px; font-family: "NanumGothicBoldWeb";  font-size: 15px; letter-spacing: -1px; color: #777; float: none !important }
+#container > .party > .contents > .cards > .info > .sharepeople { width: auto; height: 12px; font-size: 8pt; letter-spacing: -1px; font-family: "돋움","Dotum"; margin: 3px 0 0 0; color: #999; float: none !important }
+
+#container > .party > .contents > .cards > .button { width: auto; height: 22px;  float: right !important; margin: 14px 0 0 0 }
+
+#copyright { width: 920px; height: auto; padding: 10px 0 20px 0 }
+#copyright > .contents { width: 828px; height: auto; position: relative; float: left; padding: 0 46px }
+#copyright > .contents > .left { width: auto; height: auto; position: relative; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #888; margin-top: -2px }
+#copyright > .contents > .right { width: auto; height: auto; position: relative; float: right !important; font-family: "돋움","Dotum"; font-size: 8pt; letter-spacing: -1px; color: #888; }
+#copyright > .contents > .right > ul { position: relative; float: left; margin-left: 10px; cursor: pointer }
+#copyright > .contents > .right > ul:hover { color: #dc5457 }

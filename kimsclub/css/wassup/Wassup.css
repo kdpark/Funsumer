@@ -1,0 +1,74 @@
+body, html { background-color: none !important; background-image: url(../../images/note/directory_bg.png) !important; padding: 18px 0 0 0 }
+
+#body_gradient { position: absolute; top: 0; left: 0; width: 100%; height: 50px; background-image: url(../../images/wassup/body_gradient2.png); z-index: 0 }
+
+.testbox { position: absolute; top: 147px; left: 500px; width: 1000px; height: 10px; background-color: pink; z-index: 1000; opacity: .5; display: none }
+
+#wrapbox { 
+	width: 920px; min-height: 100%;
+	position:absolute; left: 50%; margin-left: -460px; background-color: none !important; z-index: 1;
+}
+
+#header { width: 920px; height: 0px; position: absolute; top: 0; z-index:30 !important; left: 50%; margin-left: -459px }
+#header > .Tap { margin:0 0 0 921px !important }
+
+#container .board > .Lfield > .preview > .list > .cards > .frame { background-image: url(../../images/board/preparty_frame_gray.png) !important }
+#container .board { margin-top: 0px !important; }
+#header div.nav	  { box-shadow: 0 1px 2px #a1a1a1 }
+
+.SDD-wassup	 	{ background-image: url(../../images/party/Header/header_selected.png) }
+.SDD-note			{ background-image: url(../../images/party/Header/header_menu_note.png) }
+.SDD-party 		{ background-image: url(../../images/party/Header/header_menu_party.png) }
+
+/* 중복 CLASS */
+.nanumbold { font-family: 'Nanum Gothic', sans-serif; font-weight: bold !important }
+
+/* wassup 게시판 레이아웃 조정 */
+#container .board > .Lfield > .preview > .list > .cards > .frame { background-image: none !important }
+#container .board > .Lfield > .bg { display: none }
+#container .board { padding: 23px 0 0 0 !important; }
+
+/* Tap 변경 */
+#header > .Tap { top: 0px !important; padding: 90px 0 0 0 !important; background-image: url(../../images/wassup/tapbg.png) !important; width: 31px !important; margin: 0 0 0 919px !important }
+#header > .Tap > .invite-party { margin-left: 2px !important; margin-top: -5px !important }
+#header > .Tap > .invite-member { margin-left: 2px !important; margin-top: 0px !important }
+#header > .Tap > .setting { margin-left: 2px !important; margin-top: 0px !important }
+
+
+#container { width: 828px; height: auto; float: left; position: relative; padding: 0 46px }
+
+#container div { position: relative; float: left }
+
+#container > .headline { width: 828px; height: 50px; z-index: 2; background-image: url(../../images/party/partylist/titlebg.png); padding:21px 46px; margin-top: 19px; border-radius: 5px; margin-left: -46px }
+#container > .headline > .pic { width: 50px; height: 50px; border-radius: 6px; border: 1px solid #333; box-shadow: 0 1px 2px #999 }
+#container > .headline > .pic img { width: 50px; height: 50px; border-radius: 5px }
+#container > .headline > .namediv { width: auto; height: 34px; font-size: 11pt; margin-left: 10px; padding: 16px 10px 0 10px; color: #777; border-radius: 5px; cursor: default; z-index: 1 }
+.container_headline_namedivOV { border: 1px solid #d2d2d2; background-image: url(../../images/wassup/buttonbg.png); border-bottom: 1px solid #c2c2c2; padding: 15px 9px 0 9px !important; color: #555 !important }
+.container_headline_namedivCK { background-image: none !important; background-color: #e1e1e1; border-bottom: none !important; border-bottom: 1px solid #fff !important; }
+#container > .headline > .namediv > .img { margin: 9px 0 0 15px }
+#container > .headline > .pop { position: absolute !important; top: 20px; left: 107px; width: 600px; height: auto; z-index: 2; display: none; opacity: 0 }
+#container > .headline > .pop > .content { width: auto; height: auto; background-color: #f8f8f8; border-radius: 5px; box-shadow: 0 1px 4px #d1d1d1; border: 1px solid #c8c8c8; border-bottom: 1px solid #b1b1b1; padding: 0 10px }
+#container > .headline > .pop > .content > .name { width: auto; height: auto; padding: 16px 0 10px 0; float: none !important; font-size: 11pt; border-bottom: 1px solid #e5e5e5; color: #222 }
+#container > .headline > .pop > .content > .info { width: auto; height: auto; padding: 10px 0 16px 0; float: none !important; font-size: 9pt; color: #777 }
+
+#container > .headline > .button { width: auto; height: auto; float: right !important; border-radius: 5px; padding: 13px 0 0 0; font-weight: bold; }
+#container > .headline > .button > .position { margin-right: 15px }
+
+#container > .wholist { display:none; width: 828px; height: 90px; margin: 0 0 30px 0 }
+#container > .wholist > .innerDiv { display:none; opacity: 0; width: 828px; height: 157px }
+/* 130227 */#container > .wholist > .innerDiv > .left { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; text-shadow: 0 1px 1px #fff; position: absolute !important; top:18px; left: 0 }
+/* 130225 */#container > .wholist > .innerDiv > .right { width: 826px; height: 70px; margin-top: 46px; border: 1px solid #ddd; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #c4c4c4; border-radius: 4px; background-color: #f7f7f7; margin-left: 0 }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card { width: 124px; height: auto; cursor: pointer; border-right: 1px solid #e1e1e1; padding: 10px 0 10px 12px }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card:hover { box-shadow: 0 4px 10px #e5e5e5 inset; background-color: #f5f5f5 }
+/* 130225 */#container > .wholist > .innerDiv > .right > .firstcard { border-top-left-radius: 3px; border-bottom-left-radius: 4px }
+/* 130225 */#container > .wholist > .innerDiv > .right > .lastcard { border-right: none !important; width: 129px }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card > .pic { width: 50px; height: 50px; border-radius: 5px; }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card > .pic img { width: 50px; height: 50px; border-radius: 5px }
+/* 130225 */#container > .wholist > .innerDiv > .right > .card > .name { width: 74px; height: auto; font-size: 9pt; margin-top: 17px; text-align: center }
+
+#copyright { width: 828px; height: auto; padding: 10px 0 20px 0; text-shadow: 0 1px 1px #fff }
+#copyright > .contents { width: 828px; height: auto; position: relative; float: left; padding: 0px 46px 20px 0px }
+#copyright > .contents > .left { width: auto; height: auto; position: relative; float: right !important; font-family: "돋움","Dotum"; font-size: 9pt; color: #888; margin-right: 20px }
+#copyright > .contents > .right { width: auto; height: auto; position: relative; float: right !important; font-family: "돋움","Dotum"; font-size: 8pt; letter-spacing: -1px; color: #888; }
+#copyright > .contents > .right > ul { position: relative; float: left; cursor: pointer }
+#copyright > .contents > .right > ul:hover { color: #dc5457 }

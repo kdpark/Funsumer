@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+body { padding:0;margin:0}
+
+#bg { position:fixed;top:0;left:0; }
+.bgheight { height:100%; }
+.bgwidth { width:100%; }
+
+.placeholder { color:#444; } 						/* for ie */
+input::-webkit-input-placeholder { color:#444; }	/* for webkit */
+
+A:unknown {text-decoration:none} 
+A:link {text-decoration: none} 
+A:visited {text-decoration: none} 
+A:active {text-decoration: none} 
+A:hover {text-decoration: none}
+
+.p1 { color:#fff }
+.p3 { color:#fff }
+
+.floatlogo {
+	position:fixed;
+	top:50px;
+	left:50%;
+	margin-left:-148px;
+	z-index:10000;
+}
+
+.floatselect {
+	width:650px;
+	height:50px;
+	position:absolute;
+	left:50%;
+	top:30%;
+	margin-left:-325px;
+}
+
+	.login {
+		width:250px;;
+		height:200px;
+		float:right;
+		background-color:none;
+		cursor:pointer;
+		position:relative;
+		z-index:1;
+		-ms-filter:alpha(opacity=50); 	/* for ie8 */
+		filter:alpha(opacity=50);		/* for ie9 */
+		opacity:0.5;					/* for webkit */
+	}
+	
+	.login img {
+		display:block;
+	}
+	
+	.loginspace {
+		width:250px;
+		height:auto;
+		background-color:transparent;
+		float:left;
+		position:absolute;
+		top:50px;
+		right:0;
+		display:none;
+		-ms-filter:alpha(opacity=0); 	/* for ie8 */
+		filter:alpha(opacity=0);		/* for ie9 */
+		opacity:0;						/* for webkit */
+		text-align:center;
+		padding:10px 0 0 0;
+		z-index:2;
+	}
+	
+	.loginspace input {
+		width:170px;
+		padding:5px 5px 5px 5px;
+		border:0px;
+		border:1px solid #666;
+		outline:none;
+		margin:10px 0 0 0;
+		background-color:#FFF;
+		font-family:Arial, Helvetica, sans-serif;
+		border-radius:5px;
+		behavior: url(js/pie.htc);
+	}
+	
+	.loginbutton {
+		width:180px;
+		margin:auto;
+	}
+	
+	.loginbutton a {
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:8pt;
+		color:#000;
+		float:left;
+		margin:18px 0 0 15px;
+	}
+	
+	.loginbutton input {
+		width:100px !important;
+		float:right;
+		height:30px;
+		padding:0 !important;
+		background-image: linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		background-image: -o-linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		background-image: -moz-linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		background-image: -webkit-linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		background-image: -ms-linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0.06, rgb(214,214,214)),
+			color-stop(1, rgb(247,247,247))
+		);
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12pt;
+		font-weight:bold;
+		color:#555;
+	}
+	
+	.register {
+		width:250px;
+		height:200px;
+		float:left;
+		background-color:none;
+		cursor:pointer;
+		position:relative;
+		-ms-filter:alpha(opacity=50); 	/* for ie8 */
+		filter:alpha(opacity=50);		/* for ie9 */
+		opacity:0.5;					/* for webkit */
+	}
+	
+	.registerspace {
+		width:250px;
+		height:200px;
+		background-color:transparent;
+		float:right;
+		position:absolute;
+		top:50px;
+		left:0;
+		display:none;
+		-ms-filter:alpha(opacity=0); 	/* for ie8 */
+		filter:alpha(opacity=0);		/* for ie9 */
+		opacity:0;						/* for webkit */
+		text-align:center;
+	}
+	
+	.registerspace input {
+		width:170px;
+		border:0px;
+		border:1px solid #666;
+		outline:none;
+		margin:10px 0 0 0;
+		background-color:#FFF;
+		padding:5px 5px 5px 5px;
+		font-size:9pt;
+		border-radius:5px;
+		behavior: url(js/pie.htc);
+	}
+	
+	.joinbutton {
+		width:180px;
+		margin:auto;
+	}
+	
+	.joinbutton input {
+		width:100px !important;
+		float:right;
+		height:30px;
+		padding:0 !important;
+		background-image: linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		background-image: -o-linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		background-image: -moz-linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		background-image: -webkit-linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		background-image: -ms-linear-gradient(bottom, rgb(214,214,214) 6%, rgb(247,247,247) 100%);
+		
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0.06, rgb(214,214,214)),
+			color-stop(1, rgb(247,247,247))
+		);
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12pt;
+		font-weight:bold;
+		color:#555;
+	}
+	
+	.copyright {
+		position:relative;
+		float:left;
+		width:650px;
+		height:auto;
+		bottom:0;
+		left:0;
+		text-align:center;
+		margin-top:200px;
+		color:#555;
+	}
+	
+	.copyright p {
+		line-height:20px;;
+		font-size:8pt;
+	}
+	
+	

@@ -1,0 +1,337 @@
+.changewrapBox { position: fixed !important; left: 50% !important; margin-left: -460px !important; }
+
+#fullscreen_bg { display: none; width:100%; min-height: 100%; position: fixed; background-color:#fff; z-index: 100; top: 0; left: 0; opacity: .9; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+						cursor: -webkit-zoom-out;  cursor: -moz-zoom-out;  cursor: zoom-out; /*for exit*/ }
+
+/*////////////////////////////////////////////////////////// PARTYPAY //////////////////////////////////////////////////////////////*/
+
+/*-- WIN_FREND_INVITE --*/
+
+#win_friend_invite { display: none; width: 650px; height: auto; position: absolute; z-index: 101; top: 0; left: 50%; margin-left: -325px; padding: 20px 0 20px 0;}
+#win_friend_invite > .container { width: 650px; height: auto; position: relative; background-color: #fff; box-shadow: 0 0 10px #B5ACAC; }
+#win_friend_invite > .container > .title { width: 570px; height: 30px; padding: 20px 40px; position: relative; background-image: url(../../images/party/Container/friendinvitebg.png) }
+#win_friend_invite > .container > .title > .text { width: auto; height: auto; position:relative; float: left; color: #999; font-size: 14px; display:inline; font-family: "NanumGothicWeb"; letter-spacing: 0px; padding:7px 0 0 0;}
+#win_friend_invite > .container > .title > .right { float: right }
+#win_friend_invite > .container > .contents { width: 590px; height: auto; padding: 10px 30px 20px 30px; position: relative; }
+#win_friend_invite > .container > .contents > .list 	{ width: 570px; height: 50px; position: relative; padding: 10px 10px; border-bottom: 1px solid #eee; background-color:#fff; cursor: pointer; }
+#win_friend_invite > .container > .contents > .list > .pic 						{ width: 50px; height: 50px; position: relative; float: left; margin-right: 20px; }
+#win_friend_invite > .container > .contents > .list > .pic  img 					{ border-radius: 5px; }
+#win_friend_invite > .container > .contents > .list > .name 					{ width: auto; height: auto; position: relative; float: left; padding:16px 20px 0 0; }
+#win_friend_invite > .container > .contents > .list > .name > h1 			{ color: #999; font-size: 14px; display:inline; font-family: "NanumGothicBoldWeb"; letter-spacing: 0px; }
+#win_friend_invite > .container > .contents > .list > .shareparty				{ color: #aaa; padding: 18px 0 0 0; width: auto; height: auto; position: relative; float: left;  font-size: 8pt; line-height: 13px; font-family: "돋움","Dotum" }
+#win_friend_invite > .container > .contents > .list > .button 					{ width: 40px; height: 30px; margin:12px 0 0 0;  position: relative; float: right; background-image: url(../../images/party/Container/check.png);}
+
+/*-- WIN_ANOUNCE_ORIGINAL --*/
+#win_anounce_original { display: none; width: 593px; height: auto; position: absolute !important; top: 0; left: 50%; margin-left: -296px; padding: 20px 0; z-index: 102; }
+
+#win_anounce_original div { float: left; position: relative }
+
+#win_anounce_original > .posts { width: 593px; height: auto; border: 1px solid #d2d2d2; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #aaa; background-color: #fff; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 0 20px #B5ACAC }
+
+#win_anounce_original > .posts > .noticepop { width: 100px; height: 100px; position: absolute !important; top: 0; left: 0; }
+
+#win_anounce_original > .posts > .header { width: 553px; height: 0px; padding: 20px 20px 0 20px; z-index: 10; border-radius: 5px }
+
+#win_anounce_original > .posts > .header > .pic { width: 50px; height: 50px }
+#win_anounce_original > .posts > .header > .pic img { border-radius: 4px; behavior: url(../../js/pie.htc); width: 50px; height: 50px; }
+
+#win_anounce_original > .posts > .header > .info { width: 300px; height: 0px; padding: 0 0 0 10px; text-shadow: 0 1px 1px #fff }
+#win_anounce_original > .posts > .header > .info > .top { width: 400px; height: 16px; font-size: 10pt; ont-weight: bold; color: #666; font-family: 'Nanum Gothic', sans-serif; font-weight: bold }
+#win_anounce_original > .posts > .header > .info > .top > .writer { width: auto; height: 16px; margin-right: 7px }
+#win_anounce_original > .posts > .header > .info > .top > .path { width: 16px; height: 16px; margin-right: 7px }
+#win_anounce_original > .posts > .header > .info > .top > .place { width: auto; height: 16px }
+#win_anounce_original > .posts > .header > .info > .top > .time { font-size: 11px; color: #a5a5a5; font-family: "돋움","Dotum"; margin:2px 0 0 7px; font-weight: normal }
+
+#win_anounce_original > .posts > .header > .button { width: auto; height: 14px; padding: 0; float: right !important;  font-size: 11px; color: #999; font-family: '돋움', sans-serif }
+#win_anounce_original > .posts > .header > .button > .delete { display:none; width: auto; height: 12px; float: right !important;  border-left: 1px solid #e5e5e5; cursor: pointer; z-index: 1; margin-left: 7px !important; padding: 0 0 0 7px }
+#win_anounce_original > .posts > .header > .button > .delete:hover { color: #dc5457; text-decoration: underline }
+#win_anounce_original > .posts > .header > .button > .scrap { width: auto; height: 12px; float: right !important; margin-left: 0 !important; cursor: pointer; z-index: 200; border-left: 1px solid #e5e5e5; padding: 0 0 0 7px; }
+#win_anounce_original > .posts > .header > .button > .scrap:hover { color: #dc5457; text-decoration: underline }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox { visibility:hidden; position: absolute !important; top: -52px; right: 40px; width: 300px; height: auto; padding: 0 0 15px 0; background-color: #f3f3f3; border: 1px solid #ccc; box-shadow: 0 0 20px #ccc; z-index: 10; border-bottom: 1px solid #a1a1a1; cursor: default }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .arrow { width: 7px; height: 13px; position: absolute !important; top: 51px; right: -6px; background-image: url(../../images/board/scrapboxarrow.png); z-index: 10 }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .whiteline1 { width: 300px; height: 1px; background-color: #fff }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .selectbox { cursor: pointer; width: 238px; height: auto; padding: 7px 10px; margin: 15px 20px 0 20px; background-image: url(../../images/board/selectboxbg.png); border: 1px solid #c9c9c9; border-radius: 5px;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: #555; z-index: 30 }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window { display: none; width: 258px; height: 165px; position: absolute !important; top: -1px; left: -1px; border: 1px solid #d2d2d2; border-radius: 5px; box-shadow: 0 0 10px #ccc; background-image:url(../../images/board/selectboxbg2.png); cursor: default }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window { position:relative; width:258px; height:175px; margin: 5px 0 0 0; overflow: auto; overflow-x: hidden }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window  > .list { width: 238px; height: auto; position: relative; padding: 10px; cursor: default; background-color: #fff; cursor: pointer }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .whiteline2 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .contentbox { width: 238px; height: 60px; padding: 10px; margin: 0 20px;  background-color: #fff; border-radius: 5px; border: 1px solid #d2d2d2 }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .contentbox textarea { position: absolute; top: 10px; left: 10px; width:238px; height: 60px; border:none; resize: none; background:none; outline: none; font-family: Arial, Helvetica, sans-serif; overflow: auto }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .whiteline3 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_anounce_original > .posts > .header > .button > .scrap > .scrapbox > .button { width: auto; height: auto; float: none !important; margin-left: 100px }
+#win_anounce_original > .posts > .header > .button > .candy { width: auto; height: 12px; float: right !important; cursor: pointer;  padding: 0 7px }
+#win_anounce_original > .posts > .header > .button > .candy:hover { color: #dc5457; text-decoration: underline }
+
+#win_anounce_original > .posts > .container { width: 500px; height: auto; padding: 0 20px 10px 20px; margin-left: 60px; margin-top: 20px }
+
+#win_anounce_original > .posts > .container > .caption { width: 477px; height: auto; margin-top: 3px; border-left: 4px solid #d9d9d9; padding: 5px 0 5px 12px; font-size: 9pt; font-family: "굴림","Gulim"; letter-spacing: -1px; line-height: 17px; color: #777; background-color: #f9f9f9; margin-bottom: 10px !important; margin-top: 5px }
+
+#win_anounce_original > .posts > .container > .text { width: 493px; height: auto; font-size: 9pt; padding-bottom: 3px }
+#win_anounce_original > .posts > .container > .text > .title { display: none; width: auto; max-width: 493px; height: auto; margin-bottom: 5px; font-size: 9pt; font-family: '굴림', sans-serif; font-weight: normal; color: #dc5457; margin-top: 2px; border-bottom: 1px dotted #dc5457; font-weight: bold; letter-spacing: -1px }
+#win_anounce_original > .posts > .container > .text > .contents { width: 493px; height: auto; font-family: "굴림","Gulim";  color: #444; line-height: 16px; margin-top: 2px }
+
+#win_anounce_original > .posts > .container > .pic { width: 493px; height: auto; padding-bottom: 10px; padding-top: 6px }
+
+#win_anounce_original > .posts > .container > .pic > .noneframe { width: 493px; height: auto; background-color: #f3f3f3; text-align: center }
+#win_anounce_original > .posts > .container > .pic > .noneframe > img{ max-width: 493px }
+
+#win_anounce_original > .posts > .container > .info { width: 500px; height: 11px; margin-bottom: 7px; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; color: #aaaaaa }
+#win_anounce_original > .posts > .container > .info > .comment { width: auto; height: auto }
+#win_anounce_original > .posts > .container > .info > .candy { width: auto; height: auto; margin-left: 10px }
+#win_anounce_original > .posts > .container > .info > .scrap { width: auto; height: auto; margin-left: 10px }
+
+#win_anounce_original > .posts > .comment { width: 593px; height: auto; float: left; position: relative; background-color: #f1f1f1; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px }
+
+#win_anounce_original > .posts > .comment > .origin { border-top: 1px solid #fff; width: 493px; height: auto; color: #777; font-size: 9pt;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5; cursor: default !important }
+#win_anounce_original > .posts > .comment > .origin img { margin-right: 10px }
+
+#win_anounce_original > .posts > .comment > .moreview { text-align: left; border-top: 1px solid #fff;width: 493px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+#win_anounce_original > .posts > .comment > .allview { text-align: left; border-top: 1px solid #fff;width: 493px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+
+#win_anounce_original > .posts > .comment > .list { width: 593px; height: auto; float: left; position: relative }
+#win_anounce_original > .posts > .comment > .list > .comments { width: 593px; height: auto; float: left; position: relative; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5; padding: 15px 0; }
+#win_anounce_original > .posts > .comment > .list > .comments > .pic { width: 38px; height: 38px; position: relative; float: left; margin: 0 10px 0 32px }
+#win_anounce_original > .posts > .comment > .list > .comments > .pic img { border-radius: 5px }
+#win_anounce_original > .posts > .comment > .list > .comments > .contents { width: 470px; height: auto; position: relative; float: left; margin:4px 0 0 0 }
+#win_anounce_original > .posts > .comment > .list > .comments > .contents > .name { width: auto; height: 18px; position: relative; float: left;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  font-size: 12px; color: #555; margin-right: 5px; }
+#win_anounce_original > .posts > .comment > .list > .comments > .contents > .time { width: auto; height: 18px; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #999; }
+#win_anounce_original > .posts > .comment > .list > .comments > .contents > .text { width: 470px; height: auto; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #666; letter-spacing: -1px; line-height: 13px }
+#win_anounce_original > .posts > .comment > .list > .comments > .delete { display:none; width: 8px; height: 8px; margin: 15px 20px 15px 15px; position: relative; float: right; background-image: url(../../images/party/Container/cmx.png); cursor: pointer }
+
+#win_anounce_original > .posts > .comment > .write { width: 541px; height: auto; float: left; padding: 15px 20px 15px 32px }
+#win_anounce_original > .posts > .comment > .write > .pic { width: 38px; height: 38px; float: left; margin-right: 10px;}
+#win_anounce_original > .posts > .comment > .write > .pic img { border-radius: 3px; }
+#win_anounce_original > .posts > .comment > .write > .text { width: 483px; height: 15px; float: left; background-color: #fff; padding: 10px 0 10px 10px; border-radius: 5px; border-top: 1px solid #d5d5d5; position:relative; margin: 1px 0 0 0; }
+#win_anounce_original > .posts > .comment > .write > .text textarea { resize: none; width: 100%; height: 15px; float: left; background-color: #fff; border: none; outline: none; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #777; overflow:hidden; position:relative; margin:0; }
+
+/* --   WIN_ALARM		   --*/
+#win_alarm { display: none; width: 593px; height: auto; position: absolute !important; top: 0; left: 50%; margin-left: -296px; padding: 20px 0; z-index: 102; }
+
+#win_alarm div { float: left; position: relative }
+
+#win_alarm > .posts { width: 593px; height: auto; border: 1px solid #d2d2d2; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #aaa; background-color: #fff; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 0 20px #B5ACAC }
+
+#win_alarm > .posts > .noticepop { width: 100px; height: 100px; position: absolute !important; top: 0; left: 0; }
+
+#win_alarm > .posts > .header { width: 553px; height: 0px; padding: 20px 20px 0 20px; z-index: 10; border-radius: 5px }
+
+#win_alarm > .posts > .header > .pic { width: 50px; height: 50px }
+#win_alarm > .posts > .header > .pic img { border-radius: 4px; behavior: url(../../js/pie.htc); width: 50px; height: 50px; }
+
+#win_alarm > .posts > .header > .info { width: 300px; height: 0px; padding: 0 0 0 10px; text-shadow: 0 1px 1px #fff }
+#win_alarm > .posts > .header > .info > .top { width: 400px; height: 16px; font-size: 10pt; ont-weight: bold; color: #666; font-family: 'Nanum Gothic', sans-serif; font-weight: bold }
+#win_alarm > .posts > .header > .info > .top > .writer { width: auto; height: 16px; margin-right: 7px }
+#win_alarm > .posts > .header > .info > .top > .path { width: 16px; height: 16px; margin-right: 7px }
+#win_alarm > .posts > .header > .info > .top > .place { width: auto; height: 16px }
+#win_alarm > .posts > .header > .info > .top > .time { font-size: 11px; color: #a5a5a5; font-family: "돋움","Dotum"; margin:2px 0 0 7px; font-weight: normal }
+
+#win_alarm > .posts > .header > .button { width: auto; height: 14px; padding: 0; float: right !important;  font-size: 11px; color: #999; font-family: '돋움', sans-serif }
+#win_alarm > .posts > .header > .button > .delete { display:none; width: auto; height: 12px; float: right !important;  border-left: 1px solid #e5e5e5; cursor: pointer; z-index: 1; margin-left: 7px !important; padding: 0 0 0 7px }
+#win_alarm > .posts > .header > .button > .delete:hover { color: #dc5457; text-decoration: underline }
+#win_alarm > .posts > .header > .button > .scrap { width: auto; height: 12px; float: right !important; margin-left: 0 !important; cursor: pointer; z-index: 200; border-left: 1px solid #e5e5e5; padding: 0 0 0 7px; }
+#win_alarm > .posts > .header > .button > .scrap:hover { color: #dc5457; text-decoration: underline }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox { visibility:hidden; position: absolute !important; top: -52px; right: 40px; width: 300px; height: auto; padding: 0 0 15px 0; background-color: #f3f3f3; border: 1px solid #ccc; box-shadow: 0 0 20px #ccc; z-index: 10; border-bottom: 1px solid #a1a1a1; cursor: default }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .arrow { width: 7px; height: 13px; position: absolute !important; top: 51px; right: -6px; background-image: url(../../images/board/scrapboxarrow.png); z-index: 10 }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .whiteline1 { width: 300px; height: 1px; background-color: #fff }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .selectbox { cursor: pointer; width: 238px; height: auto; padding: 7px 10px; margin: 15px 20px 0 20px; background-image: url(../../images/board/selectboxbg.png); border: 1px solid #c9c9c9; border-radius: 5px;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: #555; z-index: 30 }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window { display: none; width: 258px; height: 165px; position: absolute !important; top: -1px; left: -1px; border: 1px solid #d2d2d2; border-radius: 5px; box-shadow: 0 0 10px #ccc; background-image:url(../../images/board/selectboxbg2.png); cursor: default }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window { position:relative; width:258px; height:175px; margin: 5px 0 0 0; overflow: auto; overflow-x: hidden }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window  > .list { width: 238px; height: auto; position: relative; padding: 10px; cursor: default; background-color: #fff; cursor: pointer }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .whiteline2 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .contentbox { width: 238px; height: 60px; padding: 10px; margin: 0 20px;  background-color: #fff; border-radius: 5px; border: 1px solid #d2d2d2 }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .contentbox textarea { position: absolute; top: 10px; left: 10px; width:238px; height: 60px; border:none; resize: none; background:none; outline: none; font-family: Arial, Helvetica, sans-serif; overflow: auto }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .whiteline3 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_alarm > .posts > .header > .button > .scrap > .scrapbox > .button { width: auto; height: auto; float: none !important; margin-left: 100px }
+#win_alarm > .posts > .header > .button > .candy { width: auto; height: 12px; float: right !important; cursor: pointer;  padding: 0 7px }
+#win_alarm > .posts > .header > .button > .candy:hover { color: #dc5457; text-decoration: underline }
+
+#win_alarm > .posts > .container { width: 500px; height: auto; padding: 0 20px 10px 20px; margin-left: 60px; margin-top: 20px }
+
+#win_alarm > .posts > .container > .caption { width: 477px; height: auto; margin-top: 3px; border-left: 4px solid #d9d9d9; padding: 5px 0 5px 12px; font-size: 9pt; font-family: "굴림","Gulim"; letter-spacing: -1px; line-height: 17px; color: #777; background-color: #f9f9f9; margin-bottom: 10px !important; margin-top: 5px }
+
+#win_alarm > .posts > .container > .text { width: 493px; height: auto; font-size: 9pt; padding-bottom: 3px }
+#win_alarm > .posts > .container > .text > .title { display: none; width: auto; max-width: 493px; height: auto; margin-bottom: 5px; font-size: 9pt; font-family: '굴림', sans-serif; font-weight: normal; color: #dc5457; margin-top: 2px; border-bottom: 1px dotted #dc5457; font-weight: bold; letter-spacing: -1px }
+#win_alarm > .posts > .container > .text > .contents { width: 493px; height: auto; font-family: "굴림","Gulim";  color: #444; line-height: 16px; margin-top: 2px }
+
+#win_alarm > .posts > .container > .pic { width: 493px; height: auto; padding-bottom: 10px; padding-top: 6px }
+
+#win_alarm > .posts > .container > .pic > .noneframe { width: 493px; height: auto; background-color: #f3f3f3; text-align: center }
+#win_alarm > .posts > .container > .pic > .noneframe > img{ max-width: 493px }
+
+#win_alarm > .posts > .container > .info { width: 500px; height: 11px; margin-bottom: 7px; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; color: #aaaaaa }
+#win_alarm > .posts > .container > .info > .comment { width: auto; height: auto }
+#win_alarm > .posts > .container > .info > .candy { width: auto; height: auto; margin-left: 10px }
+#win_alarm > .posts > .container > .info > .scrap { width: auto; height: auto; margin-left: 10px }
+
+#win_alarm > .posts > .comment { width: 593px; height: auto; float: left; position: relative; background-color: #f1f1f1; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px }
+
+#win_alarm > .posts > .comment > .origin { border-top: 1px solid #fff; width: 493px; height: auto; color: #777; font-size: 9pt;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5; cursor: default !important }
+#win_alarm > .posts > .comment > .origin img { margin-right: 10px }
+
+#win_alarm > .posts > .comment > .moreview { text-align: left; border-top: 1px solid #fff;width: 493px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+#win_alarm > .posts > .comment > .allview { text-align: left; border-top: 1px solid #fff;width: 493px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+
+#win_alarm > .posts > .comment > .list { width: 593px; height: auto; float: left; position: relative }
+#win_alarm > .posts > .comment > .list > .comments { width: 593px; height: auto; float: left; position: relative; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5; padding: 15px 0; }
+#win_alarm > .posts > .comment > .list > .comments > .pic { width: 38px; height: 38px; position: relative; float: left; margin: 0 10px 0 32px }
+#win_alarm > .posts > .comment > .list > .comments > .pic img { border-radius: 5px }
+#win_alarm > .posts > .comment > .list > .comments > .contents { width: 470px; height: auto; position: relative; float: left; margin:4px 0 0 0 }
+#win_alarm > .posts > .comment > .list > .comments > .contents > .name { width: auto; height: 18px; position: relative; float: left;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  font-size: 12px; color: #555; margin-right: 5px; }
+#win_alarm > .posts > .comment > .list > .comments > .contents > .time { width: auto; height: 18px; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #999; }
+#win_alarm > .posts > .comment > .list > .comments > .contents > .text { width: 470px; height: auto; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #666; letter-spacing: -1px; line-height: 13px }
+#win_alarm > .posts > .comment > .list > .comments > .delete { display:none; width: 8px; height: 8px; margin: 15px 20px 15px 15px; position: relative; float: right; background-image: url(../../images/party/Container/cmx.png); cursor: pointer }
+
+#win_alarm > .posts > .comment > .write { width: 541px; height: auto; float: left; padding: 15px 20px 15px 32px }
+#win_alarm > .posts > .comment > .write > .pic { width: 38px; height: 38px; float: left; margin-right: 10px;}
+#win_alarm > .posts > .comment > .write > .pic img { border-radius: 3px; }
+#win_alarm > .posts > .comment > .write > .text { width: 483px; height: 15px; float: left; background-color: #fff; padding: 10px 0 10px 10px; border-radius: 5px; border-top: 1px solid #d5d5d5; position:relative; margin: 1px 0 0 0; }
+#win_alarm > .posts > .comment > .write > .text textarea { resize: none; width: 100%; height: 15px; float: left; background-color: #fff; border: none; outline: none; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #777; overflow:hidden; position:relative; margin:0; }
+/* -- 	WIN_ALARM     --*/
+
+#win_board_original { display: none; width: 593px; height: auto; position: absolute !important; top: 0; left: 50%; margin-left: -296px; padding: 20px 0; z-index: 102; }
+
+#win_board_original div { float: left; position: relative }
+
+#win_board_original > .posts { width: 593px; height: auto; border: 1px solid #d2d2d2; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #aaa; background-color: #fff; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 0 20px #B5ACAC }
+
+#win_board_original > .posts > .noticepop { width: 100px; height: 100px; position: absolute !important; top: 0; left: 0; }
+
+#win_board_original > .posts > .header { width: 553px; height: 0px; padding: 20px 20px 0 20px; z-index: 10; border-radius: 5px }
+
+#win_board_original > .posts > .header > .pic { width: 50px; height: 50px }
+#win_board_original > .posts > .header > .pic img { border-radius: 4px; behavior: url(../../js/pie.htc); width: 50px; height: 50px; }
+
+#win_board_original > .posts > .header > .info { width: 300px; height: 0px; padding: 0 0 0 10px; text-shadow: 0 1px 1px #fff }
+#win_board_original > .posts > .header > .info > .top { width: 400px; height: 16px; font-size: 10pt; ont-weight: bold; color: #666; font-family: 'Nanum Gothic', sans-serif; font-weight: bold }
+#win_board_original > .posts > .header > .info > .top > .writer { width: auto; height: 16px; margin-right: 7px }
+#win_board_original > .posts > .header > .info > .top > .path { width: 16px; height: 16px; margin-right: 7px }
+#win_board_original > .posts > .header > .info > .top > .place { width: auto; height: 16px }
+#win_board_original > .posts > .header > .info > .top > .time { font-size: 11px; color: #a5a5a5; font-family: "돋움","Dotum"; margin:2px 0 0 7px; font-weight: normal }
+
+#win_board_original > .posts > .header > .button { width: auto; height: 14px; padding: 0; float: right !important;  font-size: 11px; color: #999; font-family: '돋움', sans-serif }
+#win_board_original > .posts > .header > .button > .delete { display:none; width: auto; height: 12px; float: right !important;  border-left: 1px solid #e5e5e5; cursor: pointer; z-index: 1; margin-left: 7px !important; padding: 0 0 0 7px }
+#win_board_original > .posts > .header > .button > .delete:hover { color: #dc5457; text-decoration: underline }
+#win_board_original > .posts > .header > .button > .scrap { width: auto; height: 12px; float: right !important; margin-left: 0 !important; cursor: pointer; z-index: 200; border-left: 1px solid #e5e5e5; padding: 0 0 0 7px; }
+#win_board_original > .posts > .header > .button > .scrap:hover { color: #dc5457; text-decoration: underline }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox { visibility:hidden; position: absolute !important; top: -52px; right: 40px; width: 300px; height: auto; padding: 0 0 15px 0; background-color: #f3f3f3; border: 1px solid #ccc; box-shadow: 0 0 20px #ccc; z-index: 10; border-bottom: 1px solid #a1a1a1; cursor: default }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .arrow { width: 7px; height: 13px; position: absolute !important; top: 51px; right: -6px; background-image: url(../../images/board/scrapboxarrow.png); z-index: 10 }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .whiteline1 { width: 300px; height: 1px; background-color: #fff }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .selectbox { cursor: pointer; width: 238px; height: auto; padding: 7px 10px; margin: 15px 20px 0 20px; background-image: url(../../images/board/selectboxbg.png); border: 1px solid #c9c9c9; border-radius: 5px;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: #555; z-index: 30 }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window { display: none; width: 258px; height: 165px; position: absolute !important; top: -1px; left: -1px; border: 1px solid #d2d2d2; border-radius: 5px; box-shadow: 0 0 10px #ccc; background-image:url(../../images/board/selectboxbg2.png); cursor: default }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window { position:relative; width:258px; height:175px; margin: 5px 0 0 0; overflow: auto; overflow-x: hidden }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .selectbox > .window > .board_scrapbox_window  > .list { width: 238px; height: auto; position: relative; padding: 10px; cursor: default; background-color: #fff; cursor: pointer }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .whiteline2 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .contentbox { width: 238px; height: 60px; padding: 10px; margin: 0 20px;  background-color: #fff; border-radius: 5px; border: 1px solid #d2d2d2 }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .contentbox textarea { position: absolute; top: 10px; left: 10px; width:238px; height: 60px; border:none; resize: none; background:none; outline: none; font-family: Arial, Helvetica, sans-serif; overflow: auto }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .whiteline3 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#win_board_original > .posts > .header > .button > .scrap > .scrapbox > .button { width: auto; height: auto; float: none !important; margin-left: 100px }
+#win_board_original > .posts > .header > .button > .candy { width: auto; height: 12px; float: right !important; cursor: pointer;  padding: 0 7px }
+#win_board_original > .posts > .header > .button > .candy:hover { color: #dc5457; text-decoration: underline }
+
+#win_board_original > .posts > .container { width: 500px; height: auto; padding: 0 20px 10px 20px; margin-left: 60px; margin-top: 20px }
+
+#win_board_original > .posts > .container > .caption { width: 477px; height: auto; margin-top: 3px; border-left: 4px solid #d9d9d9; padding: 5px 0 5px 12px; font-size: 9pt; font-family: "굴림","Gulim"; letter-spacing: -1px; line-height: 17px; color: #777; background-color: #f9f9f9; margin-bottom: 10px !important; margin-top: 5px }
+
+#win_board_original > .posts > .container > .text { width: 493px; height: auto; font-size: 9pt; padding-bottom: 3px }
+#win_board_original > .posts > .container > .text > .title { display: none; width: auto; max-width: 493px; height: auto; margin-bottom: 5px; font-size: 9pt; font-family: '굴림', sans-serif; font-weight: normal; color: #dc5457; margin-top: 2px; border-bottom: 1px dotted #dc5457; font-weight: bold; letter-spacing: -1px }
+#win_board_original > .posts > .container > .text > .contents { width: 493px; height: auto; font-family: "굴림","Gulim";  color: #444; line-height: 16px; margin-top: 2px }
+
+#win_board_original > .posts > .container > .pic { width: 493px; height: auto; padding-bottom: 10px; padding-top: 6px }
+
+#win_board_original > .posts > .container > .pic > .noneframe { width: 493px; height: auto; background-color: #f3f3f3; text-align: center }
+#win_board_original > .posts > .container > .pic > .noneframe > img{ max-width: 493px }
+
+#win_board_original > .posts > .container > .info { width: 500px; height: 11px; margin-bottom: 7px; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; color: #aaaaaa }
+#win_board_original > .posts > .container > .info > .comment { width: auto; height: auto }
+#win_board_original > .posts > .container > .info > .candy { width: auto; height: auto; margin-left: 10px }
+#win_board_original > .posts > .container > .info > .scrap { width: auto; height: auto; margin-left: 10px }
+
+#win_board_original > .posts > .comment { width: 593px; height: auto; float: left; position: relative; background-color: #f1f1f1; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px }
+
+#win_board_original > .posts > .comment > .origin { border-top: 1px solid #fff; width: 493px; height: auto; color: #777; font-size: 9pt;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5; cursor: default !important }
+#win_board_original > .posts > .comment > .origin img { margin-right: 10px }
+
+#win_board_original > .posts > .comment > .moreview { text-align: left; border-top: 1px solid #fff;width: 493px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+#win_board_original > .posts > .comment > .allview { text-align: left; border-top: 1px solid #fff;width: 493px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px 10px 80px; border-bottom: 1px solid #d5d5d5 }
+
+#win_board_original > .posts > .comment > .list { width: 593px; height: auto; float: left; position: relative }
+#win_board_original > .posts > .comment > .list > .comments { width: 593px; height: auto; float: left; position: relative; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5; padding: 15px 0; }
+#win_board_original > .posts > .comment > .list > .comments > .pic { width: 38px; height: 38px; position: relative; float: left; margin: 0 10px 0 32px }
+#win_board_original > .posts > .comment > .list > .comments > .pic img { border-radius: 5px }
+#win_board_original > .posts > .comment > .list > .comments > .contents { width: 470px; height: auto; position: relative; float: left; margin:4px 0 0 0 }
+#win_board_original > .posts > .comment > .list > .comments > .contents > .name { width: auto; height: 18px; position: relative; float: left;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  font-size: 12px; color: #555; margin-right: 5px; }
+#win_board_original > .posts > .comment > .list > .comments > .contents > .time { width: auto; height: 18px; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #999; }
+#win_board_original > .posts > .comment > .list > .comments > .contents > .text { width: 470px; height: auto; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #666; letter-spacing: -1px; line-height: 13px }
+#win_board_original > .posts > .comment > .list > .comments > .delete { display:none; width: 8px; height: 8px; margin: 15px 20px 15px 15px; position: relative; float: right; background-image: url(../../images/party/Container/cmx.png); cursor: pointer }
+
+#win_board_original > .posts > .comment > .write { width: 541px; height: auto; float: left; padding: 15px 20px 15px 32px }
+#win_board_original > .posts > .comment > .write > .pic { width: 38px; height: 38px; float: left; margin-right: 10px;}
+#win_board_original > .posts > .comment > .write > .pic img { border-radius: 3px; }
+#win_board_original > .posts > .comment > .write > .text { width: 483px; height: 15px; float: left; background-color: #fff; padding: 10px 0 10px 10px; border-radius: 5px; border-top: 1px solid #d5d5d5; position:relative; margin: 1px 0 0 0; }
+#win_board_original > .posts > .comment > .write > .text textarea { resize: none; width: 100%; height: 15px; float: left; background-color: #fff; border: none; outline: none; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #777; overflow:hidden; position:relative; margin:0; }
+
+/*////////////////////////////////////////////////////////// NOTE //////////////////////////////////////////////////////////////*/
+
+/*0429*/#win_add_party {  width: 692px; height: auto; position: fixed; z-index: 101; top: 0; left: 50%; margin-left: -346px; top: 20px; visibility: hidden }
+/*0429*/#win_add_party > .container { width: 652px; height: auto; float: left; position: relative; background-color: #fff; box-shadow: 0 0 10px #B5ACAC; padding: 20px }
+#win_add_party > .container > .partyname { width: 652px; height: auto; margin-bottom: 20px }
+/*0429*/#win_add_party > .container > .partyname > .title { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; margin-bottom: 14px; text-shadow: 0 1px 1px #fff }
+#win_add_party > .container > .partyname > .top { width: 652px; height: 10px; background-image: url(../../images/board/write_text_top.png) }
+#win_add_party > .container > .partyname > .mid { width: 612px; height: auto; background-image: url(../../images/board/write_text_mid.png); padding: 0 20px; }
+#win_add_party > .container > .partyname > .mid input { border:none; resize: none; outline: none; font-size: 12px; font-family: Arial, Helvetica, sans-serif; width: 612px; height: 20px; background: none; color: #999; }
+#win_add_party > .container > .partyname > .bot { width: 652px; height: 10px; background-image: url(../../images/board/write_text_bottom.png) }
+
+/*0613 시작*/
+#win_add_party > .container > .partysetting { width: 652px; height: auto; position: relative; float: left; padding: 0 0 20px 0 }
+#win_add_party > .container > .partysetting > .header { width: 612px; height: auto; position: relative; padding: 10px 20px 0 0px; border-top-left-radius: 4px; border-top-right-radius: 4px; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-shadow: 0 1px 1px #fff; font-size: 9pt }
+#win_add_party > .container > .partysetting > .header > .title { width: auto; height: auto; float: left; padding: 0 15px 0 0 }
+
+#win_add_party > .container > .partysetting > .container { float: left; width: 650px; height: auto; position: relative; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-shadow: 0 1px 1px #fff; font-size: 9pt; border: 1px solid #e1e1e1; border-radius: 5px; margin-top: 14px }
+#win_add_party > .container > .partysetting > .container > .show { float: left; width: 612px; height: auto; position: relative; padding: 20px 20px }
+#win_add_party > .container > .partysetting > .container > .show > .title { width: 150px; height: auto; float: left; color: #aaa }
+#win_add_party > .container > .partysetting > .container > .show > .container { width: 462px; height: auto; float: left }
+#win_add_party > .container > .partysetting > .container > .show > .container > .button { width: 462px; height: auto; color: #a1a1a1; float: left }
+#win_add_party > .container > .partysetting > .container > .show > .container > .button > .on { width: auto; height: auto; padding: 5px 10px; background-image: url(../../images/base/buttongray2bg.png); border: 1px solid #ddd; border-bottom: 1px solid #aaa; border-top: 1px solid #e1e1e1; float: left; border-top-left-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; border-right: none }
+#win_add_party > .container > .partysetting > .container > .show > .container > .button > .off { width: auto; height: auto; padding: 5px 10px; background-image: url(../../images/base/buttongray2bg.png); border: 1px solid #ddd; border-bottom: 1px solid #aaa; border-top: 1px solid #e1e1e1; float:left; border-top-right-radius: 4px; border-bottom-right-radius: 4px; cursor: pointer; border-left: none }
+#win_add_party > .container > .partysetting > .container > .show > .container > .button > .selected { background-image: url(../../images/partyplay/buttonselected.png) !important; color: #fff; text-shadow: 0 -1px 1px #444; border: 1px solid #777; border-bottom: 1px solid #555 }
+#win_add_party > .container > .partysetting > .container > .show > .container > .explain { width: auto; height: auto; float: left; margin-top: 10px; font-weight: normal; font-family: '돋움'; font-size: 8pt; color: #a1a1a1; line-height: 14px }
+#win_add_party > .container > .partysetting > .container > .show > .container > .explain h1 { color: #dc5457; font-size: 8pt; display: inline; font-weight: normal }
+#win_add_party > .container > .partysetting > .container > .show > .container > .explain > .on { display: none }
+#win_add_party > .container > .partysetting > .container > .show > .container > .explain > .off { display: none }
+#win_add_party > .container > .partysetting > .container > .show > .container > .explain > .selected { display: block }
+#win_add_party > .container > .partysetting > .container > .allow { float: left; width: 612px; height: auto; position: relative; border-top: 1px solid #eee; padding: 20px 20px; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px }
+#win_add_party > .container > .partysetting > .container > .allow > .title { width: 150px; height: auto; float: left; color: #aaa }
+#win_add_party > .container > .partysetting > .container > .allow > .container { width: 462px; height: auto; float: left }
+#win_add_party > .container > .partysetting > .container > .allow > .container > .button { width: 462px; height: auto; color: #a1a1a1; float: left }
+#win_add_party > .container > .partysetting > .container > .allow > .container > .button > .on { width: auto; height: auto; padding: 5px 10px; background-image: url(../../images/base/buttongray2bg.png); border: 1px solid #ddd; border-bottom: 1px solid #aaa; border-top: 1px solid #e1e1e1; float: left; border-top-left-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; border-right: none }
+#win_add_party > .container > .partysetting > .container > .allow > .container > .button > .off { width: auto; height: auto; padding: 5px 10px; background-image: url(../../images/base/buttongray2bg.png); border: 1px solid #ddd; border-bottom: 1px solid #aaa; border-top: 1px solid #e1e1e1; float:left; border-top-right-radius: 4px; border-bottom-right-radius: 4px; cursor: pointer; border-left: none }
+#win_add_party > .container > .partysetting > .container > .allow > .container > .button > .selected { background-image: url(../../images/partyplay/buttonselected.png) !important; color: #fff; text-shadow: 0 -1px 1px #444; border: 1px solid #777; border-bottom: 1px solid #555 }
+#win_add_party > .container > .partysetting > .container > .allow > .container > .explain { width: auto; height: auto; float: left; margin-top: 10px; font-weight: normal; font-family: '돋움'; font-size: 8pt; color: #a1a1a1; line-height: 15px }
+#win_add_party > .container > .partysetting > .container > .allow > .container > .explain h1 { color: #dc5457; font-size: 8pt; display: inline; font-weight: normal }
+#win_add_party > .container > .partysetting > .container > .allow > .container > .explain > .on { display: none }
+#win_add_party > .container > .partysetting > .container > .allow > .container > .explain > .off { display: none }
+#win_add_party > .container > .partysetting > .container > .allow > .container > .explain > .selected { display: block }
+/*0613끝*/
+
+#win_add_party > .container > .invite_Fri { width: 652px; height: auto; margin-bottom: 20px }
+/*0429*/#win_add_party > .container > .invite_Fri > .title { width: auto; height: auto;  font-size: 9pt; font-family: 'Nanum Gothic', sans-serif; color: #888; font-weight: bold; text-align: left; margin-bottom: 14px; text-shadow: 0 1px 1px #fff }
+#win_add_party > .container > .invite_Fri > .top { width: 652px; height: 10px; background-image: url(../../images/board/write_text_top.png) }
+#win_add_party > .container > .invite_Fri > .mid { width: 612px; height: auto; background-image: url(../../images/board/write_text_mid.png); padding: 0 20px; }
+#win_add_party > .container > .invite_Fri > .bot { width: 652px; height: 10px; background-image: url(../../images/board/write_text_bottom.png) }
+
+#win_add_party > .container > .footer { width: 652px; height: auto }
+#win_add_party > .container > .footer > .number { width: auto; height: auto; position:relative; float: left; color: #999; font-size: 14px; font-family: "NanumGothicWeb" }
+#win_add_party > .container > .footer > .number h1 { color: #dc5457; float: left; font-size: 14px; margin-right: 5px }
+#win_add_party > .container > .footer > .position { margin-top: -9px; float: right }
+
+
+
+
+
+
+
+
+
+
+
+

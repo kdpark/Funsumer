@@ -1,0 +1,162 @@
+/* -- INFO WINDOW MEMBERS -- */
+#info_memberpage div { position: relative; float: left }
+
+/**/#info_memberpage { display: none; opacity: 0; width: 880px; height: auto }
+
+#info_memberpage > .header { display: none; width: 826px; height: 74px; margin: 0 26px; }
+#info_memberpage > .header > .img { width: 167px; height: 30px; margin: 20px 0 0 320px;  float: left; }
+
+#info_memberpage > .contents { width:880px; height: auto }
+#info_memberpage > .contents > .title { width: 840px; height: auto;  padding: 0 20px; background-color: #fafafa; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5 }
+
+#info_memberpage > .contents > .title > .text { float: right !important; width: auto; height: 12px;  text-align: right; font-size: 8pt; letter-spacing: -1px; font-family: "돋움","Dotum"; padding: 19px 0; color: #888 }
+#info_memberpage > .contents > .title > .position { margin-top: 13px }
+
+#info_memberpage > .contents > .subtitle { width: 840px; height: auto; margin-left: 20px; border-bottom: 1px solid #d5d5d5 }
+#info_memberpage > .contents > .subtitle > .search { width: 200px; height: 23px; float: right; margin: 20px 0 20px 0; border: 1px solid #c5c5c5; border-radius: 15px; box-shadow:inset 0 1px 5px #d1d1d1; background-color: #f6f6f6 }
+#info_memberpage > .contents > .subtitle > .search  > .ico-search { width: 15px; height: 14px;  float: left; padding: 4px 0 0 0; margin-left: 8px }
+#info_memberpage > .contents > .subtitle > .search  > .text-search { width: 160px; height: 14px;  float: left; margin: 2px 0 0 0 }
+#info_memberpage > .contents > .subtitle > .search  > .text-search input { width: 160px; height: 14px; border:none; outline: none; padding: 0 0 0 7px; font-size: 12px; color: #777; background: none }
+
+#info_memberpage > .contents > .container { width: 880px; height: auto; padding-bottom: 20px }
+#info_memberpage > .contents > .container > .cards { width: 800px; height: 50px; padding: 20px 20px; margin-left: 20px; border-bottom: 1px solid #d5d5d5 }
+#info_memberpage > .contents > .container > .cards > .pic { width: 50px; height: 50px;  float: left; border-radius: 3px }
+#info_memberpage > .contents > .container > .cards > .pic img { border-radius: 3px; }
+#info_memberpage > .contents > .container > .cards > .info { width: auto; height: 50px;  float: left; margin: 7px 0 0 20px; }
+#info_memberpage > .contents > .container > .cards > .info > .name { float: none !important; width: auto; height: 20px;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;   font-size: 15px; letter-spacing: -1px; color: #777; }
+#info_memberpage > .contents > .container > .cards > .info > .shareparty { float: none !important; width: auto; height: 12px;  font-size: 8pt; letter-spacing: -1px; font-family: "돋움","Dotum"; margin: 3px 0 0 0; color: #999; }
+
+#info_memberpage > .contents > .container > .cards > .button { width: auto; height: 22px;  float: right; margin: 12px 0 0 0; }
+
+#info_memberpage > .contents > .container > .cards > .button > .friendsbutton { padding: 2px 15px 0 15px; width:auto;height:20px; background-image:url(../../images/party/Container/buttonbg.png); border: 1px solid #A82020; border-radius:5px; color: #771919;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  behavior:url(../js/pie.htc); cursor: pointer; float: left }
+#info_memberpage > .contents > .container > .cards > .button > .friendsbutton > .word { padding: 3px 10px 0 15px; position: absolute; top: 0; left: 0; width: auto; height:20px; color: #fff;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  }
+
+/* -- INFO WINDOW ANOUNCE -- */
+
+#info_anouncepage div { position: relative; float: left }
+
+/**/#info_anouncepage { display: none; opacity: 0; width: 880px; height: auto; float: left; position:relative }
+
+#info_anouncepage > .header { display: none; width: 828px; height: 80px; position: relative; background-color: #fff; padding: 0 26px; }
+#info_anouncepage > .header > .img { width: 157px; height: 40px; margin: 20px 0 0 0; position:relative; float: left; background-image: url(../../images/party/Container/memberpage_back.png); cursor: pointer }
+
+#info_anouncepage > .contents { width:880px; height: auto }
+#info_anouncepage > .contents > .title { width: 840px; height: auto;  padding: 0 20px; background-color: #fafafa; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5 }
+#info_anouncepage > .contents > .title > .text { float: right !important; width: auto; height: 12px;  text-align: right; font-size: 8pt; letter-spacing: -1px; font-family: "돋움","Dotum"; padding: 19px 0; color: #888 }
+#info_anouncepage > .contents > .title > .position { margin-top: 13px }
+#info_anouncepage > .contents > .title > .img { width: 285px; height: 15px; position: relative; float: left; margin: 31px 0 0 0; background-image: url(../../images/party/Container/anouncepage_title.png);  }
+
+#info_anouncepage > .contents > .container { width: 880px; height: auto; float: left; position: relative; }
+
+#info_anouncepage > .contents > .container > .post { width: 880px; height: auto; float: left; position: relative; }
+
+#info_anouncepage > .contents > .container > .post > .title { width: 880px; height: 50px; position: relative; padding: 15px 0; border-bottom: 1px solid #d9d9d9; }
+#info_anouncepage > .contents > .container > .post > .title > .arrow { width: 20px; height: 50px; padding: 0 15px 0 25px; position: relative; float: left }
+#info_anouncepage > .contents > .container > .post > .title > .summary { width: 580px; height: 50px; position: relative; float: left; margin-left: 19px; }
+#info_anouncepage > .contents > .container > .post > .title > .summary > .pic { display: none; width: 50px; height: 50px; position: relative; float: left; margin-right: 19px; }
+#info_anouncepage > .contents > .container > .post > .title > .summary > .pic img { border-radius: 5px; }
+#info_anouncepage > .contents > .container > .post > .title > .summary > .text { width: 490px; height: 20px; position: relative; float: left;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;   font-size: 13px; letter-spacing: -1px; color: #333; margin: 9px 0 0 0; cursor: pointer; }
+#info_anouncepage > .contents > .container > .post > .title > .summary > .info { width: 490px; height: 12px; position: relative; float: left; color: #b1b1b1; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; }
+#info_anouncepage > .contents > .container > .post > .title > .skill { width: 142px; height: 12px; position: relative; float: right; color: #888; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; margin-top: 29px;}
+#info_anouncepage > .contents > .container > .post > .title > .skill > .candy { width: 40px; height: 12px; position: relative; float: left; margin-right: 10px; text-align:right; cursor: pointer; }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrap { width: 30px; height: 12px; position: relative; float: left; margin-right: 10px;  text-align:right; cursor: pointer; }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox { display: none; position: absolute !important; top: 30px; right: 20px; width: 300px; height: auto; padding: 0 0 15px 0; background-color: #f3f3f3; border: 1px solid #ccc; box-shadow: 0 0 20px #ccc; z-index: 30 }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .arrow { width: 13px; height: 7px; position: absolute !important; top: -6px; right: 48px; background-image: url(../../images/board/scrapboxarrow.png); z-index: 10 }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .whiteline1 { width: 300px; height: 1px; background-color: #fff }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .selectbox { cursor: pointer; width: 238px; height: auto; padding: 7px 10px; margin: 15px 20px 0 20px; background-image: url(../../images/board/selectboxbg.png); border: 1px solid #c9c9c9; border-radius: 5px;  font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  color: #555; z-index: 30 }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .selectbox > .window { display: none; width: 258px; height: 185px; position: absolute !important; top: -1px; left: -1px; border: 1px solid #d2d2d2; border-radius: 5px; box-shadow: 0 0 10px #ccc; background-image:url(../../images/board/selectboxbg2.png); cursor: default }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .selectbox > .window > .board_scrapbox_window { position:relative; width:258px; height:175px; margin: 5px 0 0 0; overflow: auto; overflow-x: hidden }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .selectbox > .window > .board_scrapbox_window  > .list { width: 238px; height: auto; position: relative; padding: 10px; cursor: default; background-color: #fff; cursor: pointer }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .whiteline2 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .contentbox { width: 238px; height: 80px; padding: 10px; margin:0 20px; background-color: #fff; border-radius: 5px; border: 1px solid #d2d2d2 }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .contentbox textarea { width: 100%; height: 100%; border:none; resize: none; background:none; outline: none; font-family: Arial, Helvetica, sans-serif; }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .whiteline3 { width: 258px; height: 1px; background-color: #fff; margin: 0 21px 10px 21px }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .scrapbox > .button { width: auto; height: auto; float: none !important; margin-left: 100px }
+#info_anouncepage > .contents > .container > .post > .title > .skill > .delete { width: 30px; height: 12px; position: relative; float: left; margin-right:7px; text-align:right; cursor: pointer; }
+
+#info_anouncepage > .contents > .container > .post > .contents { width: 717px; height: auto; float: left; padding: 20px 20px 20px 91px; border-bottom: 1px solid #d9d9d9 }
+
+#info_anouncepage > .contents > .container > .post > .contents > .container { width: 717px; height: auto }
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .caption { display: none; width: 594px; height: auto; margin-bottom: 20px; border-left: 4px solid #d9d9d9; padding: 5px 0 5px 12px; font-size: 9pt; font-family: "굴림","Gulim"; letter-spacing: -1px; line-height: 17px; color: #777 }
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic { display: none; width: 717px; height: auto }
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .noneframe { width: 717px; height: auto; background-color: #f3f3f3; margin-bottom: 20px; text-align: center }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .noneframe img{ max-width: 717px }
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames { width: 717px; height: auto }	/* for width & height */
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases { width: 717px; height: auto; margin-bottom: 20px }	/* for width & height */
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > ul.steps { width: 717px; height: auto; float: left !important }	/* for width & height */
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .step2 { margin-top: 3px }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .step3 { margin-top: 3px }
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > li { float: left }
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > .XLarge { width: 717px; height: 380px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > .Large { width: 357px; height: 200px; overflow: hidden; text-align: center; background-color: #ddd }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > .Small { width: 237px; height: 130px; overflow: hidden; text-align: center; background-color: #ddd }	/* for width & height */
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > .box1 { margin-left: 0}				/* for margin */
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > .box2 { margin-left: 3px}			/* for margin */
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > .box3 { margin-left: 3px }			/* for margin */
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > .XLarge img { max-width: 717px }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > .Large img { max-width: 357px }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .pic > .frames > .cases > .steps > .Small img { max-width: 237px }
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .text { width: 717px; height: auto; margin-bottom: 15px; font-size: 9pt }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .text > .title { width: 717px; height: auto; margin-bottom: 10px; font-size: 10pt; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;  color: #555; }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .text > .contents { width: 717px; height: auto; font-family: "굴림","Gulim"; word-spacing: -1px; color: #444; line-height: 15px }
+
+#info_anouncepage > .contents > .container > .post > .contents > .container > .info { width: 717px; height: auto; margin-bottom: 20px; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; color: #aaaaaa }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .info > .candy { width: auto; height: auto }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .info > .comment { width: auto; height: auto; margin-left: 10px }
+#info_anouncepage > .contents > .container > .post > .contents > .container > .info > .scrap { width: auto; height: auto; margin-left: 10px }
+
+
+#info_anouncepage > .contents > .container > .post > .contents > .comment { width: 717px; height: auto; float: left; position: relative; background-color: #f1f1f1; border: 1px solid #d2d2d2; border-bottom: 1px solid #b5b5b5 }
+
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .moreview { text-align: center; border-top: 1px solid #fff;width: 677px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px; border-bottom: 1px solid #d5d5d5 }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .allview { text-align: center; border-top: 1px solid #fff;width: 677px; height: auto; color: #444; font-size: 8pt; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px; border-bottom: 1px solid #d5d5d5 }
+
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list { width: 717px; height: auto; float: left; position: relative; }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list > .comments { width: 717px; height: auto; float: left; position: relative; border-top: 1px solid #fff; border-bottom: 1px solid #d5d5d5; padding: 15px 0; }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list > .comments > .pic { width: 38px; height: 38px; position: relative; float: left; margin: 0 10px 0 20px; }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list > .comments > .pic img { border-radius: 5px }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list > .comments > .contents { width: 534px; height: auto; position: relative; float: left; margin:4px 0 0 0; }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list > .comments > .contents > .name { width: auto; height: 18px; position: relative; float: left;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold;   font-size: 12px; color: #555; margin-right: 5px; }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list > .comments > .contents > .time { width: auto; height: 18px; position: relative; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #999; }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list > .comments > .contents > .text { width: 534px; height: auto; position: relative; float: left; font-family: "돋움","Dotum"; font-size: 8pt; color: #666; letter-spacing: -1px; line-height: 13px }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .list > .comments > .delete { visibility: visible; width: 8px; height: 8px; margin: 15px 20px 15px 15px; position: relative; float: right; background-image: url(file:///C|/APM_Setup/images/party/Container/cmx.png); cursor: pointer; }
+
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .write { width: 717px; height: auto; float: left; padding: 15px 20px; border-top: 1px solid #fff }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .write > .pic { width: 38px; height: 38px; float: left; margin-right: 10px;}
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .write > .pic img { border-radius: 5px; }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .write > .text { width: 516px; height: 15px; float: left; background-color: #fff; padding: 10px 10px; border-radius: 5px; border-top: 1px solid #d5d5d5; position:relative; margin: 1px 0 0 0; }
+#info_anouncepage > .contents > .container > .post > .contents > .comment > .write > .text textarea { resize: none; width: 100%; height: 15px; float: left; background-color: #fff; border: none; outline: none; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #777; overflow:hidden; position:relative; margin:0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
